@@ -46,11 +46,11 @@ def click_link(link, idx):
     tmp = BeautifulSoup(driver.page_source, 'html.parser')
     tmp_title = tmp.select('#blog_content > div.summary_info > div.top_summary > h3 > span')[0]
     if target_item[idx] in tmp_title.text:
-        return 1
+        return tmp_title.text, 1
     
     else:
         print('hmm this is error')
-        return 0
+        return tmp_title.text, 0
 
 
 
@@ -121,7 +121,7 @@ def repit_page(isTarget):
                             wait.until(
                                 EC.presence_of_element_located((By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]'))
                             )
-
+                            time.sleep(1)
                             driver.find_element(By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]').click()
                             tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content = crawling(driver)
                             save_to_df(tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content)
@@ -131,7 +131,7 @@ def repit_page(isTarget):
                             wait.until(
                                 EC.presence_of_element_located((By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]'))
                             )
-
+                            time.sleep(1)
                             driver.find_element(By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]').click()
 
                             tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content = crawling(driver)
@@ -161,7 +161,7 @@ def repit_page(isTarget):
                                 wait.until(
                                     EC.presence_of_element_located((By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]'))
                                 )
-
+                                time.sleep(1)
                                 driver.find_element(By.CSS_SELECTOR, f'a[data-pagenumber="{i}"]').click()
                                 tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content = crawling(driver)
                                 save_to_df(tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content)
@@ -174,51 +174,105 @@ def repit_page(isTarget):
     else:
         print('target이 아니라서 크롤링하지 않습니다.')
 
-for url in urls:
-    tmp = url
-    url = url[-1]
-    driver.get(url)
+try:
+    for url in urls:
+        tmp = url
+        url = url[-1]
+        driver.get(url)
 
-    wait.until(
-        EC.presence_of_element_located((By.ID, 'paginationArea'))
-    )
-    
-    # 120개 보기로 바꿈
-    Select(driver.find_element(by = By.CSS_SELECTOR, value = '#DetailSearch_Wrapper > div.view_opt > div > select')).select_by_value('120')
+        wait.until(
+            EC.presence_of_element_located((By.ID, 'paginationArea'))
+        )
+        
+        # 120개 보기로 바꿈
+        Select(driver.find_element(by = By.CSS_SELECTOR, value = '#DetailSearch_Wrapper > div.view_opt > div > select')).select_by_value('120')
 
-    header = {'User-Agent': 'Mozila/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
-    res = requests.get(url, headers= header)
-    soup = BeautifulSoup(res.text, 'html.parser')
-    soup2 = soup.select('#productListArea > div.main_prodlist.main_prodlist_list > ul')
-    link_list = []
+        header = {'User-Agent': 'Mozila/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
+        res = requests.get(url, headers= header)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        soup2 = soup.select('#productListArea > div.main_prodlist.main_prodlist_list > ul')
+        link_list = []
 
-    print('세부 link_list를 추출합니다. 좀 오래 걸리네요(갤럭시 1~2분, 애플 3~5분)')
-    for i in range(0, len(soup2[0].select('a', class_ = 'click_log_prod_review_count'))):
-        if soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '#' or soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '':
-            link_list.append(soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'])
+        print('세부 link_list를 추출합니다. 좀 오래 걸리네요(갤럭시 1~2분, 애플 3~5분)')
+        for i in range(0, len(soup2[0].select('a', class_ = 'click_log_prod_review_count'))):
+            if soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '#' or soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '':
+                link_list.append(soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'])
 
-    # 최종 리스트
-    link_list = [link for link in link_list if 'companyReviewYN=Y' in link]
+        # 최종 리스트
+        link_list = [link for link in link_list if 'companyReviewYN=Y' in link]
 
-    print(f'''
-          ▶ {url}의 세부 link_list는 다음과 같고 하나씩 추출합니다.
-          ▶ {len(link_list)}개를 추출합니다.
-          ▶ {link_list}
-          ''')
-    
+        print(f'''
+            ▶ {url}의 세부 link_list는 다음과 같고 하나씩 추출합니다.
+            ▶ {len(link_list)}개를 추출합니다.
+            ▶ {link_list}
+            ''')
+        
 
-    for idx, link in enumerate(link_list):
-        for i in range(0, 2):
-            df = pd.DataFrame(columns = ['scoring', 'market', 'purchasing_date', 'review_title', 'review_content'])
-            isTarget = click_link(link, i)
-            repit_page(isTarget)
-            
-            if isTarget == 1:
-                df.to_csv(f'danawa_review_{tmp[0]}+{idx}.csv', encoding='utf-8 sig', mode = 'w', index = True, header=True)
+        for idx, link in enumerate(link_list):
+            for i in range(0, 2):
+                df = pd.DataFrame(columns = ['scoring', 'market', 'purchasing_date', 'review_title', 'review_content'])
+                item, isTarget = click_link(link, i)
+                repit_page(isTarget)
+                
+                if isTarget == 1:
+                    df['item'] = item
+                    df.to_csv(f'danawa_review_{tmp[0]}+{idx}.csv', encoding='utf-8 sig', mode = 'w', index = False, header=True)
 
-            else:
-                print('target item이 아니라, csv 저장도 하지 않습니다.')
-print('★★★★★★★★★★★★★★★★★')
-print('★★★추출 끝!★★★★★★★★')
-print('★★★★★★★★★★★★★★★★★')
-driver.close()
+                else:
+                    print('target item이 아니라, csv 저장도 하지 않습니다.')
+    print('★★★★★★★★★★★★★★★★★')
+    print('★★★추출 끝!★★★★★★★★')
+    print('★★★★★★★★★★★★★★★★★')
+    driver.close()
+
+except ElementClickInterceptedException as e:
+    print('음 ElementClickInterceptedException 에러 발생했네요 크롬창을 건들이지 마세요')
+    for url in urls:
+        tmp = url
+        url = url[-1]
+        driver.get(url)
+
+        wait.until(
+            EC.presence_of_element_located((By.ID, 'paginationArea'))
+        )
+        
+        # 120개 보기로 바꿈
+        Select(driver.find_element(by = By.CSS_SELECTOR, value = '#DetailSearch_Wrapper > div.view_opt > div > select')).select_by_value('120')
+
+        header = {'User-Agent': 'Mozila/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko'}
+        res = requests.get(url, headers= header)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        soup2 = soup.select('#productListArea > div.main_prodlist.main_prodlist_list > ul')
+        link_list = []
+
+        print('세부 link_list를 추출합니다. 좀 오래 걸리네요(갤럭시 1~2분, 애플 3~5분)')
+        for i in range(0, len(soup2[0].select('a', class_ = 'click_log_prod_review_count'))):
+            if soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '#' or soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'] != '':
+                link_list.append(soup2[0].select('a', class_ = 'click_log_prod_review_count')[i]['href'])
+
+        # 최종 리스트
+        link_list = [link for link in link_list if 'companyReviewYN=Y' in link]
+
+        print(f'''
+            ▶ {url}의 세부 link_list는 다음과 같고 하나씩 추출합니다.
+            ▶ {len(link_list)}개를 추출합니다.
+            ▶ {link_list}
+            ''')
+        
+
+        for idx, link in enumerate(link_list):
+            for i in range(0, 2):
+                df = pd.DataFrame(columns = ['scoring', 'market', 'purchasing_date', 'review_title', 'review_content'])
+                item, isTarget = click_link(link, i)
+                repit_page(isTarget)
+                
+                if isTarget == 1:
+                    df['item'] = item
+                    df.to_csv(f'danawa_review_{tmp[0]}+{idx}.csv', encoding='utf-8 sig', mode = 'w', index = False, header=True)
+
+                else:
+                    print('target item이 아니라, csv 저장도 하지 않습니다.')
+    print('★★★★★★★★★★★★★★★★★')
+    print('★★★추출 끝!★★★★★★★★')
+    print('★★★★★★★★★★★★★★★★★')
+    driver.close()
