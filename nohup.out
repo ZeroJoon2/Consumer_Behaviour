@@ -57,3 +57,1112 @@
 [I 16:43:09.513 NotebookApp] Kernel started: f0983ced-3836-4475-b942-fe930ae76ec3, name: project
 [I 16:43:15.652 NotebookApp] Saving file at /HJ/Untitled.ipynb
 [I 16:43:38.714 NotebookApp] Saving file at /HJ/Untitled.ipynb
+[W 16:53:22.996 NotebookApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 16:53:35.127 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[I 17:12:12.398 NotebookApp] Starting buffering for 3ccc62e4-3364-4de4-89ad-aab8d6b29fa5:89f7e109558645c49a2bcf1156b4249a
+[I 17:12:12.800 NotebookApp] Starting buffering for f0983ced-3836-4475-b942-fe930ae76ec3:578fa5cb1b2c4b739c74eee521e84cf8
+[C 18:50:36.212 NotebookApp] received signal 15, stopping
+[I 18:50:36.212 NotebookApp] Shutting down 2 kernels
+[I 18:50:36.213 NotebookApp] Kernel shutdown: 3ccc62e4-3364-4de4-89ad-aab8d6b29fa5
+[I 18:50:36.347 NotebookApp] Kernel shutdown: f0983ced-3836-4475-b942-fe930ae76ec3
+[I 18:50:36.359 NotebookApp] Shutting down 0 terminals
+[W 2025-01-24 10:27:17.621 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:27:17.622 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:27:17.622 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:27:17.622 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:27:17.622 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-01-24 10:27:17.630 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 2025-01-24 10:27:17.630 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 10:27:17.634 NotebookApp] Serving notebooks from local directory: /home/lab13/project
+[I 10:27:17.634 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 10:27:17.634 NotebookApp] http://ip-172-31-13-81:8913/
+[I 10:27:17.634 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:28:07.209 NotebookApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&_=1737682087204 (125.129.250.60): Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 10:28:07.209 NotebookApp] Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 10:28:07.210 NotebookApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&_=1737682087204 (125.129.250.60) 0.980000ms referer=http://15.168.221.131:8913/notebooks/YJ/test.ipynb
+[W 10:28:11.698 NotebookApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 10:28:11.879 NotebookApp] Kernel started: 8c125722-8e18-4b6c-952e-30b4c3713c6e, name: project
+25/01/24 10:28:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+25/01/24 10:28:26 WARN DependencyUtils: Local jar /usr/local/lib/mysql-connector-java-5.1.49-bin.jar does not exist, skipping.
+25/01/24 10:28:26 INFO SparkContext: Running Spark version 3.1.2
+25/01/24 10:28:26 INFO ResourceUtils: ==============================================================
+25/01/24 10:28:26 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/01/24 10:28:26 INFO ResourceUtils: ==============================================================
+25/01/24 10:28:26 INFO SparkContext: Submitted application: MySQL
+25/01/24 10:28:26 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 6144, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/01/24 10:28:26 INFO ResourceProfile: Limiting resource is cpu
+25/01/24 10:28:26 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/01/24 10:28:26 INFO SecurityManager: Changing view acls to: lab13
+25/01/24 10:28:26 INFO SecurityManager: Changing modify acls to: lab13
+25/01/24 10:28:26 INFO SecurityManager: Changing view acls groups to: 
+25/01/24 10:28:26 INFO SecurityManager: Changing modify acls groups to: 
+25/01/24 10:28:26 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(lab13); groups with view permissions: Set(); users  with modify permissions: Set(lab13); groups with modify permissions: Set()
+25/01/24 10:28:26 INFO Utils: Successfully started service 'sparkDriver' on port 37381.
+25/01/24 10:28:26 INFO SparkEnv: Registering MapOutputTracker
+25/01/24 10:28:26 INFO SparkEnv: Registering BlockManagerMaster
+25/01/24 10:28:26 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/01/24 10:28:26 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/01/24 10:28:26 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/01/24 10:28:26 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-ed68c887-7c1f-4498-a575-65cae3e83b48
+25/01/24 10:28:26 INFO MemoryStore: MemoryStore started with capacity 3.0 GiB
+25/01/24 10:28:26 INFO SparkEnv: Registering OutputCommitCoordinator
+25/01/24 10:28:26 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/01/24 10:28:26 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://ip-172-31-13-81.ap-northeast-3.compute.internal:4040
+25/01/24 10:28:26 ERROR SparkContext: Failed to add file:/usr/local/lib/mysql-connector-java-5.1.49-bin.jar to Spark environment
+java.io.FileNotFoundException: Jar /usr/local/lib/mysql-connector-java-5.1.49-bin.jar not found
+	at org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:1929)
+	at org.apache.spark.SparkContext.addJar(SparkContext.scala:1983)
+	at org.apache.spark.SparkContext.$anonfun$new$12(SparkContext.scala:501)
+	at org.apache.spark.SparkContext.$anonfun$new$12$adapted(SparkContext.scala:501)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:501)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:750)
+25/01/24 10:28:27 INFO Executor: Starting executor ID driver on host ip-172-31-13-81.ap-northeast-3.compute.internal
+25/01/24 10:28:27 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44771.
+25/01/24 10:28:27 INFO NettyBlockTransferService: Server created on ip-172-31-13-81.ap-northeast-3.compute.internal:44771
+25/01/24 10:28:27 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/01/24 10:28:27 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 44771, None)
+25/01/24 10:28:27 INFO BlockManagerMasterEndpoint: Registering block manager ip-172-31-13-81.ap-northeast-3.compute.internal:44771 with 3.0 GiB RAM, BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 44771, None)
+25/01/24 10:28:27 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 44771, None)
+25/01/24 10:28:27 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 44771, None)
+25/01/24 10:28:27 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/lab13/project/YJ/spark-warehouse').
+25/01/24 10:28:27 INFO SharedState: Warehouse path is 'file:/home/lab13/project/YJ/spark-warehouse'.
+[W 10:28:56.352 NotebookApp] 404 GET /api/contents/project/YJ?type=directory&_=1737679504262 (125.129.250.60): No such file or directory: project/YJ
+[W 10:28:56.352 NotebookApp] No such file or directory: project/YJ
+[W 10:28:56.352 NotebookApp] 404 GET /api/contents/project/YJ?type=directory&_=1737679504262 (125.129.250.60) 0.740000ms referer=http://15.168.221.131:8913/tree/project/YJ
+[I 10:30:11.902 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[W 2025-01-24 10:33:28.785 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:33:28.785 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:33:28.785 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:33:28.785 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 10:33:28.785 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-01-24 10:33:28.793 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 2025-01-24 10:33:28.793 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 10:33:28.797 NotebookApp] Serving notebooks from local directory: /home/lab13/project
+[I 10:33:28.797 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 10:33:28.797 NotebookApp] http://ip-172-31-13-81:8913/
+[I 10:33:28.797 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:33:29.074 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60): Kernel does not exist: 8c125722-8e18-4b6c-952e-30b4c3713c6e
+[W 10:33:29.095 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60) 22.330000ms referer=None
+[W 10:33:33.196 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60): Kernel does not exist: 8c125722-8e18-4b6c-952e-30b4c3713c6e
+[W 10:33:33.196 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60) 2.110000ms referer=None
+[W 10:33:41.266 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60): Kernel does not exist: 8c125722-8e18-4b6c-952e-30b4c3713c6e
+[W 10:33:41.267 NotebookApp] 404 GET /api/kernels/8c125722-8e18-4b6c-952e-30b4c3713c6e/channels?session_id=a20c09c0eabc44b0879e6d1a832df1e5 (125.129.250.60) 2.270000ms referer=None
+[I 10:33:58.567 NotebookApp] Kernel started: 99ef08b7-8c1c-45b3-8752-d006e394c724, name: project
+25/01/24 10:34:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:34:26.724 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[I 10:35:58.568 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[I 10:37:58.570 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 10:38:08.733 NotebookApp] Saving file at /YJ/Untitled.ipynb
+[W 10:53:23.840 NotebookApp] 404 GET /api/contents/project/YJ?type=directory&_=1737679504265 (125.129.250.60): No such file or directory: project/YJ
+[W 10:53:23.841 NotebookApp] No such file or directory: project/YJ
+[W 10:53:23.841 NotebookApp] 404 GET /api/contents/project/YJ?type=directory&_=1737679504265 (125.129.250.60) 0.730000ms referer=http://15.168.221.131:8913/tree/project/YJ
+[W 10:53:24.815 NotebookApp] 404 GET /api/contents/project?type=directory&_=1737679504266 (125.129.250.60): No such file or directory: project
+[W 10:53:24.815 NotebookApp] No such file or directory: project
+[W 10:53:24.815 NotebookApp] 404 GET /api/contents/project?type=directory&_=1737679504266 (125.129.250.60) 1.010000ms referer=http://15.168.221.131:8913/tree/project
+[I 10:53:42.101 NotebookApp] Creating new directory in 
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[W 2025-01-24 11:13:32.753 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 11:13:32.754 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 11:13:32.754 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 11:13:32.754 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-24 11:13:32.754 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-01-24 11:13:32.761 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 2025-01-24 11:13:32.761 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/share/jupyter/lab
+[I 11:13:32.765 NotebookApp] Serving notebooks from local directory: /home/lab13/project
+[I 11:13:32.765 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 11:13:32.765 NotebookApp] http://ip-172-31-13-81:8913/
+[I 11:13:32.765 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:13:36.847 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60): Kernel does not exist: 99ef08b7-8c1c-45b3-8752-d006e394c724
+[W 11:13:36.867 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60) 21.200000ms referer=None
+[W 11:13:45.858 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60): Kernel does not exist: 99ef08b7-8c1c-45b3-8752-d006e394c724
+[W 11:13:45.859 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60) 2.320000ms referer=None
+[W 11:14:02.845 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60): Kernel does not exist: 99ef08b7-8c1c-45b3-8752-d006e394c724
+[W 11:14:02.846 NotebookApp] 404 GET /api/kernels/99ef08b7-8c1c-45b3-8752-d006e394c724/channels?session_id=769536c417fc4b2e9ac57d46222855e5 (125.129.250.60) 2.120000ms referer=None
+[I 11:14:04.968 NotebookApp] Kernel started: 488f90a9-3cd2-494d-90aa-cab90c34ee02, name: python3
+[I 11:14:12.597 NotebookApp] Starting buffering for 488f90a9-3cd2-494d-90aa-cab90c34ee02:770023f668194b80b85cdbc45645a121
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2025-01-31 09:05:30.308 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-01-31 09:05:30.314 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-01-31 09:05:30.318 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-01-31 09:05:30.321 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-01-31 09:05:30.323 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-01-31 09:05:30.323 ServerApp] notebook | extension was successfully linked.
+[I 2025-01-31 09:05:30.516 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-01-31 09:05:30.573 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-01-31 09:05:30.575 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-01-31 09:05:30.576 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-01-31 09:05:30.590 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-01-31 09:05:30.590 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-01-31 09:05:30.591 LabApp] Extension Manager is 'pypi'.
+[I 2025-01-31 09:05:30.650 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-01-31 09:05:30.653 ServerApp] notebook | extension was successfully loaded.
+[I 2025-01-31 09:05:30.654 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-01-31 09:05:30.654 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-01-31 09:05:30.654 ServerApp] http://ip-172-31-13-81:8913/tree
+[I 2025-01-31 09:05:30.654 ServerApp]     http://127.0.0.1:8913/tree
+[I 2025-01-31 09:05:30.654 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-01-31 09:05:30.671 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-01-31 09:06:07.709 ServerApp] Malformed HTTP message from 125.129.250.60: no colon in header line
+[I 2025-01-31 09:06:07.766 ServerApp] Malformed HTTP message from 125.129.250.60: Malformed HTTP request line
+[I 2025-01-31 09:06:10.072 ServerApp] 302 GET / (@125.129.250.60) 0.43ms
+[I 2025-01-31 09:06:10.108 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.49ms
+[W 2025-01-31 09:06:14.781 ServerApp] 401 POST /login?next=%2Ftree%3F (@125.129.250.60) 47.75ms referer=http://15.168.221.131:8913/login?next=%2Ftree%3F
+[I 2025-01-31 09:06:18.478 ServerApp] User 1428e4ced86b46268c2eb82fe4e68f3a logged in.
+[I 2025-01-31 09:06:18.479 ServerApp] 302 POST /login?next=%2Ftree%3F (1428e4ced86b46268c2eb82fe4e68f3a@125.129.250.60) 32.52ms
+[C 2025-01-31 15:10:26.368 ServerApp] Bad config encountered during initialization: The 'port' trait of a ServerApp instance expected an int, not the str '=8913'.
+[I 2025-01-31 15:10:43.608 ServerApp] 302 GET / (@125.129.250.60) 0.44ms
+[I 2025-01-31 15:10:43.677 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.57ms
+[I 2025-01-31 15:10:50.785 ServerApp] User 37686014c919443682a72b7032b2a116 logged in.
+[I 2025-01-31 15:10:50.785 ServerApp] 302 POST /login?next=%2Ftree%3F (37686014c919443682a72b7032b2a116@125.129.250.60) 34.08ms
+[W 2025-01-31 15:11:25.531 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738303885344 (125.129.250.60): Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-01-31 15:11:25.531 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-01-31 15:11:25.544 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738303885344 (37686014c919443682a72b7032b2a116@125.129.250.60) 28.26ms referer=http://15.168.221.131:8913/tree/YJ
+[W 2025-01-31 15:11:27.610 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738303887654 (125.129.250.60): Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-01-31 15:11:27.610 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-01-31 15:11:27.611 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738303887654 (37686014c919443682a72b7032b2a116@125.129.250.60) 3.67ms referer=http://15.168.221.131:8913/notebooks/YJ/test.ipynb
+[I 2025-01-31 15:11:40.293 ServerApp] Creating new notebook in /YJ
+[I 2025-01-31 15:11:40.600 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-01-31 15:11:40.649 ServerApp] Kernel started: 0b7a3c2d-8dc3-4546-a5e0-877c806289f8
+[I 2025-01-31 15:11:41.108 ServerApp] Connecting to kernel 0b7a3c2d-8dc3-4546-a5e0-877c806289f8.
+[I 2025-01-31 15:11:41.255 ServerApp] Connecting to kernel 0b7a3c2d-8dc3-4546-a5e0-877c806289f8.
+[I 2025-01-31 15:11:44.177 ServerApp] Creating new notebook in /YJ
+[I 2025-01-31 15:11:44.471 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 15:11:44.507 ServerApp] Kernel started: 4362698c-0c22-485f-9ea6-327cd3aafd19
+[I 2025-01-31 15:11:44.985 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:11:45.057 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:11:45.137 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:11:46.589 ServerApp] Connecting to kernel 0b7a3c2d-8dc3-4546-a5e0-877c806289f8.
+[I 2025-01-31 15:11:46.662 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:11:47.762 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[W 2025-01-31 15:11:51.573 ServerApp] delete /YJ/Untitled1.ipynb
+[I 2025-01-31 15:11:58.234 ServerApp] Kernel shutdown: 0b7a3c2d-8dc3-4546-a5e0-877c806289f8
+[W 2025-01-31 15:11:58.529 ServerApp] delete /YJ/Untitled.ipynb
+[I 2025-01-31 15:12:02.957 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:12:04.024 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:14:04.289 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[W 2025-01-31 15:15:57.080 ServerApp] 400 GET /api/contents/YJ/test.parquet?type=file&content=1&hash=1&format=text&1738304157113 (125.129.250.60): /home/lab13/project/YJ/test.parquet is not UTF-8 encoded
+[W 2025-01-31 15:15:57.081 ServerApp] wrote error: '/home/lab13/project/YJ/test.parquet is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdc in position 7: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab13/project/YJ/test.parquet is not UTF-8 encoded)
+[W 2025-01-31 15:15:57.081 ServerApp] 400 GET /api/contents/YJ/test.parquet?type=file&content=1&hash=1&format=text&1738304157113 (37686014c919443682a72b7032b2a116@125.129.250.60) 4.33ms referer=http://15.168.221.131:8913/tree/YJ
+[I 2025-01-31 15:16:04.447 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 15:18:04.846 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 15:33:30.872 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:1bef7576-7dc3-4893-88d0-f875e73bc290
+[I 2025-01-31 15:44:49.677 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:44:50.630 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:bda66138-9d3e-4cbd-b328-9deb4b0fa96e
+[I 2025-01-31 15:44:50.892 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:44:51.944 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:9ae751a7-d698-40ba-bb69-d7fd0f795ec8
+[I 2025-01-31 15:44:52.267 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 15:46:52.788 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 15:52:55.766 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 16:01:12.475 ServerApp] Kernel interrupted: 4362698c-0c22-485f-9ea6-327cd3aafd19
+[I 2025-01-31 16:02:03.867 ServerApp] Kernel interrupted: 4362698c-0c22-485f-9ea6-327cd3aafd19
+[I 2025-01-31 16:02:57.492 ServerApp] Saving file at /YJ/Untitled2.ipynb
+25/01/31 16:05:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-01-31 16:06:58.782 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 16:19:09.506 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 16:40:01.040 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:6e0bae4c-de6d-4087-b769-83259187ff86
+[I 2025-01-31 17:01:45.490 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:01:46.125 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:01:47.927 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:9277ff0a-80a1-4b20-b1b1-3a2c044d12e8
+[I 2025-01-31 17:01:48.562 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:02:54.523 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:02:55.784 ServerApp] Kernel started: 0af2391a-efd8-45b8-bc74-012c5aa442c7
+[I 2025-01-31 17:02:56.253 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+25/01/31 17:02:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/01/31 17:03:00 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+25/01/31 17:03:00 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-01-31 17:03:48.773 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 17:04:56.623 ServerApp] Saving file at /YJ/pyspark_test.ipynb
+[I 2025-01-31 17:22:29.767 ServerApp] Saving file at /YJ/pyspark_test.ipynb
+[I 2025-01-31 17:31:38.193 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:2f1eb6e8-2ddb-4632-b205-99871fedde07
+[I 2025-01-31 17:33:18.098 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:95215e69-1972-49d0-9b81-35b58f4109a7
+[I 2025-01-31 17:34:57.868 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:34:58.017 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:34:59.389 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:34:59.479 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:35:00.893 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:ef193fe6-b749-4b03-aa89-8524951f201c
+[I 2025-01-31 17:35:00.894 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:b6e5144c-2c52-4e58-b1a1-edb361eb9f7b
+[I 2025-01-31 17:35:01.053 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:35:01.319 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:36:05.106 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:27117535-640d-4d78-8658-c315d524868c
+[I 2025-01-31 17:36:06.758 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:36:06.840 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:36:07.357 ServerApp] Starting buffering for 4362698c-0c22-485f-9ea6-327cd3aafd19:14dc606e-035a-4df1-a015-17a96d3d1f12
+[I 2025-01-31 17:36:07.509 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:36:07.839 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:e08e6f75-9f0b-4a52-9e0a-e59f37b667a7
+[I 2025-01-31 17:36:09.010 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:36:09.089 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:36:09.736 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:0791bcdc-cc57-446a-80ec-4baab57b50b7
+[I 2025-01-31 17:36:09.956 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:37:56.301 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:5ea233fc-e114-4d87-9abb-d1f027908e0b
+[I 2025-01-31 17:37:57.860 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:37:57.941 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:37:58.592 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:b8dd469a-673e-4b6c-a0d4-0b28e26e3cd9
+[I 2025-01-31 17:37:58.838 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:38:07.891 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-01-31 17:38:50.406 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:52cc44a4-0c14-4857-8498-d8c4d7c073e5
+[I 2025-01-31 17:38:51.676 ServerApp] Connecting to kernel 4362698c-0c22-485f-9ea6-327cd3aafd19.
+[I 2025-01-31 17:38:51.757 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[I 2025-01-31 17:38:52.436 ServerApp] Starting buffering for 0af2391a-efd8-45b8-bc74-012c5aa442c7:424a3cf2-7c17-47a7-b925-acd642b302b2
+[I 2025-01-31 17:38:52.629 ServerApp] Connecting to kernel 0af2391a-efd8-45b8-bc74-012c5aa442c7.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2025-02-03 09:45:26.837 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-03 09:45:26.842 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-03 09:45:26.847 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-03 09:45:26.848 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-03 09:45:26.851 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-03 09:45:26.851 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-03 09:45:27.044 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-03 09:45:27.081 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-03 09:45:27.083 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-03 09:45:27.084 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-03 09:45:27.086 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-03 09:45:27.086 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-03 09:45:27.086 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-03 09:45:27.113 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-03 09:45:27.117 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-03 09:45:27.117 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-03 09:45:27.117 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-03 09:45:27.117 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-03 09:45:27.117 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-03 09:45:27.117 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-03 09:45:27.134 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-02-03 09:45:49.608 ServerApp] 404 GET /api/contents/project/YJ/Untitled2.ipynb?type=notebook&content=1&hash=1&1738543547403 (33c75311707f4fce91968a0964447b2f@125.129.250.60) 37.11ms referer=http://15.168.221.131:8917/notebooks/project/YJ/Untitled2.ipynb
+[W 2025-02-03 09:45:49.608 ServerApp] 404 GET /api/contents/project/YJ/Untitled2.ipynb?type=notebook&content=1&hash=1&1738543547403 (125.129.250.60): No such file or directory: project/YJ/Untitled2.ipynb
+[I 2025-02-03 09:46:01.708 ServerApp] 302 GET / (@125.129.250.60) 0.48ms
+[I 2025-02-03 09:46:11.215 ServerApp] Kernel started: 4c83eb04-9979-4e73-8fd0-2b5447f731c0
+[I 2025-02-03 09:46:11.641 ServerApp] Connecting to kernel 4c83eb04-9979-4e73-8fd0-2b5447f731c0.
+[I 2025-02-03 09:46:11.719 ServerApp] Connecting to kernel 4c83eb04-9979-4e73-8fd0-2b5447f731c0.
+[I 2025-02-03 09:46:11.786 ServerApp] Connecting to kernel 4c83eb04-9979-4e73-8fd0-2b5447f731c0.
+[I 2025-02-03 09:46:12.886 ServerApp] Connecting to kernel 4c83eb04-9979-4e73-8fd0-2b5447f731c0.
+[I 2025-02-03 09:46:21.393 ServerApp] Connecting to kernel 4c83eb04-9979-4e73-8fd0-2b5447f731c0.
+[I 2025-02-03 09:46:41.330 ServerApp] Kernel started: c30c1517-b12d-4f87-9b23-32ea0d9e0454
+[I 2025-02-03 09:46:41.332 ServerApp] Kernel shutdown: 4c83eb04-9979-4e73-8fd0-2b5447f731c0
+[I 2025-02-03 09:46:41.775 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 09:46:41.850 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 09:48:11.212 ServerApp] Saving file at /YJ/Untitled2.ipynb
+25/02/03 10:16:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-03 10:18:34.199 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 10:31:39.348 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 10:31:40.232 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[W 2025-02-03 10:34:05.461 ServerApp] Notebook JS/Untitled.ipynb is not trusted
+[I 2025-02-03 10:34:06.986 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[W 2025-02-03 10:34:07.092 ServerApp] Notebook JS/Untitled.ipynb is not trusted
+[I 2025-02-03 10:34:07.393 ServerApp] Kernel started: 1f8d1911-b300-412b-bd22-d6ad22900089
+[I 2025-02-03 10:34:07.852 ServerApp] Connecting to kernel 1f8d1911-b300-412b-bd22-d6ad22900089.
+[I 2025-02-03 10:34:08.045 ServerApp] Starting buffering for 1f8d1911-b300-412b-bd22-d6ad22900089:8e00499e-c62a-4ef6-a5fa-18c259367dae
+[W 2025-02-03 10:34:09.705 ServerApp] 400 GET /api/contents/JS/test.ipynb?type=notebook&content=1&hash=1&1738546447669 (125.129.250.60): Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-02-03 10:34:09.705 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-02-03 10:34:09.707 ServerApp] 400 GET /api/contents/JS/test.ipynb?type=notebook&content=1&hash=1&1738546447669 (33c75311707f4fce91968a0964447b2f@125.129.250.60) 3.72ms referer=http://15.168.221.131:8917/tree/JS
+[I 2025-02-03 10:34:11.029 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 10:34:11.128 ServerApp] Connecting to kernel 1f8d1911-b300-412b-bd22-d6ad22900089.
+[W 2025-02-03 10:34:11.134 ServerApp] 400 GET /api/contents/JS/test.ipynb?type=notebook&content=1&hash=1&1738546449086 (125.129.250.60): Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-02-03 10:34:11.137 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/JS/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-02-03 10:34:11.138 ServerApp] 400 GET /api/contents/JS/test.ipynb?type=notebook&content=1&hash=1&1738546449086 (33c75311707f4fce91968a0964447b2f@125.129.250.60) 10.63ms referer=http://15.168.221.131:8917/notebooks/JS/test.ipynb
+[I 2025-02-03 10:34:11.280 ServerApp] Starting buffering for 1f8d1911-b300-412b-bd22-d6ad22900089:646c1311-e230-4f49-a882-394c8d4079b4
+[I 2025-02-03 10:35:18.586 ServerApp] Creating new notebook in /YJ
+[I 2025-02-03 10:35:18.735 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 10:35:18.799 ServerApp] Kernel started: 63f6786f-3a75-4cc0-888b-8bb6f9876e7e
+[I 2025-02-03 10:35:19.249 ServerApp] Connecting to kernel 63f6786f-3a75-4cc0-888b-8bb6f9876e7e.
+[I 2025-02-03 10:35:20.218 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 10:35:20.308 ServerApp] Connecting to kernel 1f8d1911-b300-412b-bd22-d6ad22900089.
+[I 2025-02-03 10:35:20.384 ServerApp] Connecting to kernel 63f6786f-3a75-4cc0-888b-8bb6f9876e7e.
+[I 2025-02-03 10:35:20.469 ServerApp] Starting buffering for 1f8d1911-b300-412b-bd22-d6ad22900089:4c151772-edb2-4a6a-a1a0-b574324dbfa2
+[I 2025-02-03 10:35:20.576 ServerApp] Connecting to kernel 63f6786f-3a75-4cc0-888b-8bb6f9876e7e.
+[I 2025-02-03 10:36:16.728 ServerApp] Kernel started: 760d6687-fbb3-4fbc-b1a9-983e540aacc9
+[I 2025-02-03 10:36:16.729 ServerApp] Kernel shutdown: 63f6786f-3a75-4cc0-888b-8bb6f9876e7e
+[I 2025-02-03 10:36:17.217 ServerApp] Connecting to kernel 760d6687-fbb3-4fbc-b1a9-983e540aacc9.
+[I 2025-02-03 10:36:17.291 ServerApp] Connecting to kernel 760d6687-fbb3-4fbc-b1a9-983e540aacc9.
+[I 2025-02-03 10:37:25.170 ServerApp] Saving file at /YJ/airflow_test.ipynb
+[I 2025-02-03 10:39:26.151 ServerApp] Saving file at /YJ/airflow_test.ipynb
+[I 2025-02-03 10:41:27.151 ServerApp] Saving file at /YJ/airflow_test.ipynb
+[I 2025-02-03 10:42:56.380 ServerApp] Connecting to kernel 760d6687-fbb3-4fbc-b1a9-983e540aacc9.
+[I 2025-02-03 10:42:59.623 ServerApp] Creating new notebook in /YJ
+[I 2025-02-03 10:42:59.795 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 10:42:59.861 ServerApp] Kernel started: de63d629-b653-4e75-b68d-c28bbf6cab07
+[I 2025-02-03 10:43:01.109 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:01.178 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:01.416 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 10:43:01.522 ServerApp] Connecting to kernel 1f8d1911-b300-412b-bd22-d6ad22900089.
+[I 2025-02-03 10:43:01.590 ServerApp] Connecting to kernel 760d6687-fbb3-4fbc-b1a9-983e540aacc9.
+[I 2025-02-03 10:43:01.662 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:01.697 ServerApp] Starting buffering for 1f8d1911-b300-412b-bd22-d6ad22900089:da53365f-2aef-45b1-a47f-189d0447dea5
+[I 2025-02-03 10:43:01.787 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:06.183 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:19.940 ServerApp] Connecting to kernel c30c1517-b12d-4f87-9b23-32ea0d9e0454.
+[I 2025-02-03 10:43:20.008 ServerApp] Connecting to kernel 1f8d1911-b300-412b-bd22-d6ad22900089.
+[I 2025-02-03 10:43:20.081 ServerApp] Connecting to kernel 760d6687-fbb3-4fbc-b1a9-983e540aacc9.
+[I 2025-02-03 10:43:20.155 ServerApp] Connecting to kernel de63d629-b653-4e75-b68d-c28bbf6cab07.
+[I 2025-02-03 10:43:20.202 ServerApp] Starting buffering for 1f8d1911-b300-412b-bd22-d6ad22900089:b68fee4d-2eb3-460d-a73a-b1209fc384bc
+[I 2025-02-03 10:44:36.506 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 10:46:37.144 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 11:41:01.261 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 11:41:31.702 NotebookApp] Serving notebooks from local directory: /home/lab13/project
+[I 11:41:31.702 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 11:41:31.704 NotebookApp] http://ip-172-31-13-81:8917/
+[I 11:41:31.704 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 11:41:31.758 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.759 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.759 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.779 NotebookApp] 404 GET /api/events/subscribe (125.129.250.60) 21.590000ms referer=None
+[W 11:41:31.864 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.864 NotebookApp] Forbidden
+[W 11:41:31.865 NotebookApp] 403 GET /api/kernels/760d6687-fbb3-4fbc-b1a9-983e540aacc9?1738550488098 (125.129.250.60) 0.710000ms referer=http://15.168.221.131:8917/notebooks/YJ%2Fairflow_test.ipynb
+[W 11:41:31.903 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.903 NotebookApp] Forbidden
+[W 11:41:31.903 NotebookApp] 403 GET /api/kernels/760d6687-fbb3-4fbc-b1a9-983e540aacc9?1738550488099 (125.129.250.60) 0.660000ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 11:41:31.935 NotebookApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 11:41:31.935 NotebookApp] Forbidden
+[W 11:41:31.936 NotebookApp] 403 GET /api/contents/YJ/crawling_test.ipynb/checkpoints?1738550489883 (125.129.250.60) 0.680000ms referer=http://15.168.221.131:8917/notebooks/YJ%2Fcrawling_test.ipynb
+[W 11:41:33.450 NotebookApp] Forbidden
+[W 11:41:33.450 NotebookApp] 403 GET /api/contents?content=1&hash=0&1738550491498 (125.129.250.60) 0.780000ms referer=http://15.168.221.131:8917/notebooks/YJ%2Fcrawling_test.ipynb
+[W 11:41:34.015 NotebookApp] Forbidden
+[W 11:41:34.015 NotebookApp] 403 GET /api/contents/YJ/crawling_test.ipynb/checkpoints?1738550492063 (125.129.250.60) 0.730000ms referer=http://15.168.221.131:8917/notebooks/YJ%2Fcrawling_test.ipynb
+[I 11:41:35.178 NotebookApp] 302 GET /notebooks/YJ%2Fcrawling_test.ipynb (125.129.250.60) 0.850000ms
+[I 11:41:38.627 NotebookApp] 302 POST /login?next=%2Fnotebooks%2FYJ%252Fcrawling_test.ipynb (125.129.250.60) 37.990000ms
+[I 11:41:39.864 NotebookApp] Kernel started: 52dbe879-d246-4055-8cdd-fd5007f116fd, name: crawling
+[W 11:41:53.059 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550511103 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:53.060 NotebookApp] Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:53.060 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550511103 (125.129.250.60) 1.090000ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 11:41:54.099 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:54.100 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60) 2.460000ms referer=None
+[W 11:41:54.134 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550512183 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:54.134 NotebookApp] Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:54.134 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550512183 (125.129.250.60) 0.710000ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 11:41:55.099 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:55.100 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60) 2.100000ms referer=None
+[W 11:41:55.133 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550513183 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:55.133 NotebookApp] Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 11:41:55.134 NotebookApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550513183 (125.129.250.60) 0.660000ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[I 2025-02-03 11:42:14.635 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-03 11:42:14.639 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-03 11:42:14.644 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-03 11:42:14.645 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-03 11:42:14.648 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-03 11:42:14.648 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-03 11:42:14.844 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-03 11:42:14.881 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-03 11:42:14.883 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-03 11:42:14.884 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-03 11:42:14.885 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-03 11:42:14.885 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-03 11:42:14.886 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-03 11:42:14.913 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-03 11:42:14.917 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-03 11:42:14.917 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-03 11:42:14.917 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-03 11:42:14.917 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-03 11:42:14.917 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-03 11:42:14.917 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-03 11:42:14.933 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-02-03 11:42:17.245 ServerApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 2025-02-03 11:42:17.245 ServerApp] Couldn't authenticate WebSocket connection
+[W 2025-02-03 11:42:17.258 ServerApp] 403 GET /api/kernels/52dbe879-d246-4055-8cdd-fd5007f116fd/channels?session_id=c9d316b9701847528be1a74acca81b8c (@125.129.250.60) 13.24ms referer=None
+[W 2025-02-03 11:42:18.075 ServerApp] Clearing invalid/expired login cookie username-15-168-221-131-8917
+[W 2025-02-03 11:42:18.075 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1788, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 3289, in wrapper
+        url = self.get_login_url()
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/base/handlers.py", line 783, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2025-02-03 11:42:18.078 ServerApp] 403 GET /api/kernels/c30c1517-b12d-4f87-9b23-32ea0d9e0454?1738550536094 (@125.129.250.60) 3.11ms referer=http://15.168.221.131:8917/notebooks/YJ%2Fhdfs_test.ipynb
+[I 2025-02-03 11:42:23.377 JupyterNotebookApp] 302 GET /notebooks/YJ%2Fcrawling_test.ipynb (@125.129.250.60) 0.87ms
+[I 2025-02-03 11:42:27.203 ServerApp] User c409c154414440daa2371f43723abbf5 logged in.
+[I 2025-02-03 11:42:27.204 ServerApp] 302 POST /login?next=%2Fnotebooks%2FYJ%252Fcrawling_test.ipynb (c409c154414440daa2371f43723abbf5@125.129.250.60) 38.23ms
+[I 2025-02-03 11:42:29.342 ServerApp] Kernel started: 29d154c7-ddd6-41b1-99d9-8bfc43cf57f6
+[I 2025-02-03 11:42:29.718 ServerApp] Connecting to kernel 29d154c7-ddd6-41b1-99d9-8bfc43cf57f6.
+[I 2025-02-03 11:42:29.793 ServerApp] Connecting to kernel 29d154c7-ddd6-41b1-99d9-8bfc43cf57f6.
+[I 2025-02-03 11:42:29.860 ServerApp] Connecting to kernel 29d154c7-ddd6-41b1-99d9-8bfc43cf57f6.
+[I 2025-02-03 11:42:36.294 ServerApp] Kernel started: e79f3438-88cf-4211-8d34-da10370870cd
+[I 2025-02-03 11:42:36.295 ServerApp] Kernel shutdown: 29d154c7-ddd6-41b1-99d9-8bfc43cf57f6
+[I 2025-02-03 11:42:36.704 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[W 2025-02-03 11:42:37.057 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550555108 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:42:37.057 ServerApp] wrote error: 'Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07)
+[W 2025-02-03 11:42:37.060 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550555108 (c409c154414440daa2371f43723abbf5@125.129.250.60) 2.79ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 2025-02-03 11:42:50.075 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:42:50.077 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (c409c154414440daa2371f43723abbf5@125.129.250.60) 2.73ms referer=None
+[W 2025-02-03 11:42:50.118 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550568169 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:42:50.118 ServerApp] wrote error: 'Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07)
+[W 2025-02-03 11:42:50.118 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550568169 (c409c154414440daa2371f43723abbf5@125.129.250.60) 0.82ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 2025-02-03 11:43:06.081 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:43:06.081 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.26ms referer=None
+[W 2025-02-03 11:43:06.115 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550584166 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:43:06.115 ServerApp] wrote error: 'Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07)
+[W 2025-02-03 11:43:06.116 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550584166 (c409c154414440daa2371f43723abbf5@125.129.250.60) 0.92ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[W 2025-02-03 11:43:15.080 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:43:15.081 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07/channels?session_id=c4cb043d-5cf2-4fbe-9e9f-d690a4c4273f (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.32ms referer=None
+[W 2025-02-03 11:43:15.115 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550593166 (125.129.250.60): Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07
+[W 2025-02-03 11:43:15.115 ServerApp] wrote error: 'Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: de63d629-b653-4e75-b68d-c28bbf6cab07)
+[W 2025-02-03 11:43:15.115 ServerApp] 404 GET /api/kernels/de63d629-b653-4e75-b68d-c28bbf6cab07?1738550593166 (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.02ms referer=http://15.168.221.131:8917/tree/YJ/15_final_project_crawling
+[I 2025-02-03 11:44:29.195 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 11:52:30.078 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:04:30.376 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:06:30.500 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:08:30.991 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:12:31.132 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:14:31.249 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 13:15:49.637 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[W 2025-02-03 13:15:56.904 ServerApp] Notebook JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 13:15:58.937 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[W 2025-02-03 13:15:59.058 ServerApp] Notebook JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 13:15:59.470 ServerApp] Kernel started: 7a20342b-ed2f-4a4a-986f-fb215600b858
+[I 2025-02-03 13:15:59.919 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 13:15:59.992 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 13:16:00.060 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 13:16:01.002 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 13:16:53.463 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:07f14398-a1c7-4d7b-8164-90c4f98c876f
+[I 2025-02-03 13:17:04.117 ServerApp] Creating new directory in /YJ
+[I 2025-02-03 13:17:07.592 ServerApp] Copying JS/youtube_api_iphone.ipynb to /YJ/JS
+[I 2025-02-03 13:17:07.593 ServerApp] Copying JS/youtube_api_galaxy.ipynb to /YJ/JS
+[W 2025-02-03 13:17:07.597 ServerApp] Notebook JS/youtube_api_galaxy.ipynb is not trusted
+[W 2025-02-03 13:17:07.671 ServerApp] Notebook JS/youtube_api_iphone.ipynb is not trusted
+[W 2025-02-03 13:17:07.675 ServerApp] Notebook JS/youtube_api_galaxy.ipynb is not trusted
+[W 2025-02-03 13:17:07.676 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[W 2025-02-03 13:17:07.676 ServerApp] Notebook JS/youtube_api_iphone.ipynb is not trusted
+[W 2025-02-03 13:17:07.677 ServerApp] Notebook YJ/JS/youtube_api_iphone.ipynb is not trusted
+[W 2025-02-03 13:17:08.751 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 13:17:10.290 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 13:17:10.400 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[W 2025-02-03 13:17:10.413 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 13:17:10.576 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:4016b7db-3027-4370-9ebf-6ba259dee6be
+[I 2025-02-03 13:17:10.676 ServerApp] Kernel started: 34ec69e4-6d79-4e91-b967-27bb5e1d70b6
+[I 2025-02-03 13:17:11.207 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 13:19:10.990 ServerApp] Saving file at /YJ/JS/youtube_api_galaxy.ipynb
+[W 2025-02-03 13:19:10.990 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 13:38:03.280 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-03 13:38:03.280 ServerApp] kernel e79f3438-88cf-4211-8d34-da10370870cd restarted
+[I 2025-02-03 13:38:03.319 ServerApp] Starting buffering for e79f3438-88cf-4211-8d34-da10370870cd:ea1d5a96-7d60-42a5-985c-1567e409824f
+[I 2025-02-03 13:38:03.358 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 13:38:03.358 ServerApp] Restoring connection for e79f3438-88cf-4211-8d34-da10370870cd:ea1d5a96-7d60-42a5-985c-1567e409824f
+[I 2025-02-03 13:44:12.750 ServerApp] Saving file at /YJ/crawling_test.ipynb
+[I 2025-02-03 14:02:56.396 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:02:56.468 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:02:56.530 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:02:56.583 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:1769ad2e-3290-41d9-bb9e-168b70ecb158
+[I 2025-02-03 14:02:59.040 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:49385630-c93b-469a-914d-1d681b108ba8
+[I 2025-02-03 14:03:20.331 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:03:33.726 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:03:41.606 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:03:47.167 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:04:05.753 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:04:05.828 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:04:05.896 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:04:05.978 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:22b53ec2-465c-441a-90bc-25d9db42c5fc
+[I 2025-02-03 14:04:06.026 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:3c6ded22-bbd0-46a5-a0ea-fe2d3172e2a2
+[I 2025-02-03 14:04:10.134 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:04:47.429 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:04:47.507 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:04:47.568 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:04:47.645 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:add2a41e-49d5-4390-92c5-e91aaabe787a
+[I 2025-02-03 14:04:47.729 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:9d290f6f-c62c-481b-8b4b-37431f11311e
+[I 2025-02-03 14:04:56.923 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[I 2025-02-03 14:05:02.092 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:05:51.620 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:05:51.685 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:05:51.757 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:05:51.828 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:2c5a13d6-b5e2-4f6b-afb2-7f00855ce1e7
+[I 2025-02-03 14:05:51.895 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:b62fc009-27a2-4d47-9919-a1c8c47a865e
+[I 2025-02-03 14:06:05.979 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:06:34.954 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:08:12.201 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:08:15.186 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:09:33.534 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-03 14:18:58.379 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:18:58.458 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:18:58.533 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:18:58.586 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:a4aa068e-a27f-47c1-b48e-71808a2fca1e
+[I 2025-02-03 14:18:58.633 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:d20d8fa5-c3ee-4274-a625-1739341bb883
+[I 2025-02-03 14:19:04.970 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[I 2025-02-03 14:19:28.959 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:19:29.034 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:19:29.103 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:19:29.116 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:c547122f-3629-4abd-8815-1baafdf3e108
+[I 2025-02-03 14:19:29.192 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:7f7bc64f-6ab9-4e12-a4de-75d0e5ef72f2
+[I 2025-02-03 14:19:41.609 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[I 2025-02-03 14:19:58.325 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[I 2025-02-03 14:20:02.889 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[I 2025-02-03 14:20:16.643 ServerApp] Saving file at /YJ/15_final_project_crawling/test2.py
+[W 2025-02-03 14:21:44.595 ServerApp] Notebook YJ/JS/youtube_api_iphone.ipynb is not trusted
+[I 2025-02-03 14:21:45.946 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:21:46.057 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[W 2025-02-03 14:21:46.065 ServerApp] Notebook YJ/JS/youtube_api_iphone.ipynb is not trusted
+[I 2025-02-03 14:21:46.131 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:21:46.333 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:bb48379b-6961-4f45-a3cc-be4eb6811ec9
+[I 2025-02-03 14:21:46.482 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:5c7d8315-5160-4638-90cb-629ddf691f1c
+[I 2025-02-03 14:21:46.546 ServerApp] Kernel started: d4e475c9-890f-4d33-bcfb-2ec0b38c3c07
+[I 2025-02-03 14:21:47.023 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:21:47.106 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:21:47.173 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:21:49.917 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:21:49.987 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[W 2025-02-03 14:21:50.192 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 14:21:51.473 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:21:51.584 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[W 2025-02-03 14:21:51.594 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 14:21:51.653 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:21:51.727 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:21:51.800 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:b709450f-24e8-4f09-bf8d-3e594286ad5e
+[I 2025-02-03 14:21:51.929 ServerApp] Starting buffering for 34ec69e4-6d79-4e91-b967-27bb5e1d70b6:5c1b9d23-d465-48c8-b549-5dd7084bf32f
+[I 2025-02-03 14:21:51.994 ServerApp] Connecting to kernel 34ec69e4-6d79-4e91-b967-27bb5e1d70b6.
+[I 2025-02-03 14:21:52.062 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:22:40.674 ServerApp] Kernel started: 1c9d7deb-959d-4753-aaba-683c24529e05
+[I 2025-02-03 14:22:40.675 ServerApp] Kernel shutdown: 34ec69e4-6d79-4e91-b967-27bb5e1d70b6
+[I 2025-02-03 14:22:41.055 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[W 2025-02-03 14:23:42.384 ServerApp] Notebook YJ/JS/youtube_api_iphone.ipynb is not trusted
+[I 2025-02-03 14:23:45.447 ServerApp] Creating new file in /YJ/JS
+[I 2025-02-03 14:23:46.904 ServerApp] Saving file at /YJ/JS/youtube_api_iphone.ipynb
+[W 2025-02-03 14:23:46.904 ServerApp] Notebook YJ/JS/youtube_api_iphone.ipynb is not trusted
+[W 2025-02-03 14:23:49.431 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 14:23:51.700 ServerApp] Saving file at /YJ/JS/youtube_api_galaxy.ipynb
+[W 2025-02-03 14:23:51.700 ServerApp] Notebook YJ/JS/youtube_api_galaxy.ipynb is not trusted
+[I 2025-02-03 14:24:08.194 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:24:08.271 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:24:08.340 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:24:08.403 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:3f53be2f-7ab2-48e1-81cb-747228019f90
+[I 2025-02-03 14:24:08.404 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:24:38.522 ServerApp] Saving file at /YJ/JS/youtube_api_galaxy.py
+[I 2025-02-03 14:26:48.026 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:26:48.138 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:26:48.208 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:26:48.274 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:26:48.286 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:ed3c5527-f53f-49bc-a4d0-5890fc7686e0
+[I 2025-02-03 14:36:43.851 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:36:43.928 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:36:44.026 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:36:44.110 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:36:44.157 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:21ecb88c-1d3d-4289-ac05-d98c5ec6e779
+[I 2025-02-03 14:36:44.353 ServerApp] Kernel started: 467cc30b-b04b-4c46-bade-0364bbe1f815
+[I 2025-02-03 14:36:44.775 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:36:44.857 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:36:44.924 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:36:45.684 ServerApp] Starting buffering for 1c9d7deb-959d-4753-aaba-683c24529e05:7562494f-a5c7-4345-af9b-ffa4f16ac174
+[I 2025-02-03 14:36:45.690 ServerApp] Starting buffering for d4e475c9-890f-4d33-bcfb-2ec0b38c3c07:1b39444d-81c0-453e-8d85-2515752b3567
+[I 2025-02-03 14:36:45.720 ServerApp] Starting buffering for e79f3438-88cf-4211-8d34-da10370870cd:ea1d5a96-7d60-42a5-985c-1567e409824f
+[I 2025-02-03 14:36:49.909 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:38:44.096 ServerApp] Saving file at /YJ/airflow_test.ipynb
+[I 2025-02-03 14:42:21.956 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:42:22.029 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:42:22.111 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:42:22.166 ServerApp] Starting buffering for e79f3438-88cf-4211-8d34-da10370870cd:fe734bc0-b350-4c98-8496-8e5cc7e146dc
+[I 2025-02-03 14:42:22.171 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:f2a468c8-546c-4c67-ad32-84eef96ce79a
+[I 2025-02-03 14:42:22.188 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:42:22.227 ServerApp] Starting buffering for 1c9d7deb-959d-4753-aaba-683c24529e05:fcfc3bb1-9b8a-431a-9da9-99951e5c3c22
+[I 2025-02-03 14:42:22.261 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:42:22.429 ServerApp] Starting buffering for d4e475c9-890f-4d33-bcfb-2ec0b38c3c07:d580a100-c562-4edd-8c19-2487931cc9a7
+[I 2025-02-03 14:44:22.432 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:44:22.514 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:44:22.608 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:44:22.672 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:44:22.694 ServerApp] Starting buffering for e79f3438-88cf-4211-8d34-da10370870cd:25f6a4d2-7af2-4554-94c2-f8fa849cc820
+[I 2025-02-03 14:44:22.713 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:b126150f-14c5-4231-a5bf-6ca3c92e0e95
+[I 2025-02-03 14:44:22.714 ServerApp] Starting buffering for 1c9d7deb-959d-4753-aaba-683c24529e05:529f9dba-1baf-4b67-b1c9-ef98d3ac0786
+[I 2025-02-03 14:44:22.736 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:44:22.759 ServerApp] Starting buffering for d4e475c9-890f-4d33-bcfb-2ec0b38c3c07:c08fd7c2-ed96-4b8d-9f98-177047a986f2
+[I 2025-02-03 14:44:22.774 ServerApp] Kernel started: e114090c-1b6d-4068-84b1-72f7852d4cf1
+[I 2025-02-03 14:44:23.225 ServerApp] Connecting to kernel e114090c-1b6d-4068-84b1-72f7852d4cf1.
+[I 2025-02-03 14:44:26.229 ServerApp] Connecting to kernel e79f3438-88cf-4211-8d34-da10370870cd.
+[I 2025-02-03 14:44:26.303 ServerApp] Connecting to kernel 7a20342b-ed2f-4a4a-986f-fb215600b858.
+[I 2025-02-03 14:44:26.373 ServerApp] Connecting to kernel 1c9d7deb-959d-4753-aaba-683c24529e05.
+[I 2025-02-03 14:44:26.442 ServerApp] Connecting to kernel d4e475c9-890f-4d33-bcfb-2ec0b38c3c07.
+[I 2025-02-03 14:44:26.515 ServerApp] Connecting to kernel 467cc30b-b04b-4c46-bade-0364bbe1f815.
+[I 2025-02-03 14:44:26.518 ServerApp] Starting buffering for 1c9d7deb-959d-4753-aaba-683c24529e05:5037126b-d22d-46dd-9a86-5278e58c1fd3
+[I 2025-02-03 14:44:26.524 ServerApp] Starting buffering for 7a20342b-ed2f-4a4a-986f-fb215600b858:11abb733-98a9-4e31-8f2a-f178521cdbc0
+[I 2025-02-03 14:44:26.556 ServerApp] Starting buffering for e79f3438-88cf-4211-8d34-da10370870cd:640be18b-f630-4fd1-afee-5a570bc50087
+[I 2025-02-03 14:44:26.577 ServerApp] Connecting to kernel e114090c-1b6d-4068-84b1-72f7852d4cf1.
+[I 2025-02-03 14:44:26.628 ServerApp] Starting buffering for d4e475c9-890f-4d33-bcfb-2ec0b38c3c07:462788b9-91ac-4451-a50c-05ba33ed7484
+[I 2025-02-03 14:44:26.662 ServerApp] Kernel started: 99d7ba46-8e5f-4d92-9b8c-88d1c0a80a86
+[I 2025-02-03 14:44:27.107 ServerApp] Connecting to kernel 99d7ba46-8e5f-4d92-9b8c-88d1c0a80a86.
+[I 2025-02-03 14:44:44.881 ServerApp] Saving file at /YJ/airflow_test.ipynb
+25/02/03 14:48:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-03 14:50:26.879 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-03 14:52:26.992 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 14:54:27.113 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 14:56:27.242 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 14:58:27.367 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:35:09.278 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:37:09.415 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:39:09.556 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+25/02/03 15:40:31 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/02/03 15:40:33 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-03 15:41:09.718 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:41:16.372 ServerApp] Kernel started: 8ab2a80b-02f5-46a1-afd5-a31c74a3c61c
+[I 2025-02-03 15:41:16.373 ServerApp] Kernel shutdown: 99d7ba46-8e5f-4d92-9b8c-88d1c0a80a86
+[I 2025-02-03 15:41:19.049 ServerApp] Connecting to kernel 8ab2a80b-02f5-46a1-afd5-a31c74a3c61c.
+25/02/03 15:41:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-03 15:42:29.807 ServerApp] Saving file at /YJ/pyspark_test.ipynb
+[I 2025-02-03 15:43:09.836 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+25/02/03 15:43:28 ERROR Executor: Exception in task 0.0 in stage 3.0 (TID 3)
+java.sql.BatchUpdateException: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+25/02/03 15:43:28 WARN TaskSetManager: Lost task 0.0 in stage 3.0 (TID 3) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): java.sql.BatchUpdateException: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+
+25/02/03 15:43:28 ERROR TaskSetManager: Task 0 in stage 3.0 failed 1 times; aborting job
+[I 2025-02-03 15:45:09.953 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:47:10.810 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+25/02/03 15:48:19 ERROR Executor: Exception in task 0.0 in stage 8.0 (TID 8)
+java.sql.BatchUpdateException: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+25/02/03 15:48:19 WARN TaskSetManager: Lost task 0.0 in stage 8.0 (TID 8) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): java.sql.BatchUpdateException: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2024-02-05T11:30:05Z' for column 'publish_date' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3931)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+
+25/02/03 15:48:19 ERROR TaskSetManager: Task 0 in stage 8.0 failed 1 times; aborting job
+[I 2025-02-03 15:49:10.940 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:51:11.081 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:53:11.211 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:55:11.332 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:57:11.447 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 15:59:11.577 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:03:11.729 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:05:11.889 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 23:>                                                         (0 + 1) / 1]25/02/03 16:06:45 ERROR Executor: Exception in task 0.0 in stage 23.0 (TID 23)
+java.sql.BatchUpdateException: Column 'comment' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'comment' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+25/02/03 16:06:45 WARN TaskSetManager: Lost task 0.0 in stage 23.0 (TID 23) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): java.sql.BatchUpdateException: Column 'comment' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createBatchUpdateException(SQLError.java:1154)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1835)
+	at com.mysql.jdbc.PreparedStatement.executeBatchInternal(PreparedStatement.java:1319)
+	at com.mysql.jdbc.StatementImpl.executeBatch(StatementImpl.java:954)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.savePartition(JdbcUtils.scala:687)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1(JdbcUtils.scala:856)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcUtils$.$anonfun$saveTable$1$adapted(JdbcUtils.scala:854)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2(RDD.scala:1020)
+	at org.apache.spark.rdd.RDD.$anonfun$foreachPartition$2$adapted(RDD.scala:1020)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'comment' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1915)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2136)
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1813)
+	... 16 more
+
+25/02/03 16:06:45 ERROR TaskSetManager: Task 0 in stage 23.0 failed 1 times; aborting job
+[I 2025-02-03 16:07:12.022 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+                                                                                [I 2025-02-03 16:09:12.164 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:11:12.794 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:13:12.917 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 29:>                                                         (0 + 1) / 1]                                                                                [I 2025-02-03 16:15:13.027 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 30:>                                                         (0 + 1) / 1]                                                                                [I 2025-02-03 16:17:13.144 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:19:13.250 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:21:13.376 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:21:19.719 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:23:19.828 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 31:>                                                         (0 + 1) / 1]                                                                                [I 2025-02-03 16:27:20.780 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[Stage 32:>                                                         (0 + 1) / 1]                                                                                [I 2025-02-03 16:29:21.766 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:29:59.021 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:30:09.236 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:30:10.387 ServerApp] Starting buffering for e114090c-1b6d-4068-84b1-72f7852d4cf1:1cc9a17f-ec66-4149-909d-799908abefa6
+[I 2025-02-03 16:30:12.353 ServerApp] Saving file at /YJ/airflow_test.ipynb
+[I 2025-02-03 16:30:13.251 ServerApp] Starting buffering for 467cc30b-b04b-4c46-bade-0364bbe1f815:8313ff02-8a2e-4154-b656-9213803d9ddd
+[I 2025-02-03 16:30:15.573 ServerApp] Saving file at /YJ/hdfs_test.ipynb
+[I 2025-02-03 16:30:15.882 ServerApp] Starting buffering for 8ab2a80b-02f5-46a1-afd5-a31c74a3c61c:730962c6-d5b7-4fa9-8caa-07a9a5c61f9e
+[I 2025-02-03 16:30:20.239 ServerApp] Kernel shutdown: e79f3438-88cf-4211-8d34-da10370870cd
+[I 2025-02-03 16:30:20.239 ServerApp] Kernel shutdown: d4e475c9-890f-4d33-bcfb-2ec0b38c3c07
+[I 2025-02-03 16:30:20.242 ServerApp] Kernel shutdown: 7a20342b-ed2f-4a4a-986f-fb215600b858
+[I 2025-02-03 16:30:20.243 ServerApp] Kernel shutdown: e114090c-1b6d-4068-84b1-72f7852d4cf1
+[I 2025-02-03 16:30:20.246 ServerApp] Kernel shutdown: 1c9d7deb-959d-4753-aaba-683c24529e05
+[I 2025-02-03 16:30:20.246 ServerApp] Kernel shutdown: 467cc30b-b04b-4c46-bade-0364bbe1f815
+25/02/03 16:30:20 WARN JavaUtils: Attempt to delete using native Unix OS command failed for path = /tmp/spark-23cdd60d-ef03-42cb-9f20-d962d2ce123b/pyspark-89da48e3-45f2-49b7-b3fd-cd14ef5e41ba. Falling back to Java IO way
+java.io.IOException: Failed to delete: /tmp/spark-23cdd60d-ef03-42cb-9f20-d962d2ce123b/pyspark-89da48e3-45f2-49b7-b3fd-cd14ef5e41ba
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingUnixNative(JavaUtils.java:171)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:110)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[I 2025-02-03 16:30:20.492 ServerApp] Kernel shutdown: 8ab2a80b-02f5-46a1-afd5-a31c74a3c61c

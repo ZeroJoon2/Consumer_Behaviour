@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 import selenium
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -19,9 +20,13 @@ import time
 
 chrome_option = Options()
 chrome_option.add_experimental_option('detach', True)
-
-driver = webdriver.Chrome(options=chrome_option)
-wait = WebDriverWait(driver,10)
+chrome_option.add_argument("--user-data-dir=/tmp/chrome_profile_new1")
+chrome_option.add_argument("--no-sandbox")
+chrome_option.add_argument("--disable-dev-shm-usage") 
+#chrome_option.add_argument("--headless")
+service = Service("/usr/local/bin/chromedriver")
+driver = webdriver.Chrome(service=service, options=chrome_option)
+wait = WebDriverWait(driver,20)
 
 urls = [['S24', 'https://search.danawa.com/dsearch.php?query=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B0%A4%EB%9F%AD%EC%8B%9Cs24+256gb%2C+%EC%9E%90%EA%B8%89%EC%A0%9C&originalQuery=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90+%EA%B0%A4%EB%9F%AD%EC%8B%9Cs24+256gb%2C+%EC%9E%90%EA%B8%89%EC%A0%9C&checkedInfo=N&volumeType=allvs&page=1&limit=40&sort=opinionDESC&list=list&boost=true&tab=main&addDelivery=N&coupangMemberSort=N&simpleDescOpen=Y&mode=simple&isInitTireSmartFinder=N&recommendedSort=N&defaultUICategoryCode=122515&defaultPhysicsCategoryCode=224%7C48419%7C48829%7C0&defaultVmTab=8&defaultVaTab=2041&isZeroPrice=Y&quickProductYN=N&priceUnitSort=N&priceUnitSortOrder=A']
        , ['아이폰16', 'https://search.danawa.com/dsearch.php?query=%EC%95%84%EC%9D%B4%ED%8F%B016+%EC%9E%90%EA%B8%89%EC%A0%9C']]
@@ -179,7 +184,7 @@ try:
         tmp = url
         url = url[-1]
         driver.get(url)
-
+        print(url)
         wait.until(
             EC.presence_of_element_located((By.ID, 'paginationArea'))
         )
