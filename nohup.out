@@ -1166,3 +1166,287 @@ java.io.IOException: Failed to delete: /tmp/spark-23cdd60d-ef03-42cb-9f20-d962d2
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:750)
 [I 2025-02-03 16:30:20.492 ServerApp] Kernel shutdown: 8ab2a80b-02f5-46a1-afd5-a31c74a3c61c
+[W 2025-02-03 16:49:31.818 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738568970206 (125.129.250.60): Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-02-03 16:49:31.818 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-02-03 16:49:31.819 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738568970206 (c409c154414440daa2371f43723abbf5@125.129.250.60) 3.14ms referer=http://15.168.221.131:8917/tree/YJ
+[W 2025-02-03 16:49:33.523 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738568971903 (125.129.250.60): Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[W 2025-02-03 16:49:33.523 ServerApp] wrote error: 'Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: \'\'")'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 922, in get
+        model = await self._notebook_model(path, content=content, require_hash=require_hash)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 868, in _notebook_model
+        nb, bytes_content = await self._read_notebook(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 471, in _read_notebook
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: Bad Request (Unreadable Notebook: /home/lab13/project/YJ/test.ipynb NotJSONError("Notebook does not appear to be JSON: ''"))
+[W 2025-02-03 16:49:33.523 ServerApp] 400 GET /api/contents/YJ/test.ipynb?type=notebook&content=1&hash=1&1738568971903 (c409c154414440daa2371f43723abbf5@125.129.250.60) 5.46ms referer=http://15.168.221.131:8917/notebooks/YJ/test.ipynb
+[W 2025-02-03 16:49:40.416 ServerApp] delete /YJ/test.ipynb
+[I 2025-02-03 16:49:43.378 ServerApp] Creating new notebook in /YJ
+[I 2025-02-03 16:49:43.555 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 16:49:43.621 ServerApp] Kernel started: fb6384b2-2c98-40e6-a9b5-6f81ac030dd1
+[I 2025-02-03 16:49:44.084 ServerApp] Connecting to kernel fb6384b2-2c98-40e6-a9b5-6f81ac030dd1.
+[I 2025-02-03 16:49:45.087 ServerApp] Connecting to kernel fb6384b2-2c98-40e6-a9b5-6f81ac030dd1.
+[I 2025-02-03 16:49:45.467 ServerApp] Connecting to kernel fb6384b2-2c98-40e6-a9b5-6f81ac030dd1.
+[I 2025-02-03 16:51:45.301 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 16:53:49.746 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 16:55:52.762 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 16:57:53.726 ServerApp] Saving file at /YJ/Untitled.ipynb
+Environment variable CLASSPATH not set!
+getJNIEnv: getGlobalJNIEnv failed
+/arrow/cpp/src/arrow/status.cc:155: Failed to disconnect hdfs client: IOError: HDFS hdfsFS::Disconnect failed. Detail: [errno 9] Bad file descriptor
+[I 2025-02-03 17:02:44.306 ServerApp] Kernel started: 8100d097-1964-4a5a-83b1-58c5caa27789
+[I 2025-02-03 17:02:44.307 ServerApp] Kernel shutdown: fb6384b2-2c98-40e6-a9b5-6f81ac030dd1
+[I 2025-02-03 17:02:44.764 ServerApp] Connecting to kernel 8100d097-1964-4a5a-83b1-58c5caa27789.
+Environment variable CLASSPATH not set!
+getJNIEnv: getGlobalJNIEnv failed
+/arrow/cpp/src/arrow/status.cc:155: Failed to disconnect hdfs client: IOError: HDFS hdfsFS::Disconnect failed. Detail: [errno 9] Bad file descriptor
+[I 2025-02-03 17:03:54.746 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:04:44.292 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-03 17:04:44.292 ServerApp] kernel 8100d097-1964-4a5a-83b1-58c5caa27789 restarted
+[I 2025-02-03 17:04:44.323 ServerApp] Starting buffering for 8100d097-1964-4a5a-83b1-58c5caa27789:c1a39178-4d9b-4189-adec-365255e7e4fd
+[I 2025-02-03 17:04:44.363 ServerApp] Connecting to kernel 8100d097-1964-4a5a-83b1-58c5caa27789.
+[I 2025-02-03 17:04:44.363 ServerApp] Restoring connection for 8100d097-1964-4a5a-83b1-58c5caa27789:c1a39178-4d9b-4189-adec-365255e7e4fd
+Environment variable CLASSPATH not set!
+getJNIEnv: getGlobalJNIEnv failed
+/arrow/cpp/src/arrow/status.cc:155: Failed to disconnect hdfs client: IOError: HDFS hdfsFS::Disconnect failed. Detail: [errno 9] Bad file descriptor
+[I 2025-02-03 17:05:05.310 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-03 17:05:05.310 ServerApp] kernel 8100d097-1964-4a5a-83b1-58c5caa27789 restarted
+[I 2025-02-03 17:05:05.342 ServerApp] Starting buffering for 8100d097-1964-4a5a-83b1-58c5caa27789:c1a39178-4d9b-4189-adec-365255e7e4fd
+[I 2025-02-03 17:05:05.381 ServerApp] Connecting to kernel 8100d097-1964-4a5a-83b1-58c5caa27789.
+[I 2025-02-03 17:05:05.382 ServerApp] Restoring connection for 8100d097-1964-4a5a-83b1-58c5caa27789:c1a39178-4d9b-4189-adec-365255e7e4fd
+Environment variable CLASSPATH not set!
+getJNIEnv: getGlobalJNIEnv failed
+/arrow/cpp/src/arrow/status.cc:155: Failed to disconnect hdfs client: IOError: HDFS hdfsFS::Disconnect failed. Detail: [errno 9] Bad file descriptor
+25/02/03 17:05:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+25/02/03 17:05:23 WARN DependencyUtils: Local jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-aws-3.3.1.jar does not exist, skipping.
+25/02/03 17:05:23 INFO SparkContext: Running Spark version 3.1.2
+25/02/03 17:05:23 INFO ResourceUtils: ==============================================================
+25/02/03 17:05:23 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/02/03 17:05:23 INFO ResourceUtils: ==============================================================
+25/02/03 17:05:23 INFO SparkContext: Submitted application: Read Parquet from HDFS
+25/02/03 17:05:23 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/02/03 17:05:23 INFO ResourceProfile: Limiting resource is cpu
+25/02/03 17:05:23 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/02/03 17:05:23 INFO SecurityManager: Changing view acls to: lab13
+25/02/03 17:05:23 INFO SecurityManager: Changing modify acls to: lab13
+25/02/03 17:05:23 INFO SecurityManager: Changing view acls groups to: 
+25/02/03 17:05:23 INFO SecurityManager: Changing modify acls groups to: 
+25/02/03 17:05:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(lab13); groups with view permissions: Set(); users  with modify permissions: Set(lab13); groups with modify permissions: Set()
+25/02/03 17:05:24 INFO Utils: Successfully started service 'sparkDriver' on port 46713.
+25/02/03 17:05:24 INFO SparkEnv: Registering MapOutputTracker
+25/02/03 17:05:24 INFO SparkEnv: Registering BlockManagerMaster
+25/02/03 17:05:24 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/02/03 17:05:24 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/02/03 17:05:24 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/02/03 17:05:24 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1a552208-31bc-4770-8398-c07fbd49fa41
+25/02/03 17:05:24 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+25/02/03 17:05:24 INFO SparkEnv: Registering OutputCommitCoordinator
+25/02/03 17:05:24 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/02/03 17:05:24 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://ip-172-31-13-81.ap-northeast-3.compute.internal:4040
+25/02/03 17:05:24 ERROR SparkContext: Failed to add /usr/local/hadoop/share/hadoop/tools/lib/hadoop-aws-3.3.1.jar to Spark environment
+java.io.FileNotFoundException: Jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-aws-3.3.1.jar not found
+	at org.apache.spark.SparkContext.addLocalJarFile$1(SparkContext.scala:1929)
+	at org.apache.spark.SparkContext.addJar(SparkContext.scala:1983)
+	at org.apache.spark.SparkContext.$anonfun$new$12(SparkContext.scala:501)
+	at org.apache.spark.SparkContext.$anonfun$new$12$adapted(SparkContext.scala:501)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:501)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:750)
+25/02/03 17:05:24 INFO Executor: Starting executor ID driver on host ip-172-31-13-81.ap-northeast-3.compute.internal
+25/02/03 17:05:24 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39853.
+25/02/03 17:05:24 INFO NettyBlockTransferService: Server created on ip-172-31-13-81.ap-northeast-3.compute.internal:39853
+25/02/03 17:05:24 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/02/03 17:05:24 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 39853, None)
+25/02/03 17:05:24 INFO BlockManagerMasterEndpoint: Registering block manager ip-172-31-13-81.ap-northeast-3.compute.internal:39853 with 366.3 MiB RAM, BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 39853, None)
+25/02/03 17:05:24 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 39853, None)
+25/02/03 17:05:24 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, ip-172-31-13-81.ap-northeast-3.compute.internal, 39853, None)
+25/02/03 17:05:25 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/lab13/project/YJ/spark-warehouse').
+25/02/03 17:05:25 INFO SharedState: Warehouse path is 'file:/home/lab13/project/YJ/spark-warehouse'.
+[I 2025-02-03 17:05:54.860 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:05:56.693 ServerApp] Connecting to kernel 8100d097-1964-4a5a-83b1-58c5caa27789.
+[I 2025-02-03 17:07:54.964 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:09:27.913 ServerApp] Kernel started: c62a7a66-5b8f-487e-847c-72faee8f96e7
+[I 2025-02-03 17:09:27.914 ServerApp] Kernel shutdown: 8100d097-1964-4a5a-83b1-58c5caa27789
+25/02/03 17:09:27 INFO SparkContext: Invoking stop() from shutdown hook
+25/02/03 17:09:27 INFO SparkUI: Stopped Spark web UI at http://ip-172-31-13-81.ap-northeast-3.compute.internal:4040
+25/02/03 17:09:27 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/02/03 17:09:27 INFO MemoryStore: MemoryStore cleared
+25/02/03 17:09:27 INFO BlockManager: BlockManager stopped
+25/02/03 17:09:27 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/02/03 17:09:27 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/02/03 17:09:27 INFO SparkContext: Successfully stopped SparkContext
+25/02/03 17:09:27 INFO ShutdownHookManager: Shutdown hook called
+25/02/03 17:09:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-173daad4-13f0-46c0-835b-f7466043fe5d/pyspark-1989e0bd-64fb-4b61-932d-642fa85dd8be
+25/02/03 17:09:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-edaf41de-d99b-48bb-8482-443910aac8e5
+25/02/03 17:09:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-173daad4-13f0-46c0-835b-f7466043fe5d
+[I 2025-02-03 17:09:30.591 ServerApp] Connecting to kernel c62a7a66-5b8f-487e-847c-72faee8f96e7.
+25/02/03 17:09:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-03 17:09:55.086 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:11:49.630 ServerApp] Kernel started: 3d1b766a-4483-4881-a76c-43572f29a571
+[I 2025-02-03 17:11:49.630 ServerApp] Kernel shutdown: c62a7a66-5b8f-487e-847c-72faee8f96e7
+[I 2025-02-03 17:11:51.138 ServerApp] Starting buffering for c62a7a66-5b8f-487e-847c-72faee8f96e7:c1a39178-4d9b-4189-adec-365255e7e4fd
+[I 2025-02-03 17:11:51.175 ServerApp] Connecting to kernel 3d1b766a-4483-4881-a76c-43572f29a571.
+[I 2025-02-03 17:11:54.210 ServerApp] Kernel restarted: 3d1b766a-4483-4881-a76c-43572f29a571
+[I 2025-02-03 17:11:54.242 ServerApp] Starting buffering for 3d1b766a-4483-4881-a76c-43572f29a571:c1a39178-4d9b-4189-adec-365255e7e4fd
+[I 2025-02-03 17:11:54.270 ServerApp] Connecting to kernel 3d1b766a-4483-4881-a76c-43572f29a571.
+[I 2025-02-03 17:11:54.271 ServerApp] Restoring connection for 3d1b766a-4483-4881-a76c-43572f29a571:c1a39178-4d9b-4189-adec-365255e7e4fd
+25/02/03 17:11:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-03 17:13:55.221 ServerApp] Saving file at /YJ/Untitled.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-03 17:15:55.336 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:17:55.462 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:19:11.871 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:19:17.223 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:19:19.619 ServerApp] Connecting to kernel 3d1b766a-4483-4881-a76c-43572f29a571.
+[W 2025-02-03 17:19:24.227 ServerApp] 400 GET /api/contents/YJ/df3.parquet?type=file&content=1&hash=1&format=text&1738570762645 (125.129.250.60): /home/lab13/project/YJ/df3.parquet is not UTF-8 encoded
+[W 2025-02-03 17:19:24.227 ServerApp] wrote error: '/home/lab13/project/YJ/df3.parquet is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab13/project/YJ/df3.parquet is not UTF-8 encoded)
+[W 2025-02-03 17:19:24.228 ServerApp] 400 GET /api/contents/YJ/df3.parquet?type=file&content=1&hash=1&format=text&1738570762645 (c409c154414440daa2371f43723abbf5@125.129.250.60) 7.61ms referer=http://15.168.221.131:8917/tree/YJ
+[W 2025-02-03 17:19:27.570 ServerApp] 400 GET /api/contents/YJ/test.parquet?type=file&content=1&hash=1&format=text&1738570765992 (125.129.250.60): /home/lab13/project/YJ/test.parquet is not UTF-8 encoded
+[W 2025-02-03 17:19:27.570 ServerApp] wrote error: '/home/lab13/project/YJ/test.parquet is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdc in position 7: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab13/project/YJ/test.parquet is not UTF-8 encoded)
+[W 2025-02-03 17:19:27.570 ServerApp] 400 GET /api/contents/YJ/test.parquet?type=file&content=1&hash=1&format=text&1738570765992 (c409c154414440daa2371f43723abbf5@125.129.250.60) 3.17ms referer=http://15.168.221.131:8917/tree/YJ
+[I 2025-02-03 17:19:44.478 ServerApp] Saving file at /YJ/Untitled.ipynb
+[I 2025-02-03 17:20:08.102 ServerApp] Creating new directory in /YJ
+[I 2025-02-03 17:21:54.034 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:22:07.304 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:22:12.674 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:22:57.876 ServerApp] Creating new file in 
+[W 2025-02-03 17:23:01.153 ServerApp] 400 PATCH /api/contents/untitled.txt?1738570979590 (125.129.250.60): Cannot rename file or directory '/untitled.txt'
+[W 2025-02-03 17:23:01.154 ServerApp] wrote error: "Cannot rename file or directory '/untitled.txt'"
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 202, in patch
+        raise web.HTTPError(400, f"Cannot rename file or directory {path!r}")
+    tornado.web.HTTPError: HTTP 400: Bad Request (Cannot rename file or directory '/untitled.txt')
+[W 2025-02-03 17:23:01.154 ServerApp] 400 PATCH /api/contents/untitled.txt?1738570979590 (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.43ms referer=http://15.168.221.131:8917/tree
+[W 2025-02-03 17:23:07.906 ServerApp] 400 PATCH /api/contents/untitled.txt?1738570986342 (125.129.250.60): Cannot rename file or directory '/untitled.txt'
+[W 2025-02-03 17:23:07.906 ServerApp] wrote error: "Cannot rename file or directory '/untitled.txt'"
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 202, in patch
+        raise web.HTTPError(400, f"Cannot rename file or directory {path!r}")
+    tornado.web.HTTPError: HTTP 400: Bad Request (Cannot rename file or directory '/untitled.txt')
+[W 2025-02-03 17:23:07.906 ServerApp] 400 PATCH /api/contents/untitled.txt?1738570986342 (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.12ms referer=http://15.168.221.131:8917/tree
+[W 2025-02-03 17:23:15.439 ServerApp] delete /untitled.txt
+[I 2025-02-03 17:23:25.273 ServerApp] Creating new file in /YJ
+[W 2025-02-03 17:23:27.962 ServerApp] 400 PATCH /api/contents/YJ/untitled.txt?1738571006399 (125.129.250.60): Cannot rename file or directory '/YJ/untitled.txt'
+[W 2025-02-03 17:23:27.962 ServerApp] wrote error: "Cannot rename file or directory '/YJ/untitled.txt'"
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 202, in patch
+        raise web.HTTPError(400, f"Cannot rename file or directory {path!r}")
+    tornado.web.HTTPError: HTTP 400: Bad Request (Cannot rename file or directory '/YJ/untitled.txt')
+[W 2025-02-03 17:23:27.962 ServerApp] 400 PATCH /api/contents/YJ/untitled.txt?1738571006399 (c409c154414440daa2371f43723abbf5@125.129.250.60) 1.14ms referer=http://15.168.221.131:8917/tree/YJ
+[W 2025-02-03 17:23:34.527 ServerApp] delete /YJ/untitled.txt
+[I 2025-02-03 17:24:13.693 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:26:13.798 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:28:13.917 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:29:06.194 ServerApp] Kernel restarted: 3d1b766a-4483-4881-a76c-43572f29a571
+[I 2025-02-03 17:29:06.257 ServerApp] Connecting to kernel 3d1b766a-4483-4881-a76c-43572f29a571.
+[I 2025-02-03 17:30:14.023 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:32:14.131 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[I 2025-02-03 17:33:18.850 ServerApp] Saving file at /YJ/preprocessing.ipynb
+25/02/03 17:35:18 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-03 17:35:18.961 ServerApp] Saving file at /YJ/preprocessing.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 12:>                                                         (0 + 4) / 5][Stage 12:=======================>                                  (2 + 3) / 5][Stage 12:==================================>                       (3 + 2) / 5][Stage 12:==============================================>           (4 + 1) / 5]                                                                                [I 2025-02-03 17:36:52.172 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+[I 2025-02-03 17:41:37.778 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
