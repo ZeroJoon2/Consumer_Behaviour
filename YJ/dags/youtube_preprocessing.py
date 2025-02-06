@@ -42,18 +42,17 @@ def df_preprocessing(df, convert_cols):
         df = df.withColumn(c
                         , to_timestamp(col('comment_publish_date'), "yyyy-MM-dd'T'HH:mm:ss'Z'")
                         )
-    ## 결측치 제거
-    df = df.dropna()
-
+    ## 결측치및 중복값  제거
+    df = df.dropna().distinct()
+    print(f'''
+    결측치와 중복된 값을 모두 제거했습니다.
+    {df.count()}
+    ''')
     return df
 
 def truncate_table():
     # PyMySQL로 MySQL 연결 (SQL 실행을 위해)
     global user_id, user_ip, user_password, access_DATABASE
-    print(user_id)
-    print(user_ip)
-    print(user_password)
-    print(access_DATABASE)
     conn = pymysql.connect(
         host=user_ip,
         user=user_id,
@@ -84,7 +83,7 @@ def save_to_sql(df):
         )\
         .mode('append')\
         .save()
-    return print('save success in mysql~!')
+    return print('mysql에 데이터삽입을 완료했습니다~~!!')
 
 def main():
     spark = build_spark()

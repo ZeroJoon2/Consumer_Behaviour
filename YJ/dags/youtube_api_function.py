@@ -3,15 +3,10 @@ import time
 import json
 import pandas as pd
 from googleapiclient.discovery import build
+from airflow.models import Variable
+from airflow.utils.email import send_email
 
-# 갤럭시 S24 : '2024-01-17T00:00:00Z'
-# 아이폰 16 : '2024-09-10T00:00:00Z'
-# 갤럭시 Z 폴드 6/플립 6 : '2024-07-10T00:00:00Z'
-# 함수 : search_videos, get_all_comments, save_comments_to_csv
-# airflow/dags/etl_youtube_api.py
-# airflow/dags/youtube_api_function.py
-
-API_KEY = 'AIzaSyBVLeWNpSeMRAcCTe0yIXfsodlUKWWKoDU'
+API_KEY = Variable.get("youtube_api_key")
 
 # API
 def get_youtube_service(api_key):
@@ -95,3 +90,13 @@ def save_comments_to_parquet(all_comments, filename='youtube_comments.parquet'):
     df.to_parquet(filename, engine='pyarrow', index=False)
     print(f'저장 완료: {filename}')
 
+# 이메일 알림
+def send_failure_email(context):
+    subject = f"DAG {context['dag'].dag_id} 실행 실패!"
+    message = f"DAG 실패: {context['exception']}"
+    send_email(to='comboy8231@gmail.com', subject=subject, html_content=message)
+
+def send_success_email(context):
+    subject = f"DAG {context['dag'].dag_id} 실행 성공!"
+    message = "DAG이 성공적으로 실행되었습니다."
+    send_email(to='comboy8231@gmail.com', subject=subject, html_content=message)

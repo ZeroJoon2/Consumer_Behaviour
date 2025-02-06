@@ -1004,3 +1004,708 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [I 2025-02-05 19:00:01.282 ServerApp] Kernel shutdown: d7a62dfa-cae8-4506-b71e-c49c72c856e4
 [I 2025-02-05 19:00:01.282 ServerApp] Kernel shutdown: d3200e36-9336-41f6-857a-e94c1a673a51
 [I 2025-02-05 19:00:01.283 ServerApp] Kernel shutdown: 67306476-de9d-472c-b0c4-a7f47624df98
+[I 2025-02-06 15:09:12.294 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-06 15:09:12.298 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-06 15:09:12.303 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-06 15:09:12.305 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-06 15:09:12.308 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-06 15:09:12.308 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-06 15:09:12.507 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-06 15:09:12.545 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-06 15:09:12.547 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-06 15:09:12.548 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-06 15:09:12.550 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-06 15:09:12.550 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-06 15:09:12.550 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-06 15:09:12.577 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-06 15:09:12.581 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-06 15:09:12.581 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-06 15:09:12.581 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-06 15:09:12.581 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-06 15:09:12.581 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-06 15:09:12.581 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-06 15:09:12.599 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-06 15:10:09.443 ServerApp] 302 GET / (@125.129.250.60) 0.47ms
+[I 2025-02-06 15:10:09.475 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.52ms
+[I 2025-02-06 15:10:13.391 ServerApp] User 8c1b3224a2404a088fde4e8bb099b22e logged in.
+[I 2025-02-06 15:10:13.392 ServerApp] 302 POST /login?next=%2Ftree%3F (8c1b3224a2404a088fde4e8bb099b22e@125.129.250.60) 37.70ms
+[W 2025-02-06 15:10:17.704 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[W 2025-02-06 15:10:20.541 ServerApp] Notebook YJ/youtube_preprocessing.ipynb is not trusted
+[W 2025-02-06 15:10:22.092 ServerApp] Notebook YJ/youtube_preprocessing.ipynb is not trusted
+[I 2025-02-06 15:10:22.501 ServerApp] Kernel started: 54599486-28f9-4652-bdb2-a979ce71c285
+[I 2025-02-06 15:10:23.009 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:10:23.081 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:10:23.142 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:10:25.711 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+25/02/06 15:10:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 4:>                                                          (0 + 4) / 5][Stage 4:===========>                                               (1 + 4) / 5][Stage 4:===============================================>           (4 + 1) / 5]                                                                                [Stage 6:>                                                          (0 + 4) / 5][Stage 6:===========>                                               (1 + 4) / 5][Stage 7:=======================>                                (84 + 4) / 200][Stage 7:==================================>                    (125 + 4) / 200][Stage 7:==============================================>        (168 + 4) / 200]                                                                                [I 2025-02-06 15:12:22.316 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+[I 2025-02-06 15:12:51.340 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+[I 2025-02-06 15:19:46.042 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+[I 2025-02-06 15:19:46.976 ServerApp] Starting buffering for 54599486-28f9-4652-bdb2-a979ce71c285:6cbab958-4ef6-4449-843e-67ad561929de
+[I 2025-02-06 15:19:54.023 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:19:54.264 ServerApp] Starting buffering for 54599486-28f9-4652-bdb2-a979ce71c285:e3b165eb-f44e-4162-a5bb-8b57b1338af7
+[I 2025-02-06 15:19:54.424 ServerApp] Kernel started: 077eb05d-22c8-4133-ab21-92b4631a5e18
+[I 2025-02-06 15:19:54.886 ServerApp] Connecting to kernel 077eb05d-22c8-4133-ab21-92b4631a5e18.
+[I 2025-02-06 15:20:10.555 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:20:10.660 ServerApp] Connecting to kernel 077eb05d-22c8-4133-ab21-92b4631a5e18.
+[I 2025-02-06 15:20:10.816 ServerApp] Starting buffering for 54599486-28f9-4652-bdb2-a979ce71c285:3ecdbeea-13f2-4675-8936-633a0dbdf916
+[I 2025-02-06 15:20:11.093 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:20:20.325 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+25/02/06 15:20:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-06 15:21:54.322 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:22:11.669 ServerApp] Saving file at /YJ/youtube_preprocessing.ipynb
+[I 2025-02-06 15:23:54.424 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:29:42.026 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 15:29:42.115 ServerApp] Connecting to kernel 077eb05d-22c8-4133-ab21-92b4631a5e18.
+[I 2025-02-06 15:29:54.556 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:30:19.054 ServerApp] Kernel restarted: 077eb05d-22c8-4133-ab21-92b4631a5e18
+[I 2025-02-06 15:30:19.090 ServerApp] Starting buffering for 077eb05d-22c8-4133-ab21-92b4631a5e18:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 15:30:19.124 ServerApp] Connecting to kernel 077eb05d-22c8-4133-ab21-92b4631a5e18.
+[I 2025-02-06 15:30:19.124 ServerApp] Restoring connection for 077eb05d-22c8-4133-ab21-92b4631a5e18:5cd12b90-1af4-4e2c-a34e-269db9eea263
+25/02/06 15:30:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 15:31:54.676 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:33:54.783 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:35:54.883 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 10:>                                                         (0 + 1) / 1][Stage 11:>                                                         (0 + 1) / 1]                                                                                [Stage 13:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:36:33 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+25/02/06 15:36:48 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+25/02/06 15:36:53 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+[Stage 17:>                                                         (0 + 1) / 1][I 2025-02-06 15:37:54.997 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+                                                                                25/02/06 15:37:59 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+[Stage 21:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:38:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 24:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:38:47 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:47 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 26:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:38:48 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:48 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:49 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:49 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:49 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+25/02/06 15:38:49 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+25/02/06 15:38:50 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:50 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:38:51 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 38:>                                                         (0 + 1) / 1]25/02/06 15:38:54 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 39:>                                                       (0 + 4) / 200][Stage 39:=>                                                      (5 + 5) / 200][Stage 39:===>                                                   (11 + 4) / 200][Stage 39:===>                                                   (13 + 4) / 200][Stage 39:====>                                                  (17 + 4) / 200][Stage 39:=====>                                                 (21 + 4) / 200][Stage 39:======>                                                (25 + 4) / 200][Stage 39:=======>                                               (29 + 4) / 200][Stage 39:=========>                                             (33 + 4) / 200][Stage 39:==========>                                            (38 + 4) / 200][Stage 39:===========>                                           (42 + 4) / 200][Stage 39:============>                                          (46 + 4) / 200][Stage 39:=============>                                         (50 + 4) / 200][Stage 39:==============>                                        (54 + 4) / 200][Stage 39:===============>                                       (58 + 4) / 200][Stage 39:=================>                                     (63 + 4) / 200][Stage 39:=================>                                     (65 + 4) / 200][Stage 39:==================>                                    (69 + 4) / 200][Stage 39:====================>                                  (74 + 4) / 200][Stage 39:======================>                                (80 + 4) / 200][Stage 39:=======================>                               (85 + 4) / 200][Stage 39:========================>                              (90 + 4) / 200][Stage 39:=========================>                             (93 + 4) / 200][Stage 39:==========================>                            (98 + 4) / 200][Stage 39:===========================>                          (102 + 4) / 200][Stage 39:=============================>                        (108 + 5) / 200][Stage 39:==============================>                       (113 + 4) / 200][Stage 39:===============================>                      (118 + 4) / 200][Stage 39:================================>                     (122 + 4) / 200][Stage 39:==================================>                   (126 + 4) / 200][Stage 39:===================================>                  (130 + 4) / 200][Stage 39:====================================>                 (134 + 4) / 200][Stage 39:=====================================>                (140 + 4) / 200][Stage 39:=======================================>              (146 + 4) / 200][Stage 39:=======================================>              (147 + 4) / 200][Stage 39:=========================================>            (154 + 4) / 200][Stage 39:==========================================>           (158 + 4) / 200][Stage 39:===========================================>          (162 + 4) / 200][Stage 39:============================================>         (165 + 4) / 200][Stage 39:=============================================>        (169 + 4) / 200][Stage 39:==============================================>       (171 + 4) / 200][Stage 39:===============================================>      (175 + 5) / 200][Stage 39:================================================>     (180 + 4) / 200][Stage 39:=================================================>    (184 + 4) / 200][Stage 39:===================================================>  (189 + 5) / 200][Stage 39:====================================================> (194 + 4) / 200]                                                                                25/02/06 15:39:09 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:39:37 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 41:>                                                         (0 + 1) / 1]25/02/06 15:39:41 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+                                                                                25/02/06 15:39:41 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:39:41 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 46:===========>                                             (4 + 4) / 20][Stage 46:======================>                                  (8 + 4) / 20][Stage 46:=================================>                      (12 + 4) / 20][Stage 46:===============================================>        (17 + 3) / 20]                                                                                25/02/06 15:39:43 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 48:==>                                                     (4 + 4) / 100][Stage 48:====>                                                   (8 + 4) / 100][Stage 48:=======>                                               (13 + 4) / 100][Stage 48:=========>                                             (17 + 4) / 100][Stage 48:===========>                                           (21 + 4) / 100][Stage 48:=============>                                         (25 + 4) / 100][Stage 48:===============>                                       (29 + 4) / 100][Stage 48:==================>                                    (33 + 4) / 100][Stage 48:====================>                                  (37 + 5) / 100][Stage 48:=======================>                               (43 + 4) / 100][Stage 48:==========================>                            (48 + 4) / 100][Stage 48:============================>                          (52 + 4) / 100][Stage 48:==============================>                        (56 + 4) / 100][Stage 48:=================================>                     (60 + 4) / 100][Stage 48:===================================>                   (64 + 4) / 100][Stage 48:=====================================>                 (69 + 4) / 100][Stage 48:========================================>              (73 + 4) / 100][Stage 48:=========================================>             (75 + 4) / 100][Stage 48:============================================>          (81 + 4) / 100][Stage 48:==============================================>        (85 + 4) / 100][Stage 48:=================================================>     (90 + 4) / 100][Stage 48:====================================================>  (95 + 4) / 100]                                                                                25/02/06 15:39:50 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 50:======>                                                  (8 + 4) / 75][Stage 50:==========>                                             (14 + 4) / 75][Stage 50:=============>                                          (18 + 4) / 75][Stage 50:================>                                       (22 + 4) / 75][Stage 50:====================>                                   (27 + 4) / 75][Stage 50:=======================>                                (32 + 4) / 75][Stage 50:========================>                               (33 + 4) / 75][Stage 50:============================>                           (38 + 4) / 75][Stage 50:=================================>                      (45 + 4) / 75][Stage 50:====================================>                   (49 + 4) / 75][Stage 50:======================================>                 (51 + 4) / 75][Stage 50:=========================================>              (55 + 4) / 75][I 2025-02-06 15:39:55.150 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 50:==========================================>             (57 + 4) / 75][Stage 50:===============================================>        (63 + 4) / 75][Stage 50:==================================================>     (67 + 4) / 75][Stage 50:=====================================================>  (72 + 3) / 75]                                                                                25/02/06 15:39:56 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:39:57 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 52:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:40:02 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 53:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:40:54 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:41:12 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:41:27 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[I 2025-02-06 15:41:55.413 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+25/02/06 15:42:05 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 57:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:42:15 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 58:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:43:04 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+25/02/06 15:43:40 ERROR Instrumentation: java.lang.IllegalArgumentException: tfidf_features does not exist. Available: id, video_id, title, publish_date, channel_name, comment, like_count, comment_publish_date, inserted_at
+	at org.apache.spark.sql.types.StructType.$anonfun$apply$1(StructType.scala:278)
+	at scala.collection.MapLike.getOrElse(MapLike.scala:131)
+	at scala.collection.MapLike.getOrElse$(MapLike.scala:129)
+	at scala.collection.AbstractMap.getOrElse(Map.scala:63)
+	at org.apache.spark.sql.types.StructType.apply(StructType.scala:277)
+	at org.apache.spark.ml.util.SchemaUtils$.checkColumnTypes(SchemaUtils.scala:59)
+	at org.apache.spark.ml.util.SchemaUtils$.validateVectorCompatibleColumn(SchemaUtils.scala:205)
+	at org.apache.spark.ml.clustering.KMeansParams.validateAndTransformSchema(KMeans.scala:98)
+	at org.apache.spark.ml.clustering.KMeansParams.validateAndTransformSchema$(KMeans.scala:97)
+	at org.apache.spark.ml.clustering.KMeans.validateAndTransformSchema(KMeans.scala:272)
+	at org.apache.spark.ml.clustering.KMeans.transformSchema(KMeans.scala:372)
+	at org.apache.spark.ml.PipelineStage.transformSchema(Pipeline.scala:71)
+	at org.apache.spark.ml.clustering.KMeans.$anonfun$fit$1(KMeans.scala:330)
+	at org.apache.spark.ml.util.Instrumentation$.$anonfun$instrumented$1(Instrumentation.scala:191)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.ml.util.Instrumentation$.instrumented(Instrumentation.scala:191)
+	at org.apache.spark.ml.clustering.KMeans.fit(KMeans.scala:329)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:750)
+
+25/02/06 15:43:54 ERROR Instrumentation: java.lang.IllegalArgumentException: requirement failed: Column cluster already exists.
+	at scala.Predef$.require(Predef.scala:281)
+	at org.apache.spark.ml.util.SchemaUtils$.appendColumn(SchemaUtils.scala:106)
+	at org.apache.spark.ml.util.SchemaUtils$.appendColumn(SchemaUtils.scala:96)
+	at org.apache.spark.ml.clustering.KMeansParams.validateAndTransformSchema(KMeans.scala:99)
+	at org.apache.spark.ml.clustering.KMeansParams.validateAndTransformSchema$(KMeans.scala:97)
+	at org.apache.spark.ml.clustering.KMeans.validateAndTransformSchema(KMeans.scala:272)
+	at org.apache.spark.ml.clustering.KMeans.transformSchema(KMeans.scala:372)
+	at org.apache.spark.ml.PipelineStage.transformSchema(Pipeline.scala:71)
+	at org.apache.spark.ml.clustering.KMeans.$anonfun$fit$1(KMeans.scala:330)
+	at org.apache.spark.ml.util.Instrumentation$.$anonfun$instrumented$1(Instrumentation.scala:191)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.ml.util.Instrumentation$.instrumented(Instrumentation.scala:191)
+	at org.apache.spark.ml.clustering.KMeans.fit(KMeans.scala:329)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.lang.Thread.run(Thread.java:750)
+
+[I 2025-02-06 15:43:55.663 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+25/02/06 15:45:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 60:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:45:11 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:13 WARN BlockManager: Asked to remove block broadcast_74, which does not exist
+25/02/06 15:45:13 WARN BlockManager: Asked to remove block broadcast_74_piece0, which does not exist
+25/02/06 15:45:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:14 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 74:>                                                         (0 + 1) / 1]25/02/06 15:45:17 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 75:=>                                                      (4 + 4) / 200][Stage 75:==>                                                     (8 + 4) / 200][Stage 75:====>                                                  (16 + 4) / 200][Stage 75:=====>                                                 (20 + 4) / 200][Stage 75:======>                                                (25 + 4) / 200][Stage 75:========>                                              (30 + 4) / 200][Stage 75:=========>                                             (34 + 4) / 200][Stage 75:==========>                                            (38 + 4) / 200][Stage 75:===========>                                           (43 + 4) / 200][Stage 75:============>                                          (45 + 4) / 200][Stage 75:=============>                                         (49 + 4) / 200][Stage 75:===============>                                       (55 + 4) / 200][Stage 75:================>                                      (60 + 4) / 200][Stage 75:=================>                                     (64 + 4) / 200][Stage 75:==================>                                    (69 + 4) / 200][Stage 75:====================>                                  (75 + 4) / 200][Stage 75:======================>                                (80 + 4) / 200][Stage 75:======================>                                (83 + 4) / 200][Stage 75:========================>                              (88 + 4) / 200][Stage 75:=========================>                             (93 + 4) / 200][Stage 75:===========================>                           (99 + 4) / 200][Stage 75:============================>                         (104 + 4) / 200][Stage 75:=============================>                        (110 + 4) / 200][Stage 75:===============================>                      (116 + 4) / 200][Stage 75:================================>                     (119 + 4) / 200][Stage 75:=================================>                    (124 + 4) / 200][Stage 75:==================================>                   (129 + 4) / 200][Stage 75:====================================>                 (135 + 4) / 200][Stage 75:====================================>                 (137 + 4) / 200][Stage 75:======================================>               (141 + 4) / 200][Stage 75:=======================================>              (146 + 4) / 200][Stage 75:=========================================>            (152 + 4) / 200][Stage 75:==========================================>           (157 + 4) / 200][Stage 75:===========================================>          (162 + 4) / 200][Stage 75:=============================================>        (167 + 4) / 200][Stage 75:=============================================>        (170 + 4) / 200][Stage 75:===============================================>      (175 + 4) / 200][Stage 75:================================================>     (179 + 4) / 200][Stage 75:=================================================>    (184 + 4) / 200][Stage 75:===================================================>  (189 + 4) / 200][Stage 75:====================================================> (195 + 4) / 200]                                                                                25/02/06 15:45:29 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 76:>                                                         (0 + 1) / 1]                                                                                25/02/06 15:45:34 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:34 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:35 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:35 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:35 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:35 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:45:41 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 138:>                                                        (0 + 1) / 1]25/02/06 15:45:43 WARN DAGScheduler: Broadcasting large task binary with size 11.4 MiB
+[Stage 139:=>                                                     (7 + 4) / 200][Stage 139:==>                                                   (11 + 4) / 200][Stage 139:===>                                                  (14 + 4) / 200][Stage 139:====>                                                 (18 + 4) / 200][Stage 139:=====>                                                (22 + 4) / 200][Stage 139:=======>                                              (26 + 4) / 200][Stage 139:========>                                             (31 + 4) / 200][Stage 139:=========>                                            (36 + 4) / 200][Stage 139:==========>                                           (40 + 4) / 200][Stage 139:===========>                                          (44 + 4) / 200][Stage 139:============>                                         (48 + 4) / 200][Stage 139:==============>                                       (53 + 4) / 200][Stage 139:===============>                                      (57 + 4) / 200][Stage 139:================>                                     (62 + 4) / 200][Stage 139:=================>                                    (66 + 4) / 200][Stage 139:==================>                                   (67 + 4) / 200][Stage 139:===================>                                  (71 + 4) / 200][Stage 139:=====================>                                (78 + 4) / 200][Stage 139:=====================>                                (81 + 4) / 200][Stage 139:======================>                               (85 + 4) / 200][Stage 139:========================>                             (91 + 4) / 200][Stage 139:=========================>                            (96 + 4) / 200][Stage 139:==========================>                          (100 + 4) / 200][Stage 139:===========================>                         (104 + 4) / 200][Stage 139:=============================>                       (110 + 4) / 200][Stage 139:==============================>                      (114 + 4) / 200][Stage 139:==============================>                      (115 + 4) / 200][Stage 139:================================>                    (121 + 4) / 200][Stage 139:=================================>                   (126 + 4) / 200][Stage 139:==================================>                  (130 + 4) / 200][Stage 139:====================================>                (136 + 4) / 200][Stage 139:====================================>                (139 + 4) / 200][Stage 139:=====================================>               (140 + 4) / 200][Stage 139:======================================>              (144 + 4) / 200][Stage 139:=======================================>             (149 + 4) / 200][Stage 139:=========================================>           (156 + 4) / 200][Stage 139:==========================================>          (160 + 4) / 200][I 2025-02-06 15:45:55.859 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 139:===========================================>         (164 + 4) / 200][Stage 139:============================================>        (167 + 4) / 200][Stage 139:=============================================>       (172 + 4) / 200][Stage 139:==============================================>      (177 + 4) / 200][Stage 139:================================================>    (182 + 4) / 200][Stage 139:=================================================>   (186 + 4) / 200][Stage 139:==================================================>  (191 + 4) / 200][Stage 139:===================================================> (194 + 4) / 200]                                                                                25/02/06 15:45:58 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 140:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:46:03 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:03 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:07 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:07 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:07 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:08 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:08 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:08 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:08 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:09 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:09 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:09 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:10 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:10 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:10 WARN DAGScheduler: Broadcasting large task binary with size 13.0 MiB
+[Stage 202:>                                                        (0 + 1) / 1]25/02/06 15:46:13 WARN DAGScheduler: Broadcasting large task binary with size 13.0 MiB
+[Stage 203:=>                                                     (6 + 4) / 200][Stage 203:==>                                                    (8 + 4) / 200][Stage 203:===>                                                  (12 + 4) / 200][Stage 203:====>                                                 (16 + 4) / 200][Stage 203:=====>                                                (20 + 4) / 200][Stage 203:======>                                               (24 + 4) / 200][Stage 203:=======>                                              (28 + 4) / 200][Stage 203:========>                                             (32 + 4) / 200][Stage 203:==========>                                           (38 + 4) / 200][Stage 203:===========>                                          (41 + 5) / 200][Stage 203:============>                                         (46 + 4) / 200][Stage 203:=============>                                        (49 + 4) / 200][Stage 203:==============>                                       (54 + 4) / 200][Stage 203:===============>                                      (59 + 4) / 200][Stage 203:=================>                                    (64 + 4) / 200][Stage 203:==================>                                   (67 + 4) / 200][Stage 203:==================>                                   (68 + 5) / 200][Stage 203:===================>                                  (72 + 4) / 200][Stage 203:====================>                                 (76 + 4) / 200][Stage 203:=====================>                                (81 + 4) / 200][Stage 203:======================>                               (84 + 4) / 200][Stage 203:=======================>                              (86 + 4) / 200][Stage 203:========================>                             (90 + 4) / 200][Stage 203:=========================>                            (93 + 4) / 200][Stage 203:=========================>                            (96 + 4) / 200][Stage 203:===========================>                         (102 + 4) / 200][Stage 203:============================>                        (106 + 4) / 200][Stage 203:============================>                        (107 + 4) / 200][Stage 203:=============================>                       (111 + 4) / 200][Stage 203:===============================>                     (117 + 4) / 200][Stage 203:================================>                    (122 + 4) / 200][Stage 203:=================================>                   (126 + 4) / 200][Stage 203:=================================>                   (128 + 4) / 200][Stage 203:===================================>                 (133 + 4) / 200][Stage 203:====================================>                (137 + 4) / 200][Stage 203:=====================================>               (142 + 4) / 200][Stage 203:======================================>              (147 + 4) / 200][Stage 203:=======================================>             (148 + 4) / 200][Stage 203:=========================================>           (155 + 4) / 200][Stage 203:==========================================>          (159 + 4) / 200][Stage 203:===========================================>         (163 + 4) / 200][Stage 203:============================================>        (167 + 4) / 200][Stage 203:=============================================>       (171 + 4) / 200][Stage 203:==============================================>      (175 + 4) / 200][Stage 203:===============================================>     (180 + 4) / 200][Stage 203:================================================>    (184 + 4) / 200][Stage 203:=================================================>   (188 + 4) / 200][Stage 203:===================================================> (193 + 4) / 200]                                                                                25/02/06 15:46:31 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 204:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:46:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:38 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:39 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:40 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:46:44 WARN DAGScheduler: Broadcasting large task binary with size 14.6 MiB
+[Stage 266:>                                                        (0 + 1) / 1]25/02/06 15:46:47 WARN DAGScheduler: Broadcasting large task binary with size 14.6 MiB
+[Stage 267:=>                                                     (4 + 4) / 200][Stage 267:==>                                                    (9 + 4) / 200][Stage 267:===>                                                  (13 + 4) / 200][Stage 267:====>                                                 (17 + 4) / 200][Stage 267:=====>                                                (21 + 4) / 200][Stage 267:======>                                               (25 + 4) / 200][Stage 267:=======>                                              (29 + 4) / 200][Stage 267:========>                                             (33 + 4) / 200][Stage 267:=========>                                            (37 + 4) / 200][Stage 267:===========>                                          (42 + 4) / 200][Stage 267:============>                                         (46 + 4) / 200][Stage 267:=============>                                        (51 + 4) / 200][Stage 267:==============>                                       (52 + 4) / 200][Stage 267:===============>                                      (58 + 4) / 200][Stage 267:================>                                     (62 + 4) / 200][Stage 267:==================>                                   (67 + 4) / 200][Stage 267:==================>                                   (69 + 4) / 200][Stage 267:===================>                                  (72 + 4) / 200][Stage 267:=====================>                                (78 + 4) / 200][Stage 267:======================>                               (82 + 4) / 200][Stage 267:=======================>                              (88 + 4) / 200][Stage 267:========================>                             (92 + 4) / 200][Stage 267:==========================>                           (99 + 4) / 200][Stage 267:===========================>                         (103 + 4) / 200][Stage 267:============================>                        (107 + 4) / 200][Stage 267:=============================>                       (111 + 4) / 200][Stage 267:=============================>                       (112 + 4) / 200][Stage 267:===============================>                     (117 + 4) / 200][Stage 267:===============================>                     (120 + 4) / 200][Stage 267:================================>                    (124 + 4) / 200][Stage 267:=================================>                   (127 + 4) / 200][Stage 267:==================================>                  (131 + 4) / 200][Stage 267:===================================>                 (135 + 4) / 200][Stage 267:====================================>                (136 + 4) / 200][Stage 267:====================================>                (139 + 4) / 200][Stage 267:======================================>              (144 + 4) / 200][Stage 267:=======================================>             (150 + 4) / 200][Stage 267:========================================>            (154 + 4) / 200][Stage 267:==========================================>          (159 + 4) / 200][Stage 267:===========================================>         (163 + 4) / 200][Stage 267:============================================>        (167 + 4) / 200][Stage 267:=============================================>       (172 + 4) / 200][Stage 267:=============================================>       (173 + 4) / 200][Stage 267:==============================================>      (177 + 4) / 200][Stage 267:================================================>    (184 + 4) / 200][Stage 267:=================================================>   (188 + 5) / 200][Stage 267:==================================================>  (192 + 4) / 200][Stage 267:===================================================> (194 + 4) / 200]                                                                                25/02/06 15:47:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 268:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:47:10 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:10 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:11 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:11 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:11 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:12 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:14 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:14 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:14 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:15 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:15 WARN DAGScheduler: Broadcasting large task binary with size 16.2 MiB
+[Stage 303:>                                                        (0 + 1) / 1]25/02/06 15:47:18 WARN DAGScheduler: Broadcasting large task binary with size 16.2 MiB
+[Stage 304:=>                                                     (4 + 4) / 200][Stage 304:==>                                                    (8 + 4) / 200][Stage 304:===>                                                  (12 + 4) / 200][Stage 304:====>                                                 (16 + 4) / 200][Stage 304:=====>                                                (20 + 4) / 200][Stage 304:======>                                               (24 + 4) / 200][Stage 304:=======>                                              (28 + 4) / 200][Stage 304:========>                                             (31 + 5) / 200][Stage 304:=========>                                            (35 + 4) / 200][Stage 304:==========>                                           (40 + 4) / 200][Stage 304:===========>                                          (44 + 4) / 200][Stage 304:============>                                         (48 + 4) / 200][Stage 304:==============>                                       (52 + 4) / 200][Stage 304:===============>                                      (57 + 4) / 200][Stage 304:================>                                     (61 + 4) / 200][Stage 304:=================>                                    (65 + 4) / 200][Stage 304:==================>                                   (69 + 4) / 200][Stage 304:====================>                                 (75 + 4) / 200][Stage 304:=====================>                                (80 + 4) / 200][Stage 304:======================>                               (84 + 4) / 200][Stage 304:=======================>                              (88 + 4) / 200][Stage 304:========================>                             (91 + 5) / 200][Stage 304:=========================>                            (96 + 4) / 200][Stage 304:==========================>                           (97 + 4) / 200][Stage 304:==========================>                          (101 + 5) / 200][Stage 304:============================>                        (106 + 4) / 200][Stage 304:=============================>                       (110 + 4) / 200][Stage 304:=============================>                       (112 + 4) / 200][Stage 304:==============================>                      (116 + 4) / 200][Stage 304:===============================>                     (120 + 4) / 200][Stage 304:=================================>                   (125 + 4) / 200][Stage 304:==================================>                  (131 + 4) / 200][Stage 304:====================================>                (136 + 4) / 200][Stage 304:=====================================>               (140 + 4) / 200][Stage 304:======================================>              (144 + 4) / 200][Stage 304:=======================================>             (148 + 4) / 200][Stage 304:========================================>            (152 + 4) / 200][Stage 304:=========================================>           (156 + 4) / 200][Stage 304:==========================================>          (159 + 4) / 200][Stage 304:===========================================>         (164 + 4) / 200][Stage 304:============================================>        (168 + 4) / 200][Stage 304:=============================================>       (172 + 4) / 200][Stage 304:==============================================>      (176 + 4) / 200][Stage 304:==============================================>      (177 + 4) / 200][Stage 304:================================================>    (182 + 4) / 200][Stage 304:=================================================>   (186 + 4) / 200][Stage 304:==================================================>  (191 + 4) / 200][Stage 304:==================================================>  (192 + 4) / 200][Stage 304:===================================================> (196 + 4) / 200]                                                                                25/02/06 15:47:37 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 305:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:47:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:44 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:45 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:45 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:45 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:46 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:46 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:46 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:47 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:47:47 WARN DAGScheduler: Broadcasting large task binary with size 17.8 MiB
+[Stage 337:>                                                        (0 + 1) / 1]25/02/06 15:47:50 WARN DAGScheduler: Broadcasting large task binary with size 17.8 MiB
+[Stage 338:>                                                      (0 + 4) / 200][Stage 338:=>                                                     (4 + 4) / 200][Stage 338:==>                                                    (8 + 4) / 200][Stage 338:==>                                                   (10 + 4) / 200][Stage 338:===>                                                  (13 + 4) / 200][Stage 338:====>                                                 (18 + 4) / 200][Stage 338:=====>                                                (20 + 4) / 200][Stage 338:======>                                               (23 + 4) / 200][Stage 338:=======>                                              (27 + 4) / 200][Stage 338:========>                                             (31 + 4) / 200][Stage 338:=========>                                            (35 + 4) / 200][Stage 338:==========>                                           (39 + 4) / 200][Stage 338:===========>                                          (43 + 4) / 200][Stage 338:============>                                         (47 + 4) / 200][Stage 338:=============>                                        (51 + 4) / 200][Stage 338:==============>                                       (54 + 4) / 200][Stage 338:===============>                                      (57 + 4) / 200][Stage 338:================>                                     (61 + 4) / 200][Stage 338:=================>                                    (65 + 4) / 200][Stage 338:==================>                                   (69 + 4) / 200][Stage 338:===================>                                  (72 + 4) / 200][Stage 338:===================>                                  (73 + 4) / 200][Stage 338:====================>                                 (77 + 4) / 200][Stage 338:=====================>                                (80 + 4) / 200][Stage 338:======================>                               (83 + 4) / 200][Stage 338:=======================>                              (86 + 4) / 200][Stage 338:========================>                             (90 + 4) / 200][Stage 338:=========================>                            (93 + 4) / 200][Stage 338:=========================>                            (95 + 4) / 200][Stage 338:==========================>                           (99 + 4) / 200][Stage 338:===========================>                         (103 + 4) / 200][Stage 338:============================>                        (107 + 4) / 200][Stage 338:=============================>                       (110 + 4) / 200][Stage 338:==============================>                      (114 + 4) / 200][Stage 338:==============================>                      (115 + 4) / 200][Stage 338:===============================>                     (119 + 4) / 200][Stage 338:================================>                    (122 + 4) / 200][Stage 338:=================================>                   (125 + 4) / 200][Stage 338:=================================>                   (128 + 4) / 200][Stage 338:==================================>                  (132 + 4) / 200][Stage 338:====================================>                (137 + 4) / 200][Stage 338:=====================================>               (141 + 4) / 200][Stage 338:======================================>              (144 + 4) / 200][Stage 338:=======================================>             (148 + 4) / 200][Stage 338:========================================>            (152 + 4) / 200][Stage 338:=========================================>           (155 + 4) / 200][Stage 338:=========================================>           (157 + 4) / 200][Stage 338:==========================================>          (161 + 4) / 200][Stage 338:===========================================>         (164 + 4) / 200][Stage 338:============================================>        (168 + 4) / 200][Stage 338:=============================================>       (172 + 4) / 200][Stage 338:==============================================>      (176 + 4) / 200][Stage 338:==============================================>      (177 + 4) / 200][Stage 338:===============================================>     (178 + 4) / 200][Stage 338:================================================>    (183 + 4) / 200][Stage 338:=================================================>   (186 + 4) / 200][Stage 338:=================================================>   (188 + 4) / 200][Stage 338:==================================================>  (191 + 4) / 200][Stage 338:===================================================> (194 + 4) / 200][Stage 338:====================================================>(198 + 2) / 200]                                                                                25/02/06 15:48:13 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 339:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:48:18 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:18 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:19 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:19 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:19 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:20 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:21 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:21 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:21 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:22 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:22 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:23 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:23 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:23 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:24 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:24 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:24 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:25 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:25 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:25 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:26 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:26 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:27 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:27 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:28 WARN DAGScheduler: Broadcasting large task binary with size 19.4 MiB
+[Stage 401:>                                                        (0 + 1) / 1]25/02/06 15:48:31 WARN DAGScheduler: Broadcasting large task binary with size 19.4 MiB
+[Stage 402:=>                                                     (4 + 4) / 200][Stage 402:=>                                                     (7 + 4) / 200][Stage 402:==>                                                    (8 + 4) / 200][Stage 402:===>                                                  (13 + 4) / 200][Stage 402:===>                                                  (14 + 4) / 200][Stage 402:====>                                                 (17 + 4) / 200][Stage 402:=====>                                                (21 + 4) / 200][Stage 402:======>                                               (25 + 4) / 200][Stage 402:=======>                                              (27 + 4) / 200][Stage 402:=======>                                              (28 + 4) / 200][Stage 402:=======>                                              (29 + 4) / 200][Stage 402:========>                                             (33 + 4) / 200][Stage 402:=========>                                            (37 + 4) / 200][Stage 402:===========>                                          (42 + 4) / 200][Stage 402:===========>                                          (44 + 4) / 200][Stage 402:============>                                         (45 + 4) / 200][Stage 402:=============>                                        (49 + 4) / 200][Stage 402:==============>                                       (52 + 5) / 200][Stage 402:===============>                                      (57 + 4) / 200][Stage 402:===============>                                      (58 + 4) / 200][Stage 402:================>                                     (61 + 4) / 200][Stage 402:=================>                                    (65 + 4) / 200][Stage 402:==================>                                   (69 + 4) / 200][Stage 402:===================>                                  (73 + 4) / 200][Stage 402:=====================>                                (78 + 4) / 200][Stage 402:======================>                               (82 + 4) / 200][Stage 402:=======================>                              (86 + 4) / 200][Stage 402:========================>                             (90 + 4) / 200][Stage 402:=========================>                            (94 + 4) / 200][Stage 402:=========================>                            (95 + 4) / 200][Stage 402:==========================>                           (99 + 4) / 200][Stage 402:===========================>                         (103 + 4) / 200][Stage 402:============================>                        (107 + 4) / 200][Stage 402:=============================>                       (111 + 4) / 200][Stage 402:==============================>                      (115 + 4) / 200][Stage 402:===============================>                     (119 + 4) / 200][Stage 402:================================>                    (122 + 4) / 200][Stage 402:=================================>                   (127 + 4) / 200][Stage 402:==================================>                  (131 + 4) / 200][Stage 402:===================================>                 (135 + 4) / 200][Stage 402:====================================>                (139 + 4) / 200][Stage 402:======================================>              (144 + 4) / 200][Stage 402:=======================================>             (148 + 4) / 200][Stage 402:========================================>            (152 + 4) / 200][Stage 402:========================================>            (153 + 5) / 200][Stage 402:=========================================>           (158 + 4) / 200][Stage 402:===========================================>         (163 + 4) / 200][Stage 402:============================================>        (167 + 4) / 200][Stage 402:============================================>        (168 + 4) / 200][Stage 402:=============================================>       (172 + 4) / 200][Stage 402:==============================================>      (176 + 4) / 200][Stage 402:===============================================>     (180 + 4) / 200][Stage 402:================================================>    (184 + 4) / 200][Stage 402:=================================================>   (187 + 4) / 200][Stage 402:==================================================>  (192 + 4) / 200][Stage 402:===================================================> (195 + 4) / 200]                                                                                25/02/06 15:48:53 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 403:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:48:57 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:57 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:58 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:58 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:59 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:48:59 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:00 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:00 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:01 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:01 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:01 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:02 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:02 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:03 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:03 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:03 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:04 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:05 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:06 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:07 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:07 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:49:08 WARN DAGScheduler: Broadcasting large task binary with size 21.0 MiB
+[Stage 471:>                                                        (0 + 1) / 1]25/02/06 15:49:11 WARN DAGScheduler: Broadcasting large task binary with size 21.0 MiB
+[Stage 472:=>                                                     (4 + 4) / 200][Stage 472:==>                                                    (8 + 4) / 200][Stage 472:===>                                                  (12 + 4) / 200][Stage 472:====>                                                 (16 + 4) / 200][Stage 472:====>                                                 (18 + 4) / 200][Stage 472:=====>                                                (19 + 4) / 200][Stage 472:=====>                                                (20 + 4) / 200][Stage 472:======>                                               (24 + 4) / 200][Stage 472:=======>                                              (28 + 4) / 200][Stage 472:========>                                             (32 + 4) / 200][Stage 472:=========>                                            (36 + 4) / 200][Stage 472:==========>                                           (39 + 4) / 200][Stage 472:===========>                                          (41 + 4) / 200][Stage 472:============>                                         (45 + 4) / 200][Stage 472:=============>                                        (49 + 4) / 200][Stage 472:==============>                                       (52 + 4) / 200][Stage 472:===============>                                      (56 + 5) / 200][Stage 472:================>                                     (60 + 4) / 200][Stage 472:=================>                                    (64 + 4) / 200][Stage 472:==================>                                   (68 + 4) / 200][Stage 472:==================>                                   (69 + 4) / 200][Stage 472:===================>                                  (73 + 4) / 200][Stage 472:====================>                                 (77 + 4) / 200][Stage 472:=====================>                                (79 + 4) / 200][Stage 472:======================>                               (83 + 4) / 200][Stage 472:======================>                               (85 + 4) / 200][Stage 472:========================>                             (89 + 4) / 200][Stage 472:=========================>                            (93 + 4) / 200][Stage 472:==========================>                           (97 + 4) / 200][Stage 472:==========================>                          (100 + 4) / 200][Stage 472:===========================>                         (104 + 4) / 200][Stage 472:============================>                        (109 + 4) / 200][Stage 472:=============================>                       (111 + 4) / 200][Stage 472:==============================>                      (114 + 4) / 200][Stage 472:===============================>                     (118 + 4) / 200][Stage 472:================================>                    (121 + 4) / 200][Stage 472:=================================>                   (125 + 4) / 200][Stage 472:==================================>                  (129 + 4) / 200][Stage 472:===================================>                 (133 + 4) / 200][Stage 472:====================================>                (137 + 4) / 200][Stage 472:=====================================>               (141 + 4) / 200][Stage 472:======================================>              (145 + 4) / 200][Stage 472:=======================================>             (148 + 4) / 200][Stage 472:========================================>            (152 + 4) / 200][Stage 472:=========================================>           (156 + 4) / 200][Stage 472:=========================================>           (157 + 4) / 200][Stage 472:==========================================>          (161 + 4) / 200][Stage 472:===========================================>         (165 + 4) / 200][Stage 472:============================================>        (169 + 4) / 200][Stage 472:=============================================>       (173 + 4) / 200][Stage 472:==============================================>      (177 + 4) / 200][Stage 472:===============================================>     (181 + 4) / 200][Stage 472:=================================================>   (185 + 4) / 200][Stage 472:==================================================>  (189 + 4) / 200][Stage 472:===================================================> (193 + 4) / 200][Stage 472:===================================================> (196 + 4) / 200]                                                                                [I 2025-02-06 15:49:56.087 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 473:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:50:26 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+[Stage 477:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:50:32 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 479:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:50:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:41 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:42 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:43 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 15:50:43 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 493:>                                                        (0 + 1) / 1]25/02/06 15:50:46 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 494:>                                                      (0 + 4) / 200][Stage 494:==>                                                    (8 + 4) / 200][Stage 494:==>                                                   (10 + 5) / 200][Stage 494:====>                                                 (15 + 4) / 200][Stage 494:=====>                                                (19 + 4) / 200][Stage 494:======>                                               (23 + 4) / 200][Stage 494:=======>                                              (27 + 4) / 200][Stage 494:========>                                             (31 + 4) / 200][Stage 494:=========>                                            (35 + 4) / 200][Stage 494:==========>                                           (39 + 4) / 200][Stage 494:===========>                                          (44 + 4) / 200][Stage 494:============>                                         (48 + 4) / 200][Stage 494:==============>                                       (53 + 4) / 200][Stage 494:===============>                                      (58 + 4) / 200][Stage 494:=================>                                    (63 + 4) / 200][Stage 494:==================>                                   (67 + 4) / 200][Stage 494:===================>                                  (71 + 4) / 200][Stage 494:====================>                                 (76 + 4) / 200][Stage 494:=====================>                                (78 + 4) / 200][Stage 494:======================>                               (82 + 4) / 200][Stage 494:=======================>                              (86 + 4) / 200][Stage 494:========================>                             (91 + 4) / 200][Stage 494:=========================>                            (95 + 4) / 200][Stage 494:==========================>                           (98 + 4) / 200][Stage 494:===========================>                         (102 + 4) / 200][Stage 494:============================>                        (106 + 4) / 200][Stage 494:=============================>                       (112 + 4) / 200][Stage 494:===============================>                     (117 + 4) / 200][Stage 494:================================>                    (121 + 4) / 200][Stage 494:=================================>                   (125 + 4) / 200][Stage 494:==================================>                  (129 + 4) / 200][Stage 494:====================================>                (136 + 4) / 200][Stage 494:=====================================>               (141 + 4) / 200][Stage 494:======================================>              (145 + 4) / 200][Stage 494:=======================================>             (150 + 4) / 200][Stage 494:=========================================>           (156 + 4) / 200][Stage 494:==========================================>          (161 + 4) / 200][Stage 494:===========================================>         (165 + 4) / 200][Stage 494:============================================>        (169 + 4) / 200][Stage 494:==============================================>      (176 + 5) / 200][Stage 494:===============================================>     (181 + 4) / 200][Stage 494:=================================================>   (185 + 4) / 200][Stage 494:==================================================>  (189 + 4) / 200][Stage 494:===================================================> (193 + 4) / 200][Stage 494:====================================================>(197 + 3) / 200]                                                                                25/02/06 15:51:02 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+25/02/06 15:51:05 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 496:>                                                        (0 + 1) / 1]25/02/06 15:51:08 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+                                                                                25/02/06 15:51:08 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+25/02/06 15:51:09 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 501:===========>                                            (4 + 4) / 20][Stage 501:======================>                                 (8 + 4) / 20][Stage 501:=================================>                     (12 + 4) / 20][Stage 501:=========================================>             (15 + 4) / 20]                                                                                25/02/06 15:51:11 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 503:>                                                      (0 + 4) / 100][Stage 503:==>                                                    (5 + 4) / 100][Stage 503:=====>                                                (10 + 4) / 100][Stage 503:========>                                             (15 + 4) / 100][Stage 503:==========>                                           (19 + 4) / 100][Stage 503:============>                                         (24 + 4) / 100][Stage 503:===============>                                      (28 + 4) / 100][Stage 503:=================>                                    (32 + 4) / 100][Stage 503:===================>                                  (36 + 4) / 100][Stage 503:=====================>                                (40 + 4) / 100][Stage 503:=========================>                            (47 + 4) / 100][Stage 503:===========================>                          (50 + 4) / 100][Stage 503:==============================>                       (56 + 4) / 100][Stage 503:===============================>                      (58 + 4) / 100][Stage 503:================================>                     (61 + 4) / 100][Stage 503:==================================>                   (64 + 4) / 100][Stage 503:====================================>                 (68 + 4) / 100][Stage 503:=======================================>              (74 + 4) / 100][Stage 503:===========================================>          (80 + 4) / 100][Stage 503:============================================>         (83 + 4) / 100][Stage 503:================================================>     (89 + 4) / 100][Stage 503:==================================================>   (93 + 4) / 100]                                                                                25/02/06 15:51:18 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 505:=====>                                                  (8 + 4) / 75][Stage 505:=========>                                             (13 + 4) / 75][Stage 505:=============>                                         (18 + 4) / 75][Stage 505:=================>                                     (24 + 4) / 75][Stage 505:====================>                                  (28 + 4) / 75][Stage 505:=========================>                             (35 + 4) / 75][Stage 505:============================>                          (39 + 4) / 75][Stage 505:===============================>                       (43 + 4) / 75][Stage 505:==================================>                    (47 + 4) / 75][Stage 505:======================================>                (53 + 4) / 75][Stage 505:==========================================>            (58 + 4) / 75][Stage 505:==============================================>        (63 + 4) / 75][Stage 505:=================================================>     (68 + 4) / 75][Stage 505:====================================================>  (72 + 3) / 75]                                                                                25/02/06 15:51:23 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 506:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:51:24 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 507:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:51:27 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 508:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:51:46 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+25/02/06 15:51:53 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 510:>                                                        (0 + 1) / 1]                                                                                [I 2025-02-06 15:51:56.235 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+25/02/06 15:52:22 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+25/02/06 15:52:29 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 512:>                                                        (0 + 1) / 1]                                                                                25/02/06 15:52:43 WARN DAGScheduler: Broadcasting large task binary with size 9.8 MiB
+[Stage 513:>                                                        (0 + 1) / 1]                                                                                [I 2025-02-06 15:53:56.380 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 15:55:56.534 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 16:01:10.789 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 16:01:21.061 ServerApp] Creating new notebook in /YJ
+[I 2025-02-06 16:01:21.255 ServerApp] Saving file at /YJ/Untitled3.ipynb
+[I 2025-02-06 16:01:21.283 ServerApp] Kernel started: a9205a99-d47d-4d7f-b954-eb91ebd81499
+[I 2025-02-06 16:01:21.761 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 16:01:22.693 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 16:01:22.794 ServerApp] Connecting to kernel 077eb05d-22c8-4133-ab21-92b4631a5e18.
+[I 2025-02-06 16:01:22.860 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 16:01:23.049 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 16:03:22.908 ServerApp] Saving file at /YJ/Untitled3.ipynb
+[I 2025-02-06 16:05:23.618 ServerApp] Saving file at /YJ/Untitled3.ipynb
+[I 2025-02-06 16:27:53.636 ServerApp] Kernel started: 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa
+[I 2025-02-06 16:27:53.637 ServerApp] Kernel shutdown: 077eb05d-22c8-4133-ab21-92b4631a5e18
+[I 2025-02-06 16:27:55.466 ServerApp] Starting buffering for 077eb05d-22c8-4133-ab21-92b4631a5e18:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 16:27:55.504 ServerApp] Connecting to kernel 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa.
+[I 2025-02-06 16:29:11.675 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+25/02/06 16:30:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 3:>                                                          (0 + 1) / 1]                                                                                25/02/06 16:30:51 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+[Stage 4:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 16:31:11.855 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+25/02/06 16:31:25 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 5:>                                                          (0 + 1) / 1]25/02/06 16:31:41 ERROR Executor: Exception in task 0.0 in stage 5.0 (TID 4)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+25/02/06 16:31:41 WARN TaskSetManager: Lost task 0.0 in stage 5.0 (TID 4) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+25/02/06 16:31:41 ERROR TaskSetManager: Task 0 in stage 5.0 failed 1 times; aborting job
+25/02/06 16:32:18 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 16:32:18 ERROR Executor: Exception in task 0.0 in stage 6.0 (TID 5)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+25/02/06 16:32:18 WARN TaskSetManager: Lost task 0.0 in stage 6.0 (TID 5) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+25/02/06 16:32:18 ERROR TaskSetManager: Task 0 in stage 6.0 failed 1 times; aborting job
+25/02/06 16:32:36 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+25/02/06 16:32:36 ERROR Executor: Exception in task 0.0 in stage 7.0 (TID 6)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+25/02/06 16:32:36 WARN TaskSetManager: Lost task 0.0 in stage 7.0 (TID 6) (ip-172-31-13-81.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 473, in main
+    raise Exception(("Python in worker has different version %s than that in " +
+Exception: Python in worker has different version 3.8 than that in driver 3.9, PySpark cannot run with different minor versions. Please check environment variables PYSPARK_PYTHON and PYSPARK_DRIVER_PYTHON are correctly set.
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:84)
+	at org.apache.spark.sql.execution.python.PythonUDFRunner$$anon$2.read(PythonUDFRunner.scala:67)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:489)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage2.processNext(Unknown Source)
+	at org.apache.spark.sql.execution.BufferedRowIterator.hasNext(BufferedRowIterator.java:43)
+	at org.apache.spark.sql.execution.WholeStageCodegenExec$$anon$1.hasNext(WholeStageCodegenExec.scala:755)
+	at org.apache.spark.sql.execution.SparkPlan.$anonfun$getByteArrayRdd$1(SparkPlan.scala:345)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2(RDD.scala:898)
+	at org.apache.spark.rdd.RDD.$anonfun$mapPartitionsInternal$2$adapted(RDD.scala:898)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:52)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:373)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:337)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+25/02/06 16:32:36 ERROR TaskSetManager: Task 0 in stage 7.0 failed 1 times; aborting job
+[I 2025-02-06 16:33:12.056 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+25/02/06 16:33:47 WARN JavaUtils: Attempt to delete using native Unix OS command failed for path = /tmp/spark-51ac7da5-205f-4497-9a5e-21e936ff9b72. Falling back to Java IO way
+java.io.IOException: Failed to delete: /tmp/spark-51ac7da5-205f-4497-9a5e-21e936ff9b72
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingUnixNative(JavaUtils.java:171)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:110)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+25/02/06 16:33:47 WARN JavaUtils: Attempt to delete using native Unix OS command failed for path = /tmp/spark-51ac7da5-205f-4497-9a5e-21e936ff9b72/pyspark-555718cc-11a5-4102-b8ee-1546fffe11d2. Falling back to Java IO way
+java.io.IOException: Failed to delete: /tmp/spark-51ac7da5-205f-4497-9a5e-21e936ff9b72/pyspark-555718cc-11a5-4102-b8ee-1546fffe11d2
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingUnixNative(JavaUtils.java:171)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:110)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingJavaIO(JavaUtils.java:128)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:118)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:91)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1141)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4(ShutdownHookManager.scala:65)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$4$adapted(ShutdownHookManager.scala:62)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at org.apache.spark.util.ShutdownHookManager$.$anonfun$new$2(ShutdownHookManager.scala:62)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1996)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+[I 2025-02-06 16:33:50.049 ServerApp] Kernel restarted: 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa
+[I 2025-02-06 16:33:50.076 ServerApp] Starting buffering for 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 16:33:50.111 ServerApp] Connecting to kernel 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa.
+[I 2025-02-06 16:33:50.111 ServerApp] Restoring connection for 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 16:33:57.167 ServerApp] Kernel started: ad968cad-5d07-4b93-8567-fd574ee12f8f
+[I 2025-02-06 16:33:57.168 ServerApp] Kernel shutdown: 40f07ade-5d1a-4a52-b472-4bd4bbd6abaa
+[I 2025-02-06 16:33:57.632 ServerApp] Connecting to kernel ad968cad-5d07-4b93-8567-fd574ee12f8f.
+[I 2025-02-06 16:34:08.653 ServerApp] Kernel started: 5099063b-fc86-4c42-865b-2a19dacce825
+[I 2025-02-06 16:34:08.654 ServerApp] Kernel shutdown: ad968cad-5d07-4b93-8567-fd574ee12f8f
+[I 2025-02-06 16:34:09.080 ServerApp] Connecting to kernel 5099063b-fc86-4c42-865b-2a19dacce825.
+[I 2025-02-06 16:34:31.758 ServerApp] Kernel started: b8a5d084-ae63-42e0-830a-31b265730581
+[I 2025-02-06 16:34:31.759 ServerApp] Kernel shutdown: 5099063b-fc86-4c42-865b-2a19dacce825
+[I 2025-02-06 16:34:32.194 ServerApp] Connecting to kernel b8a5d084-ae63-42e0-830a-31b265730581.
+[I 2025-02-06 16:35:12.194 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 16:36:28.915 ServerApp] Kernel restarted: b8a5d084-ae63-42e0-830a-31b265730581
+[I 2025-02-06 16:36:28.949 ServerApp] Starting buffering for b8a5d084-ae63-42e0-830a-31b265730581:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 16:36:28.983 ServerApp] Connecting to kernel b8a5d084-ae63-42e0-830a-31b265730581.
+[I 2025-02-06 16:36:28.983 ServerApp] Restoring connection for b8a5d084-ae63-42e0-830a-31b265730581:5cd12b90-1af4-4e2c-a34e-269db9eea263
+25/02/06 16:36:34 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1][Stage 1:>                                                          (0 + 1) / 1]                                                                                25/02/06 16:36:50 WARN DAGScheduler: Broadcasting large task binary with size 3.3 MiB
+[Stage 4:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 16:37:12.355 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+25/02/06 16:37:24 WARN DAGScheduler: Broadcasting large task binary with size 6.6 MiB
+[Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][I 2025-02-06 16:39:12.518 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 16:47:12.716 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 6:>                                                          (0 + 1) / 1][I 2025-02-06 16:49:12.901 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][I 2025-02-06 17:02:30.901 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 6:>                                                          (0 + 1) / 1]
