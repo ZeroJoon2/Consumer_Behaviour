@@ -702,3 +702,305 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [I 2025-02-04 15:15:08.910 ServerApp] Saving file at /YJ/test2.py
 [I 2025-02-04 15:17:09.182 ServerApp] Saving file at /YJ/test2.py
 [I 2025-02-04 15:30:14.619 ServerApp] Saving file at /YJ/test2.py
+[I 2025-02-04 16:06:35.594 ServerApp] Starting buffering for 2f11043f-dcd9-4b2d-9f80-fd8dce8b8d77:53c63dd5-b387-422a-acbb-79bf05f1012e
+[I 2025-02-04 16:06:35.606 ServerApp] Starting buffering for db722577-241e-4d99-9e7e-a995cd7cb2b6:a5014fc8-5c16-4a5c-b9eb-4bff61fed096
+[I 2025-02-04 16:06:35.617 ServerApp] Starting buffering for 98b723d9-cc74-4ff7-a126-c3d12fd657dc:147d7787-af5c-4106-9e1a-b269f5494e52
+[C 2025-02-04 18:54:49.774 ServerApp] received signal 15, stopping
+[I 2025-02-04 18:54:49.793 ServerApp] Shutting down 5 extensions
+[I 2025-02-04 18:54:49.794 ServerApp] Shutting down 4 kernels
+[I 2025-02-04 18:54:49.794 ServerApp] Kernel shutdown: 98b723d9-cc74-4ff7-a126-c3d12fd657dc
+[I 2025-02-04 18:54:49.795 ServerApp] Kernel shutdown: db722577-241e-4d99-9e7e-a995cd7cb2b6
+[I 2025-02-04 18:54:49.843 ServerApp] Kernel shutdown: 2f11043f-dcd9-4b2d-9f80-fd8dce8b8d77
+[I 2025-02-04 18:54:49.844 ServerApp] Kernel shutdown: be463339-194a-4453-818c-81b854117143
+[I 2025-02-05 09:23:16.319 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-05 09:23:16.325 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-05 09:23:16.329 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-05 09:23:16.332 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-05 09:23:16.335 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-05 09:23:16.335 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-05 09:23:16.858 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-05 09:23:16.956 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-05 09:23:16.958 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-05 09:23:16.959 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-05 09:23:16.973 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-05 09:23:16.973 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-05 09:23:16.973 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-05 09:23:17.031 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-05 09:23:17.035 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-05 09:23:17.035 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-05 09:23:17.035 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-05 09:23:17.035 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-05 09:23:17.035 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-05 09:23:17.035 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-05 09:23:17.055 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-05 09:23:37.091 ServerApp] 302 GET / (@125.129.250.60) 0.50ms
+[I 2025-02-05 09:23:37.124 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.62ms
+[I 2025-02-05 09:23:42.992 ServerApp] User d5a2526841e2479cbfd1197f97234a6f logged in.
+[I 2025-02-05 09:23:42.992 ServerApp] 302 POST /login?next=%2Ftree%3F (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 55.53ms
+[W 2025-02-05 09:23:48.286 ServerApp] Notebook YJ/youtube_preprocessing.ipynb is not trusted
+[I 2025-02-05 09:25:09.057 ServerApp] Kernel started: 1f7d14fb-69ae-4638-884e-321cec2f975d
+[I 2025-02-05 09:25:09.607 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:09.696 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:09.769 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:12.288 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:4c1a4aee-b37e-4491-99cd-b5b95c831be0
+[I 2025-02-05 09:25:17.076 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:17.302 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:31473ffc-d9e7-4d83-8a02-c8e7e39b1926
+[I 2025-02-05 09:25:21.833 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:22.010 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:ef99a05b-e944-4b15-8bdd-ceee24515a67
+[I 2025-02-05 09:25:29.467 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:25:29.562 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:465d451c-b6f7-4924-8fb6-166e93e50692
+[W 2025-02-05 09:25:34.137 ServerApp] delete /YJ/youtube_preprocessing.py
+[I 2025-02-05 09:30:56.385 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:30:56.571 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:20bb1378-8391-4d95-babf-9bcf51ea0e96
+[I 2025-02-05 09:32:35.413 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 09:32:35.594 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:6e52e78d-6d1d-4bba-90fc-96ad764bc571
+[I 2025-02-05 09:32:39.415 ServerApp] Saving file at /YJ/test.py
+[I 2025-02-05 09:32:40.694 ServerApp] Saving file at /YJ/test.py
+[I 2025-02-05 09:42:04.749 ServerApp] Saving file at /YJ/youtube_preprocessing.py
+[I 2025-02-05 09:43:03.231 ServerApp] Saving file at /YJ/youtube_preprocessing.py
+[I 2025-02-05 11:41:35.322 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 11:41:35.575 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:55a023a6-e895-4e45-aa94-1501cbffcc74
+[I 2025-02-05 11:41:35.758 ServerApp] Kernel started: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[I 2025-02-05 11:41:36.216 ServerApp] Connecting to kernel b5908e22-fed1-45b7-9b39-3bdc0cb34699.
+[I 2025-02-05 11:41:36.810 ServerApp] Starting buffering for b5908e22-fed1-45b7-9b39-3bdc0cb34699:f952f840-7f50-462b-a688-4b92ce34a31d
+[W 2025-02-05 11:41:38.030 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 2025-02-05 11:41:39.556 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 11:41:39.653 ServerApp] Connecting to kernel b5908e22-fed1-45b7-9b39-3bdc0cb34699.
+[W 2025-02-05 11:41:39.661 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 2025-02-05 11:41:39.842 ServerApp] Starting buffering for b5908e22-fed1-45b7-9b39-3bdc0cb34699:9a5c3dfc-7cea-45f8-9007-f878dae1004a
+[I 2025-02-05 11:41:39.845 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:1629dab6-8937-40d1-848c-b8413624a62d
+[I 2025-02-05 11:41:39.959 ServerApp] Kernel started: 153bcb25-8880-4d43-bcd2-f03f3bd7138b
+[I 2025-02-05 11:41:40.428 ServerApp] Connecting to kernel 153bcb25-8880-4d43-bcd2-f03f3bd7138b.
+[I 2025-02-05 11:41:43.068 ServerApp] Starting buffering for 153bcb25-8880-4d43-bcd2-f03f3bd7138b:a4ebfb80-86ba-438a-9ed0-5c33a24deaea
+[I 2025-02-05 11:41:58.183 ServerApp] Connecting to kernel 1f7d14fb-69ae-4638-884e-321cec2f975d.
+[I 2025-02-05 11:41:58.272 ServerApp] Connecting to kernel b5908e22-fed1-45b7-9b39-3bdc0cb34699.
+[I 2025-02-05 11:41:58.349 ServerApp] Connecting to kernel 153bcb25-8880-4d43-bcd2-f03f3bd7138b.
+[I 2025-02-05 11:41:58.433 ServerApp] Starting buffering for 1f7d14fb-69ae-4638-884e-321cec2f975d:778c69c8-5e20-401a-ae0e-22b0da2245bd
+[I 2025-02-05 11:41:58.434 ServerApp] Starting buffering for b5908e22-fed1-45b7-9b39-3bdc0cb34699:112f2a08-2975-4277-bfe1-99e964b05255
+[I 2025-02-05 11:41:58.525 ServerApp] Starting buffering for 153bcb25-8880-4d43-bcd2-f03f3bd7138b:2a634770-efbc-453c-8db1-907e2be2d80a
+[I 2025-02-05 11:41:58.564 ServerApp] Connecting to kernel b5908e22-fed1-45b7-9b39-3bdc0cb34699.
+[I 2025-02-05 11:43:58.987 ServerApp] Saving file at /YJ/Untitled1.ipynb
+[C 2025-02-05 11:50:59.613 ServerApp] received signal 15, stopping
+[I 2025-02-05 11:50:59.614 ServerApp] Shutting down 5 extensions
+[I 2025-02-05 11:50:59.615 ServerApp] Shutting down 3 kernels
+[I 2025-02-05 11:50:59.616 ServerApp] Kernel shutdown: 1f7d14fb-69ae-4638-884e-321cec2f975d
+[I 2025-02-05 11:50:59.616 ServerApp] Kernel shutdown: 153bcb25-8880-4d43-bcd2-f03f3bd7138b
+[I 2025-02-05 11:50:59.616 ServerApp] Kernel shutdown: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[I 2025-02-05 13:37:05.650 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-05 13:37:05.656 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-05 13:37:05.661 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-05 13:37:05.663 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-05 13:37:05.666 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-05 13:37:05.666 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-05 13:37:06.203 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-05 13:37:06.302 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-05 13:37:06.304 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-05 13:37:06.305 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-05 13:37:06.321 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-05 13:37:06.321 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-05 13:37:06.321 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-05 13:37:06.381 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-05 13:37:06.385 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-05 13:37:06.385 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-05 13:37:06.385 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-05 13:37:06.385 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-05 13:37:06.385 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-05 13:37:06.385 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-05 13:37:06.405 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-05 13:37:10.652 ServerApp] Creating new notebook in /YJ
+[I 2025-02-05 13:37:11.111 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:37:11.217 ServerApp] Kernel started: a584f394-569e-42d6-9a06-852cf79a6f65
+[I 2025-02-05 13:37:11.806 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:37:11.899 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:37:12.606 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:37:12.952 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[W 2025-02-05 13:37:19.818 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730238520 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:19.819 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:19.825 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730238520 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 7.27ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:37:20.844 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:20.907 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 63.28ms referer=None
+[W 2025-02-05 13:37:20.934 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730239637 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:20.934 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:20.935 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730239637 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 0.98ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:37:21.851 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:21.851 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.13ms referer=None
+[W 2025-02-05 13:37:21.884 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730240587 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:21.884 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:21.885 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730240587 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 0.90ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:37:24.849 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:24.849 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.38ms referer=None
+[W 2025-02-05 13:37:24.882 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730243585 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:24.882 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:24.882 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730243585 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.06ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:37:33.854 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:33.855 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.31ms referer=None
+[W 2025-02-05 13:37:33.887 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730252591 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:33.887 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:33.888 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730252591 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.13ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:37:43.840 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:43.841 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.32ms referer=None
+[W 2025-02-05 13:37:43.873 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730262577 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:37:43.873 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:37:43.874 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730262577 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.03ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[W 2025-02-05 13:38:44.850 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:38:44.851 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699/channels?session_id=db246c77-6b84-4299-b258-84001c56cf90 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.30ms referer=None
+[W 2025-02-05 13:38:44.883 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730323588 (125.129.250.60): Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699
+[W 2025-02-05 13:38:44.884 ServerApp] wrote error: 'Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/handlers.py", line 75, in get
+        model = await ensure_async(km.kernel_model(kernel_id))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 506, in kernel_model
+        self._check_kernel_id(kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 537, in _check_kernel_id
+        raise web.HTTPError(404, "Kernel does not exist: %s" % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: b5908e22-fed1-45b7-9b39-3bdc0cb34699)
+[W 2025-02-05 13:38:44.884 ServerApp] 404 GET /api/kernels/b5908e22-fed1-45b7-9b39-3bdc0cb34699?1738730323588 (d5a2526841e2479cbfd1197f97234a6f@125.129.250.60) 1.02ms referer=http://15.168.221.131:8917/notebooks/YJ/Untitled1.ipynb
+[I 2025-02-05 13:39:12.802 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:41:44.012 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:41:47.908 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:44:42.243 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:44:42.583 ServerApp] Connecting to kernel a584f394-569e-42d6-9a06-852cf79a6f65.
+[I 2025-02-05 13:44:47.029 ServerApp] Kernel started: 4c92c4dd-75fc-4889-9cba-54c431e1a36c
+[I 2025-02-05 13:44:47.030 ServerApp] Kernel shutdown: a584f394-569e-42d6-9a06-852cf79a6f65
+[I 2025-02-05 13:44:47.622 ServerApp] Connecting to kernel 4c92c4dd-75fc-4889-9cba-54c431e1a36c.
+[I 2025-02-05 13:44:47.683 ServerApp] Connecting to kernel 4c92c4dd-75fc-4889-9cba-54c431e1a36c.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: a6fbb616-d85f-4001-87d2-5adb2349c1a8
+[I 2025-02-05 13:46:42.836 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:48:42.955 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:50:43.829 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:54:47.240 ServerApp] Starting buffering for 4c92c4dd-75fc-4889-9cba-54c431e1a36c:688ce441-ed97-44a7-a45c-bcf29c3802a9
+[I 2025-02-05 13:54:48.602 ServerApp] Connecting to kernel 4c92c4dd-75fc-4889-9cba-54c431e1a36c.
+[I 2025-02-05 13:54:48.859 ServerApp] Starting buffering for 4c92c4dd-75fc-4889-9cba-54c431e1a36c:de880a46-1801-4bec-9d6a-c2f7634bc548
+[I 2025-02-05 13:54:48.977 ServerApp] Connecting to kernel 4c92c4dd-75fc-4889-9cba-54c431e1a36c.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9d50e5ee-5f28-49c4-a5a5-6438b5c15b6d
+[I 2025-02-05 13:54:52.127 ServerApp] Kernel started: d7a62dfa-cae8-4506-b71e-c49c72c856e4
+[I 2025-02-05 13:54:52.128 ServerApp] Kernel shutdown: 4c92c4dd-75fc-4889-9cba-54c431e1a36c
+[I 2025-02-05 13:54:53.109 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 13:54:53.177 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 13:56:48.831 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 13:58:49.819 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:02:50.827 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:06:50.945 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:08:51.279 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:10:51.817 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:12:51.943 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:16:52.055 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:18:52.169 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:21:25.218 ServerApp] Saving file at /YJ/Untitled2.ipynb
+[I 2025-02-05 14:40:28.779 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 14:40:35.924 ServerApp] Saving file at /YJ/youtube_preprocessing.py
+[I 2025-02-05 14:40:38.924 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 14:40:38.992 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 15:45:50.423 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 17:18:46.018 ServerApp] Creating new directory in /YJ
+[I 2025-02-05 17:18:58.664 ServerApp] Creating new notebook in /YJ/analytics
+[I 2025-02-05 17:18:58.855 ServerApp] Saving file at /YJ/analytics/Untitled.ipynb
+[I 2025-02-05 17:18:58.918 ServerApp] Kernel started: 87df68ce-2e98-4a7a-8de2-d302ecc3212b
+[I 2025-02-05 17:18:59.549 ServerApp] Connecting to kernel 87df68ce-2e98-4a7a-8de2-d302ecc3212b.
+[I 2025-02-05 17:19:00.371 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 17:19:00.434 ServerApp] Connecting to kernel 87df68ce-2e98-4a7a-8de2-d302ecc3212b.
+[I 2025-02-05 17:19:00.714 ServerApp] Connecting to kernel 87df68ce-2e98-4a7a-8de2-d302ecc3212b.
+[W 2025-02-05 17:19:09.121 ServerApp] Notebook YJ/youtube_preprocessing.ipynb is not trusted
+[I 2025-02-05 17:19:10.430 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 17:19:10.532 ServerApp] Connecting to kernel 87df68ce-2e98-4a7a-8de2-d302ecc3212b.
+[W 2025-02-05 17:19:10.570 ServerApp] Notebook YJ/youtube_preprocessing.ipynb is not trusted
+[I 2025-02-05 17:19:10.892 ServerApp] Kernel started: d3200e36-9336-41f6-857a-e94c1a673a51
+[I 2025-02-05 17:19:11.382 ServerApp] Connecting to kernel d3200e36-9336-41f6-857a-e94c1a673a51.
+[I 2025-02-05 17:19:43.282 ServerApp] Connecting to kernel d7a62dfa-cae8-4506-b71e-c49c72c856e4.
+[I 2025-02-05 17:19:43.375 ServerApp] Connecting to kernel 87df68ce-2e98-4a7a-8de2-d302ecc3212b.
+[I 2025-02-05 17:19:43.448 ServerApp] Connecting to kernel d3200e36-9336-41f6-857a-e94c1a673a51.
+[I 2025-02-05 17:19:43.655 ServerApp] Kernel started: 67306476-de9d-472c-b0c4-a7f47624df98
+[I 2025-02-05 17:19:44.139 ServerApp] Connecting to kernel 67306476-de9d-472c-b0c4-a7f47624df98.
+[I 2025-02-05 17:19:53.510 ServerApp] Starting buffering for d3200e36-9336-41f6-857a-e94c1a673a51:161eba07-8bf8-4993-9611-7fa62db8ebe9
+25/02/05 17:20:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-05 17:21:00.570 ServerApp] Saving file at /YJ/analytics/Untitled.ipynb
+[I 2025-02-05 17:23:00.678 ServerApp] Saving file at /YJ/analytics/Untitled.ipynb
+[I 2025-02-05 17:31:12.471 ServerApp] Connecting to kernel 67306476-de9d-472c-b0c4-a7f47624df98.
+[C 2025-02-05 19:00:01.280 ServerApp] received signal 15, stopping
+[I 2025-02-05 19:00:01.280 ServerApp] Shutting down 5 extensions
+[I 2025-02-05 19:00:01.281 ServerApp] Shutting down 4 kernels
+[I 2025-02-05 19:00:01.282 ServerApp] Kernel shutdown: 87df68ce-2e98-4a7a-8de2-d302ecc3212b
+[I 2025-02-05 19:00:01.282 ServerApp] Kernel shutdown: d7a62dfa-cae8-4506-b71e-c49c72c856e4
+[I 2025-02-05 19:00:01.282 ServerApp] Kernel shutdown: d3200e36-9336-41f6-857a-e94c1a673a51
+[I 2025-02-05 19:00:01.283 ServerApp] Kernel shutdown: 67306476-de9d-472c-b0c4-a7f47624df98

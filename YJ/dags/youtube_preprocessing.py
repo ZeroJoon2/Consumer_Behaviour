@@ -5,18 +5,21 @@ from dotenv import load_dotenv
 
 import pymysql
 
-
+from airflow.models import Variable
 # 상위 폴더(../)에 있는 `.env` 파일 로드
 dotenv_path = os.path.abspath(os.path.join(os.getcwd(), "..", ".env"))
 load_dotenv(dotenv_path)
 
 ## mysql 연결
-os.getenv('user_id')
-os.getenv('user_password')
+user_ip = Variable.get('mysql_ip', default_var = 'lab13')
+user_id = Variable.get('user_id', default_var = 'lab13')
+user_password = Variable.get('user_password', default_var = 'lab13')
+access_DATABASE = Variable.get('mysql_DB', default_var = 'SNS_DB')
 
 os.environ['PYSPARK_SUBMIT_ARGS'] = '--jars /usr/local/lib/mysql-connector-java-5.1.49.jar pyspark-shell'
 
-mysql_url = f"jdbc:mysql://{os.getenv('host_ip')}:3306/{os.getenv('DATABASE')}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8"
+#mysql_url = f"jdbc:mysql://{os.getenv('host_ip')}:3306/{os.getenv('DATABASE')}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8"
+mysql_url = f"jdbc:mysql://{user_ip}:3306/{access_DATABASE}?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=UTF-8"
 
 convert_cols = ['comment_publish_date', 'publish_date']
 
@@ -46,11 +49,16 @@ def df_preprocessing(df, convert_cols):
 
 def truncate_table():
     # PyMySQL로 MySQL 연결 (SQL 실행을 위해)
+    global user_id, user_ip, user_password, access_DATABASE
+    print(user_id)
+    print(user_ip)
+    print(user_password)
+    print(access_DATABASE)
     conn = pymysql.connect(
-        host=os.getenv('host_ip'),
-        user=os.getenv('user_id'),
-        password=os.getenv('user_password'),
-        database=os.getenv('DATABASE'),
+        host=user_ip,
+        user=user_id,
+        password=user_password,
+        database=access_DATABASE,
     )
 
     cursor = conn.cursor()
@@ -65,13 +73,14 @@ def truncate_table():
     return print('테이블 날렸습니다.')
 
 def save_to_sql(df):
+    global user_id, user_password
     df.write.format('jdbc')\
         .options(
             url = mysql_url
             , driver = 'com.mysql.jdbc.Driver'
             , dbtable = 'tbCrawled_Youtube'
-            , user = os.getenv('user_id')
-            , password = os.getenv('user_password')
+            , user = user_id
+            , password = user_password
         )\
         .mode('append')\
         .save()
