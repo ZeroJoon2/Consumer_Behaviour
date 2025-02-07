@@ -1708,4 +1708,549 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 [Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1][Stage 5:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 16:47:12.716 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
 [Stage 6:>                                                          (0 + 1) / 1][I 2025-02-06 16:49:12.901 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
 [Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][Stage 6:>                                                          (0 + 1) / 1][I 2025-02-06 17:02:30.901 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
-[Stage 6:>                                                          (0 + 1) / 1]
+[Stage 6:>                                                          (0 + 1) / 1][W 2025-02-06 17:03:42.726 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[Stage 6:>                                                          (0 + 1) / 1][I 2025-02-06 17:03:44.113 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 17:03:44.262 ServerApp] Connecting to kernel b8a5d084-ae63-42e0-830a-31b265730581.
+[W 2025-02-06 17:03:44.339 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 2025-02-06 17:03:44.357 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 17:03:44.695 ServerApp] Kernel started: 33045868-4bb9-4453-944a-211674109b40
+[E 2025-02-06 17:03:45.847 ServerApp] Uncaught exception GET /api/kernels/33045868-4bb9-4453-944a-211674109b40/channels?session_id=b072547f-c62f-4381-9066-e6019e4b6db8 (125.129.250.60)
+    HTTPServerRequest(protocol='http', host='15.168.221.131:8917', method='GET', uri='/api/kernels/33045868-4bb9-4453-944a-211674109b40/channels?session_id=b072547f-c62f-4381-9066-e6019e4b6db8', version='HTTP/1.1', remote_ip='125.129.250.60')
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/websocket.py", line 66, in get
+        await super().get(kernel_id=kernel_id)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/websocket.py", line 273, in get
+        await self.ws_connection.accept_connection(self)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/websocket.py", line 863, in accept_connection
+        await self._accept_connection(handler)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/websocket.py", line 903, in _accept_connection
+        self.selected_subprotocol = handler.select_subprotocol(subprotocols)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/websocket.py", line 88, in select_subprotocol
+        preferred_protocol = self.connection.kernel_ws_protocol
+    AttributeError: 'NoneType' object has no attribute 'kernel_ws_protocol'
+[E 2025-02-06 17:03:45.860 ServerApp] {
+      "Host": "15.168.221.131:8917",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+    }
+[E 2025-02-06 17:03:45.860 ServerApp] 500 GET /api/kernels/33045868-4bb9-4453-944a-211674109b40/channels?session_id=b072547f-c62f-4381-9066-e6019e4b6db8 (8c1b3224a2404a088fde4e8bb099b22e@125.129.250.60) 1025.87ms referer=None
+[I 2025-02-06 17:03:47.954 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 17:03:48.070 ServerApp] Connecting to kernel b8a5d084-ae63-42e0-830a-31b265730581.
+[I 2025-02-06 17:03:48.157 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 17:03:48.290 ServerApp] Connecting to kernel 33045868-4bb9-4453-944a-211674109b40.
+[I 2025-02-06 17:03:48.470 ServerApp] Kernel started: 0025ef2a-00de-402f-a7b9-2400d9466c1e
+[I 2025-02-06 17:03:49.300 ServerApp] Connecting to kernel 0025ef2a-00de-402f-a7b9-2400d9466c1e.
+[I 2025-02-06 17:03:49.321 ServerApp] Starting buffering for 0025ef2a-00de-402f-a7b9-2400d9466c1e:3d4564f0-d480-4153-b752-3036d7a7ecdf
+[I 2025-02-06 17:03:51.810 ServerApp] Connecting to kernel 54599486-28f9-4652-bdb2-a979ce71c285.
+[I 2025-02-06 17:03:51.920 ServerApp] Connecting to kernel b8a5d084-ae63-42e0-830a-31b265730581.
+[I 2025-02-06 17:03:52.017 ServerApp] Connecting to kernel a9205a99-d47d-4d7f-b954-eb91ebd81499.
+[I 2025-02-06 17:03:52.116 ServerApp] Connecting to kernel 33045868-4bb9-4453-944a-211674109b40.
+[I 2025-02-06 17:03:52.202 ServerApp] Connecting to kernel 0025ef2a-00de-402f-a7b9-2400d9466c1e.
+[I 2025-02-06 17:03:52.202 ServerApp] Discarding 3 buffered messages for 0025ef2a-00de-402f-a7b9-2400d9466c1e:3d4564f0-d480-4153-b752-3036d7a7ecdf
+[I 2025-02-06 17:03:52.320 ServerApp] Kernel started: 1d366c0a-a55c-4981-8557-becf905d2ff1
+[I 2025-02-06 17:03:52.333 ServerApp] Starting buffering for 0025ef2a-00de-402f-a7b9-2400d9466c1e:316f190f-b070-46e0-b700-64ece6ad0e7a
+[I 2025-02-06 17:03:53.306 ServerApp] Connecting to kernel 1d366c0a-a55c-4981-8557-becf905d2ff1.
+[I 2025-02-06 17:03:53.387 ServerApp] Connecting to kernel 1d366c0a-a55c-4981-8557-becf905d2ff1.
+[W 2025-02-06 17:03:53.406 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f051b0c9460>
+[I 2025-02-06 17:03:53.468 ServerApp] Connecting to kernel 1d366c0a-a55c-4981-8557-becf905d2ff1.
+[I 2025-02-06 17:03:54.783 ServerApp] Connecting to kernel 1d366c0a-a55c-4981-8557-becf905d2ff1.
+[I 2025-02-06 17:04:04.341 ServerApp] Starting buffering for 1d366c0a-a55c-4981-8557-becf905d2ff1:3f10431c-ee6c-436b-8251-e44de5b2e78e
+[I 2025-02-06 17:04:04.402 ServerApp] Connecting to kernel 1d366c0a-a55c-4981-8557-becf905d2ff1.
+[I 2025-02-06 17:04:04.480 ServerApp] Starting buffering for 1d366c0a-a55c-4981-8557-becf905d2ff1:b768b312-1d39-4b27-bea4-bc63e8a35658
+[I 2025-02-06 17:04:06.096 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 6:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-06 17:06:06.318 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 17:08:06.561 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 17:10:06.809 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 17:14:07.084 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 17:18:07.302 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 17:20:07.522 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 17:34:07.723 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][I 2025-02-06 18:35:39.452 ServerApp] Kernel interrupted: b8a5d084-ae63-42e0-830a-31b265730581
+[I 2025-02-06 18:35:41.140 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-06 18:35:42.673 ServerApp] Starting buffering for b8a5d084-ae63-42e0-830a-31b265730581:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 18:35:42.687 ServerApp] Starting buffering for 54599486-28f9-4652-bdb2-a979ce71c285:31453074-9eb2-4d98-a4f9-7d1e175a1b67
+[I 2025-02-06 18:35:42.708 ServerApp] Starting buffering for a9205a99-d47d-4d7f-b954-eb91ebd81499:9f507df1-ad31-42da-997a-71b4f46d9d1a
+[Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1][Stage 7:>                                                          (0 + 1) / 1]                                                                                [C 2025-02-06 19:00:01.530 ServerApp] received signal 15, stopping
+[I 2025-02-06 19:00:01.535 ServerApp] Shutting down 5 extensions
+[I 2025-02-06 19:00:01.537 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[I 2025-02-06 19:00:01.540 ServerApp] Shutting down 6 kernels
+[I 2025-02-06 19:00:01.553 ServerApp] Discarding 18 buffered messages for b8a5d084-ae63-42e0-830a-31b265730581:5cd12b90-1af4-4e2c-a34e-269db9eea263
+[I 2025-02-06 19:00:01.576 ServerApp] Kernel shutdown: b8a5d084-ae63-42e0-830a-31b265730581
+[I 2025-02-06 19:00:01.577 ServerApp] Kernel shutdown: 54599486-28f9-4652-bdb2-a979ce71c285
+[I 2025-02-06 19:00:01.577 ServerApp] Kernel shutdown: a9205a99-d47d-4d7f-b954-eb91ebd81499
+[I 2025-02-06 19:00:01.577 ServerApp] Kernel shutdown: 1d366c0a-a55c-4981-8557-becf905d2ff1
+[I 2025-02-06 19:00:01.578 ServerApp] Kernel shutdown: 0025ef2a-00de-402f-a7b9-2400d9466c1e
+[I 2025-02-06 19:00:01.578 ServerApp] Kernel shutdown: 33045868-4bb9-4453-944a-211674109b40
+[E 2025-02-06 19:00:01.619 ServerApp] Exception in callback functools.partial(<bound method IOLoop._discard_future_result of <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7f051c69b130>>, <Task finished name='Task-140886' coro=<ServerApp._stop() done, defined at /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/serverapp.py:3123> exception=InvalidStateError('Exception is not set.')>)
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/ioloop.py", line 750, in _run_callback
+        ret = callback()
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/ioloop.py", line 774, in _discard_future_result
+        future.result()
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 3125, in _stop
+        await self._cleanup()
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 3077, in _cleanup
+        await self.cleanup_kernels()
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/serverapp.py", line 2778, in cleanup_kernels
+        await ensure_async(self.kernel_manager.shutdown_all())
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 370, in _async_shutdown_all
+        await asyncio.gather(*futs)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/kernels/kernelmanager.py", line 436, in _async_shutdown_kernel
+        return await self.pinned_superclass._async_shutdown_kernel(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 321, in _async_shutdown_kernel
+        if not km.ready.cancelled() and km.ready.exception():
+    asyncio.exceptions.InvalidStateError: Exception is not set.
+[C 2025-02-07 09:11:32.381 ServerApp] Bad config encountered during initialization: The 'port' trait of a ServerApp instance expected an int, not the str '=8917'.
+[I 2025-02-07 09:12:03.774 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-07 09:12:03.778 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-07 09:12:03.783 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-07 09:12:03.786 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-07 09:12:03.789 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-07 09:12:03.789 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-07 09:12:04.333 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-07 09:12:04.436 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-07 09:12:04.438 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-07 09:12:04.439 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-07 09:12:04.456 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-07 09:12:04.456 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-07 09:12:04.457 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-07 09:12:04.515 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-07 09:12:04.519 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-07 09:12:04.519 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-07 09:12:04.519 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-07 09:12:04.519 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-07 09:12:04.519 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-07 09:12:04.519 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-07 09:12:04.540 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-07 09:12:08.837 ServerApp] 302 GET / (@125.129.250.60) 0.52ms
+[I 2025-02-07 09:12:08.870 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.68ms
+[I 2025-02-07 09:12:13.091 ServerApp] User b7117d130c0f4d4fadf10f88825a6616 logged in.
+[I 2025-02-07 09:12:13.092 ServerApp] 302 POST /login?next=%2Ftree%3F (b7117d130c0f4d4fadf10f88825a6616@125.129.250.60) 57.68ms
+[I 2025-02-07 09:13:12.287 ServerApp] Kernel started: 91762c4a-b023-4109-a1ed-a4e15c2dcdf8
+[I 2025-02-07 09:13:13.585 ServerApp] Connecting to kernel 91762c4a-b023-4109-a1ed-a4e15c2dcdf8.
+[I 2025-02-07 09:13:13.660 ServerApp] Connecting to kernel 91762c4a-b023-4109-a1ed-a4e15c2dcdf8.
+[I 2025-02-07 09:13:13.728 ServerApp] Connecting to kernel 91762c4a-b023-4109-a1ed-a4e15c2dcdf8.
+[I 2025-02-07 09:13:15.634 ServerApp] Connecting to kernel 91762c4a-b023-4109-a1ed-a4e15c2dcdf8.
+[I 2025-02-07 09:13:19.659 ServerApp] Kernel started: e81baf26-c1c0-477a-bca8-88d78217683f
+[I 2025-02-07 09:13:19.660 ServerApp] Kernel shutdown: 91762c4a-b023-4109-a1ed-a4e15c2dcdf8
+[I 2025-02-07 09:13:20.151 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+25/02/07 09:13:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 2025-02-07 09:15:12.065 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:25:14.679 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:27:14.904 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 0:>                                                          (0 + 1) / 1][I 2025-02-07 09:29:15.066 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[Stage 0:>                                                          (0 + 1) / 1][Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-07 09:31:15.272 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[IPKernelApp] WARNING | Invalid Message:
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/ipykernel/kernelbase.py", line 1317, in _input_request
+    rlist, _, xlist = zmq.select([self.stdin_socket], [], [self.stdin_socket], 0.01)
+  File "/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/zmq/sugar/poll.py", line 156, in select
+    return_sockets = zmq_poll(sockets, timeout)
+  File "_zmq.py", line 1576, in zmq.backend.cython._zmq.zmq_poll
+  File "_zmq.py", line 1555, in zmq.backend.cython._zmq.zmq_poll
+  File "_zmq.py", line 160, in zmq.backend.cython._zmq._check_rc
+  File "/home/ubuntu/anaconda3/envs/pytorch_p39/lib/python3.9/site-packages/transformers/dynamic_module_utils.py", line 633, in _raise_timeout_error
+    raise ValueError(
+ValueError: Loading this model requires you to execute custom code contained in the model repository on your local machine. Please set the option `trust_remote_code=True` to permit loading of this model.
+[I 2025-02-07 09:33:15.439 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:38:20.151 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:38:27.680 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 09:38:31.560 ServerApp] Creating new notebook in /YJ/dags
+[I 2025-02-07 09:38:31.719 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 09:38:31.784 ServerApp] Kernel started: a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4
+[I 2025-02-07 09:38:32.405 ServerApp] Connecting to kernel a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4.
+[I 2025-02-07 09:38:32.531 ServerApp] Connecting to kernel a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4.
+[I 2025-02-07 09:38:33.122 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 09:38:33.217 ServerApp] Connecting to kernel a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4.
+[I 2025-02-07 09:38:33.446 ServerApp] Connecting to kernel a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4.
+[I 2025-02-07 09:38:40.930 ServerApp] Kernel started: 3778f05b-f0aa-4031-8177-e401d3378f17
+[I 2025-02-07 09:38:40.931 ServerApp] Kernel shutdown: a6a4c679-fbb7-4dca-bc49-7679b4ed8ce4
+[I 2025-02-07 09:38:41.857 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 09:38:41.931 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 09:38:50.619 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 09:38:50.689 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 09:39:00.584 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 09:39:15.644 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:40:33.575 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 09:41:16.593 ServerApp] Saving file at /YJ/analytics/read_mysql.ipynb
+[I 2025-02-07 09:42:33.698 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 09:48:33.816 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 09:50:33.924 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 10:04:29.965 ServerApp] Saving file at /YJ/dags/Untitled.ipynb
+[I 2025-02-07 10:36:52.288 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 10:36:52.365 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 11:28:01.607 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 11:28:01.670 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 11:28:06.805 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 11:28:06.874 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 11:29:39.159 ServerApp] Saving file at /YJ/15_final_project_crawling/test.py
+[I 2025-02-07 11:31:04.111 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 11:31:04.180 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 11:31:09.584 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 13:46:59.636 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 13:47:10.836 ServerApp] Uploading file to /YJ/15_final_project_crawling/danawa_review_S24+1.parquet
+[I 2025-02-07 13:47:15.905 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 13:47:15.971 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[W 2025-02-07 13:47:21.114 ServerApp] Notebook YJ/15_final_project_crawling/test.ipynb is not trusted
+[I 2025-02-07 13:47:21.701 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 13:47:21.805 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[W 2025-02-07 13:47:21.860 ServerApp] Notebook YJ/15_final_project_crawling/test.ipynb is not trusted
+[I 2025-02-07 13:47:22.436 ServerApp] Kernel started: 081410ba-55e9-4769-86c3-b2f3d2f46fdd
+[I 2025-02-07 13:47:22.914 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 13:47:22.999 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 13:47:23.067 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 13:47:24.247 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:f449b0e1-0a40-4387-a0bd-b1d89ad6d290
+[I 2025-02-07 13:47:26.289 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 13:47:26.384 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:eb8e940b-f3f8-4f97-a95e-5c3f846434ae
+[I 2025-02-07 13:47:26.431 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:eead2e71-b8f6-46b2-a2bf-253a63e8ec00
+[I 2025-02-07 13:47:29.556 ServerApp] Creating new notebook in /YJ/15_final_project_crawling
+[I 2025-02-07 13:47:29.728 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 13:47:29.796 ServerApp] Kernel started: 1cd16dca-c743-4616-9dec-4f9376f23e33
+[I 2025-02-07 13:47:30.278 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 13:47:30.396 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 13:47:31.165 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 13:47:31.279 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 13:47:31.350 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 13:47:31.433 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 13:47:31.444 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:d5d73791-ae3c-40b8-9a83-02b6209be51e
+[I 2025-02-07 13:47:31.524 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:5a59da29-1b20-4222-b07d-52cfb39f2317
+[I 2025-02-07 13:47:31.554 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 13:49:32.256 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 14:25:46.620 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:25:46.757 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:25:46.828 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:25:46.895 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:25:46.910 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:30d19a9e-e248-4c65-8777-5ceb6e24e939
+[I 2025-02-07 14:25:47.007 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:64b0c9af-4a6f-40a0-9321-e2057132948e
+[I 2025-02-07 14:26:16.510 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:26:16.628 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:26:16.707 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:26:16.778 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:26:16.819 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:9d816bf2-c468-4e56-b230-118b7fdf79b1
+[I 2025-02-07 14:26:16.887 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:21670725-1dd0-4568-9eaa-90bf5905f18e
+[I 2025-02-07 14:26:16.928 ServerApp] Kernel started: 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3
+[I 2025-02-07 14:26:17.525 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:26:17.816 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:675da29b-2121-4cc9-ab6b-f2e180a73580
+[I 2025-02-07 14:26:22.977 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:26:23.048 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:26:23.155 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:26:23.234 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:26:23.269 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:fa71a6d9-ccf1-42b4-a2e9-47fcda38adb5
+[I 2025-02-07 14:26:23.306 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:26:23.436 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:3f15d882-1325-48f1-813a-d54ac4432ed3
+[I 2025-02-07 14:26:23.499 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:c6823187-5e43-411a-ab83-da67551f6363
+[I 2025-02-07 14:26:23.499 ServerApp] Kernel started: 6c68b07b-8670-4aac-96eb-b4f79164503a
+[I 2025-02-07 14:26:24.078 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:30:52.920 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:30:53.003 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:30:53.072 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:30:53.147 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:30:53.149 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:787d382b-ff15-4f16-b27e-d0723b6203bd
+[I 2025-02-07 14:30:53.181 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:c0662807-0936-443c-84c9-885a6215a70d
+[I 2025-02-07 14:30:53.214 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:30:53.283 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:30:53.306 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:00892d62-986f-454c-8e0f-52e65d5a4ab7
+[I 2025-02-07 14:31:02.575 ServerApp] Creating new notebook in /YJ
+[I 2025-02-07 14:31:02.745 ServerApp] Saving file at /YJ/Untitled4.ipynb
+[I 2025-02-07 14:31:02.811 ServerApp] Kernel started: 221c45b8-9f73-43f7-8b47-a93e74608977
+[I 2025-02-07 14:31:03.881 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:31:04.067 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:31:04.263 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:31:04.338 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:31:04.408 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:31:04.411 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:6aa962de-db09-4025-9575-06957cd4af86
+[I 2025-02-07 14:31:04.479 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:31:04.513 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:58fe2856-d8cb-4935-90f2-6109fff081d2
+[I 2025-02-07 14:31:04.543 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:31:04.606 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:31:04.619 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:c92e63b2-dcf6-4ab2-aa37-99d24c030f69
+[I 2025-02-07 14:31:04.670 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:31:04.733 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:31:04.801 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:33:04.345 ServerApp] Saving file at /YJ/Untitled4.ipynb
+[I 2025-02-07 14:34:03.731 ServerApp] Creating new file in /YJ
+[I 2025-02-07 14:34:10.470 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:34:10.533 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:34:10.625 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:34:10.686 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:34:10.752 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:34:10.798 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:17c31c8f-0ab0-47c1-a0c5-b78f5ef8699b
+[I 2025-02-07 14:34:10.804 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:c8a7c303-016a-40c6-b959-0180b86cc68a
+[I 2025-02-07 14:34:10.824 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:34:10.908 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:10.926 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:05eda41e-e827-45fb-bc85-e5d9f4a50e29
+[I 2025-02-07 14:34:10.977 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:14.903 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:34:14.976 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:34:15.038 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:34:15.064 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:83d5916d-969b-4e85-8f77-764be15508a5
+[I 2025-02-07 14:34:15.111 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:34:15.132 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:a6642249-8e91-4424-bb9a-94f5083bdf0d
+[I 2025-02-07 14:34:15.175 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:34:15.247 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:15.250 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:e69b55a5-dc81-47cf-bb9c-4edc7a74d8cb
+[I 2025-02-07 14:34:15.320 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:34:16.165 ServerApp] Saving file at /YJ/testtest.py
+[I 2025-02-07 14:34:44.867 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:46.791 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:74b46f5e-b383-4c3c-9bde-d6deb330c69b
+[I 2025-02-07 14:34:46.866 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:55.780 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:34:55.886 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:34:55.955 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:34:56.022 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:34:56.063 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:12d8fb17-6fb8-416b-8ed8-046aa5d50421
+[I 2025-02-07 14:34:56.094 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:34:56.104 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:9006d9b2-4f41-4f72-b735-bc05109c0129
+[I 2025-02-07 14:34:56.154 ServerApp] Kernel started: 4c11896e-fd61-4d30-8ff9-750bc7a5e75e
+[I 2025-02-07 14:34:56.166 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:56.192 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:d5750a9d-3df6-467d-bb84-2d0b5c4fef72
+[I 2025-02-07 14:34:56.239 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:34:56.329 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:c80c914e-e4ac-49c4-9aed-8af09df8c730
+[I 2025-02-07 14:34:56.648 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:34:56.743 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:096f0353-003e-4d24-9f27-8113213b4ee7
+[W 2025-02-07 14:34:57.522 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 2025-02-07 14:34:58.855 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:34:58.959 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[W 2025-02-07 14:34:58.989 ServerApp] Notebook YJ/Untitled.ipynb is not trusted
+[I 2025-02-07 14:34:59.031 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:34:59.100 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:34:59.102 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:0a49b73a-291b-45e3-a6f6-5dc44ed38b69
+[I 2025-02-07 14:34:59.171 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:34:59.229 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:f1897b4e-2bc6-4a84-afe2-018d138c9c8c
+[I 2025-02-07 14:34:59.254 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:34:59.298 ServerApp] Kernel started: f7098582-a20c-41ea-be2e-8e96294dcba5
+[I 2025-02-07 14:34:59.303 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:894751b5-8046-46b9-8c5b-b4e9ed6ea1de
+[I 2025-02-07 14:34:59.332 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:34:59.347 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:74a25275-0c72-4125-a14f-4d30b54e7f9e
+[I 2025-02-07 14:34:59.410 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:34:59.411 ServerApp] Discarding 11 buffered messages for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:096f0353-003e-4d24-9f27-8113213b4ee7
+[I 2025-02-07 14:34:59.511 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:74dce1b4-44ee-4da1-8c70-758f7d7f0a43
+[I 2025-02-07 14:34:59.796 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:35:01.499 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:9274f8d6-3d34-454b-a589-1c726d48d814
+[I 2025-02-07 14:35:04.381 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:35:04.476 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:35:04.546 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:35:04.614 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:35:04.641 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:8581cc3c-62ba-4504-b47f-eea35e092c25
+[I 2025-02-07 14:35:04.700 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:35:04.744 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:f0ec21db-2447-472f-beea-392f34ea6ff2
+[I 2025-02-07 14:35:04.770 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:35:04.802 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:01fbec44-1312-4730-80fc-e9088f3d4cce
+[I 2025-02-07 14:35:04.842 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:35:04.863 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:b804c3bc-1c76-4a29-9304-d3b5b307aa8e
+[I 2025-02-07 14:35:04.905 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:35:04.972 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:35:05.004 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:32b45605-9db7-43ba-876b-933568ef5207
+[I 2025-02-07 14:35:05.036 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:35:05.047 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:62ed0a36-4e46-4d4e-9d93-ad42817be716
+[I 2025-02-07 14:35:09.722 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:35:09.808 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:35:09.883 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:35:09.949 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:35:09.966 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:6c923917-832e-4e0c-87a8-5ab70c49655b
+[I 2025-02-07 14:35:10.022 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:35:10.032 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:42afedfc-0475-49f2-b982-2c2961a322a8
+[I 2025-02-07 14:35:10.105 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:35:10.116 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:87c7a8c7-c98e-46e2-99be-0b22283bebac
+[I 2025-02-07 14:35:10.182 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:35:10.196 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:061e6231-941d-44e9-bd24-c49cf8ccb2f2
+[I 2025-02-07 14:35:10.257 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:35:10.333 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:35:10.349 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:7c1911ba-8afc-45aa-aecc-f3a924a1f327
+[I 2025-02-07 14:35:10.405 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:35:10.408 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:4fbb72bf-32c2-4554-8c69-db05500b85b2
+[I 2025-02-07 14:35:11.198 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:0909562a-9029-4a2d-b2a3-a2fb87efad2b
+[I 2025-02-07 14:35:59.645 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:35:59.741 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:35:59.854 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:35:59.912 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:06608f65-93ce-49ab-b0f8-2e373347eeeb
+[I 2025-02-07 14:35:59.920 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:35:59.974 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:7d3b0219-a72b-495b-845e-6657732f3ef5
+[I 2025-02-07 14:35:59.984 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:36:00.051 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:36:00.064 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:abd941a1-e5b2-4b13-8e7e-003f561360e6
+[I 2025-02-07 14:36:00.125 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:36:00.222 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:36:00.233 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:c15e361c-1429-4dab-bfae-3fd18fa6fae5
+[I 2025-02-07 14:36:00.295 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:36:00.317 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:2b834aa5-bfa0-4fb8-a47c-d6e9cd13eb45
+[I 2025-02-07 14:36:00.358 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:36:00.377 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:57119620-96e9-4751-9e26-e6109494d161
+[I 2025-02-07 14:36:28.497 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:36:28.614 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:36:28.693 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:36:28.774 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:36:28.817 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:42aeb704-4e2f-4f87-afde-190decda8a90
+[I 2025-02-07 14:36:28.849 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:36:28.903 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:30c52ee0-c39f-42c5-af5e-d6f25983b9a9
+[I 2025-02-07 14:36:28.918 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:36:28.970 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:452394f4-cac9-4f3b-9cdf-4882138bb7a1
+[I 2025-02-07 14:36:28.988 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:36:28.992 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:1747ae87-0496-40ab-b039-92be53fa20a8
+[I 2025-02-07 14:36:29.065 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:36:29.144 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:36:29.156 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:719eba5d-6b90-4b4c-be05-066a0d161c94
+[I 2025-02-07 14:36:29.213 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:36:29.234 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:8b4a60cf-11de-42a4-8623-ffac29578484
+[W 2025-02-07 14:36:31.767 ServerApp] Notebook YJ/15_final_project_crawling/test.ipynb is not trusted
+[I 2025-02-07 14:36:33.082 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:36:33.192 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[W 2025-02-07 14:36:33.205 ServerApp] Notebook YJ/15_final_project_crawling/test.ipynb is not trusted
+[I 2025-02-07 14:36:33.263 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:36:33.338 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:36:33.394 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:80c57e40-1644-418d-af6a-a243d2a84d6c
+[I 2025-02-07 14:36:33.427 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:36:33.501 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:36:33.528 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:01938481-ad03-4eb9-bc0e-7b2a1e65618c
+[I 2025-02-07 14:36:33.575 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:36:33.649 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:36:33.714 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:36:33.736 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:dff98b6d-ec99-4730-94e3-6adf37191634
+[I 2025-02-07 14:36:33.765 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:c7265668-12ae-4070-95ff-d4948b5a0bd5
+[I 2025-02-07 14:36:33.768 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:25354dc7-2f54-47bd-9a60-3899719f29df
+[I 2025-02-07 14:36:33.785 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:36:33.822 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:3bb6e2c9-e7cb-4b65-a5d0-41011a585af6
+[I 2025-02-07 14:37:12.203 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 14:37:22.518 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:37:22.598 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:37:22.664 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:37:22.726 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:37:22.729 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:6c061243-4e8d-4b5c-a4fb-c51d4c676d86
+[I 2025-02-07 14:37:22.797 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:37:22.873 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:37:22.888 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:b5eb31eb-e425-4b71-b44a-8c7f4b93d2f0
+[I 2025-02-07 14:37:22.949 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:37:22.965 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:992e5645-d881-4a4c-951a-4f05172e1c3f
+[I 2025-02-07 14:37:23.023 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:37:23.091 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:37:23.114 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:57b2d255-4948-4927-b505-05b841f4caa7
+[I 2025-02-07 14:37:23.163 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:db0b9d68-cdc6-4157-818c-67ca8e11d92d
+[I 2025-02-07 14:37:29.263 ServerApp] Saving file at /YJ/testtest.py
+[I 2025-02-07 14:38:34.254 ServerApp] Saving file at /YJ/15_final_project_crawling/test.ipynb
+[W 2025-02-07 14:38:34.254 ServerApp] Notebook YJ/15_final_project_crawling/test.ipynb is not trusted
+[I 2025-02-07 14:45:17.398 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:45:17.471 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 14:45:17.580 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 14:45:17.661 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 14:45:17.694 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:925943e7-7214-4495-8a01-28542af02ceb
+[I 2025-02-07 14:45:17.730 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 14:45:17.801 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 14:45:17.864 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 14:45:17.890 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:96e0ac18-15c9-4a7c-a4c9-036b618df1eb
+[I 2025-02-07 14:45:17.928 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 14:45:17.961 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:31c8e9ed-faea-408b-90bc-f46f23ac4cac
+[I 2025-02-07 14:45:17.962 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:59ca2d41-4d38-4a3f-a1e2-627eacdffa88
+[I 2025-02-07 14:45:17.997 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 14:45:18.073 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 14:45:18.107 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:e5555d2a-8a2b-4197-8c38-c2184dd6ecc8
+[I 2025-02-07 15:27:22.118 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 15:27:22.186 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 15:27:22.270 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 15:27:22.340 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 15:27:22.410 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 15:27:22.476 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 15:27:22.551 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:27:22.565 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:d9afbbea-2f05-43a3-9fcb-8fabbfbaa7b3
+[I 2025-02-07 15:27:22.592 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:1e4d5889-5a60-4356-8bb4-6f94ff6885eb
+[I 2025-02-07 15:27:22.626 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 15:27:22.698 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 15:27:22.702 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:1cee9ab5-0561-4eb0-8c75-9f12104aec57
+[I 2025-02-07 15:27:22.766 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:27:22.789 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:e5ca70dc-8a18-41d2-936c-d3c86586ebda
+[I 2025-02-07 15:28:42.586 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 15:28:42.653 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 15:28:42.725 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 15:28:42.794 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 15:28:42.861 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 15:28:42.929 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 15:28:42.938 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:d533a852-7096-4426-8900-5c3e11a7293d
+[I 2025-02-07 15:28:43.000 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:28:43.022 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:ef5dbf92-0b4f-4d5e-a8f7-ed262f653d54
+[I 2025-02-07 15:28:43.073 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 15:28:43.149 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 15:28:43.165 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:54eb6570-d61a-4b1e-81ea-2066e46865ac
+[I 2025-02-07 15:28:43.242 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:2e9a0b34-079f-4b92-9d1a-0923495aaa18
+[I 2025-02-07 15:28:50.858 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:32:34.543 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:32:59.748 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:33:05.142 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:33:27.305 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:4d27b32d-e5ca-4bf5-acd8-4588da759b03
+[I 2025-02-07 15:33:27.683 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 15:33:27.752 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 15:33:27.822 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 15:33:27.891 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 15:33:27.963 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 15:33:28.017 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:ab909932-cd9d-44f7-ac37-644283081da4
+[I 2025-02-07 15:33:28.038 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 15:33:28.074 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:a3489f5f-6e56-432d-8ebf-24bdaedd1e48
+[I 2025-02-07 15:33:28.116 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:33:28.156 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:1053e187-8086-49f8-b50a-ac295d694b2a
+[I 2025-02-07 15:33:28.193 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 15:33:28.269 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 15:33:28.289 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:6c4a2798-96e8-4cff-a5a7-138cc0825ba8
+[I 2025-02-07 15:33:28.296 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:1fa1e6f0-ea49-4e92-851e-2168d85e3cd3
+[I 2025-02-07 15:33:28.346 ServerApp] Connecting to kernel 1cd16dca-c743-4616-9dec-4f9376f23e33.
+[I 2025-02-07 15:33:28.389 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:81c76678-ebbb-43aa-910a-6e32a9e6c861
+[I 2025-02-07 15:33:29.160 ServerApp] Starting buffering for 3778f05b-f0aa-4031-8177-e401d3378f17:a4fc5a39-fe9f-4075-9a89-1dd0f7d81516
+[I 2025-02-07 15:33:48.333 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:34:02.457 ServerApp] Kernel started: f31622da-23e2-461e-a2f4-9ec49d175c26
+[I 2025-02-07 15:34:02.458 ServerApp] Kernel shutdown: 1cd16dca-c743-4616-9dec-4f9376f23e33
+[I 2025-02-07 15:34:02.954 ServerApp] Connecting to kernel f31622da-23e2-461e-a2f4-9ec49d175c26.
+[I 2025-02-07 15:35:27.994 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 15:43:28.100 ServerApp] Starting buffering for 221c45b8-9f73-43f7-8b47-a93e74608977:a8e9d6b3-e47d-496c-9e52-9a411e16e210
+[I 2025-02-07 15:43:29.666 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 15:43:29.800 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 15:43:29.870 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 15:43:29.913 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:e506e396-62a3-432e-8863-c5bb2b883bd2
+[I 2025-02-07 15:43:29.916 ServerApp] Starting buffering for 3778f05b-f0aa-4031-8177-e401d3378f17:f3b26c45-1c0b-4f42-a22f-ff63bcd63138
+[I 2025-02-07 15:43:29.944 ServerApp] Connecting to kernel f31622da-23e2-461e-a2f4-9ec49d175c26.
+[I 2025-02-07 15:43:30.009 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:9f219f2e-bcae-4f9d-9662-7343111e7aae
+[I 2025-02-07 15:43:30.018 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 15:43:30.092 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 15:43:30.139 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:7cc26dfb-3206-460a-9506-e1ed20f9cb3f
+[I 2025-02-07 15:43:30.162 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:43:30.190 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:862b014b-274f-4575-b6c0-e76c6d7970bf
+[I 2025-02-07 15:43:30.224 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 15:43:30.241 ServerApp] Starting buffering for 221c45b8-9f73-43f7-8b47-a93e74608977:8632fd5a-c5ca-4494-a2f8-5929be50d839
+[I 2025-02-07 15:43:30.295 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 15:43:30.299 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:f205ce82-30f3-46b1-a020-7bbea21333ae
+[I 2025-02-07 15:43:30.394 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:da294cf1-68d1-40a5-a276-e58c11d4ec4a
+[I 2025-02-07 15:44:02.970 ServerApp] Kernel interrupted: f31622da-23e2-461e-a2f4-9ec49d175c26
+[W 2025-02-07 15:44:12.092 ServerApp] delete /YJ/15_final_project_crawling/danawa_review_S24+1.parquet
+[I 2025-02-07 15:44:50.935 ServerApp] Connecting to kernel e81baf26-c1c0-477a-bca8-88d78217683f.
+[I 2025-02-07 15:44:51.000 ServerApp] Connecting to kernel 3778f05b-f0aa-4031-8177-e401d3378f17.
+[I 2025-02-07 15:44:51.066 ServerApp] Connecting to kernel 081410ba-55e9-4769-86c3-b2f3d2f46fdd.
+[I 2025-02-07 15:44:51.093 ServerApp] Starting buffering for e81baf26-c1c0-477a-bca8-88d78217683f:2f0f8599-f60b-42b3-817b-9ebf1ae0b97d
+[I 2025-02-07 15:44:51.096 ServerApp] Starting buffering for 3778f05b-f0aa-4031-8177-e401d3378f17:c7d9e1bb-a2e1-4c03-b690-6786a6a35e4b
+[I 2025-02-07 15:44:51.135 ServerApp] Connecting to kernel f31622da-23e2-461e-a2f4-9ec49d175c26.
+[I 2025-02-07 15:44:51.148 ServerApp] Starting buffering for 081410ba-55e9-4769-86c3-b2f3d2f46fdd:360ca08e-53d6-4bd2-bf61-287b88a3b228
+[I 2025-02-07 15:44:51.260 ServerApp] Connecting to kernel 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3.
+[I 2025-02-07 15:44:51.329 ServerApp] Connecting to kernel 6c68b07b-8670-4aac-96eb-b4f79164503a.
+[I 2025-02-07 15:44:51.355 ServerApp] Starting buffering for 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3:4494abd7-f0ee-41f8-b291-2d7977a42e46
+[I 2025-02-07 15:44:51.406 ServerApp] Starting buffering for 6c68b07b-8670-4aac-96eb-b4f79164503a:a0756aa3-f35e-4362-984a-3bf4258281fb
+[I 2025-02-07 15:44:51.412 ServerApp] Connecting to kernel 221c45b8-9f73-43f7-8b47-a93e74608977.
+[I 2025-02-07 15:44:51.487 ServerApp] Connecting to kernel 4c11896e-fd61-4d30-8ff9-750bc7a5e75e.
+[I 2025-02-07 15:44:51.513 ServerApp] Starting buffering for 221c45b8-9f73-43f7-8b47-a93e74608977:0a1390a8-d43a-47e6-a009-e89eb8c2f66e
+[I 2025-02-07 15:44:51.563 ServerApp] Connecting to kernel f7098582-a20c-41ea-be2e-8e96294dcba5.
+[I 2025-02-07 15:44:51.613 ServerApp] Starting buffering for 4c11896e-fd61-4d30-8ff9-750bc7a5e75e:0d5642a1-677b-4873-9c10-d2236cdf8925
+[I 2025-02-07 15:44:51.661 ServerApp] Starting buffering for f7098582-a20c-41ea-be2e-8e96294dcba5:775a8efd-f566-487d-8c73-c208989add35
+[I 2025-02-07 15:44:53.291 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 15:45:30.118 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:25:01.214 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 17:25:02.366 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 17:26:49.497 ServerApp] Kernel restarted: f31622da-23e2-461e-a2f4-9ec49d175c26
+[I 2025-02-07 17:26:49.534 ServerApp] Starting buffering for f31622da-23e2-461e-a2f4-9ec49d175c26:d790b219-2811-462a-883f-dabb28436ae7
+[I 2025-02-07 17:26:49.565 ServerApp] Connecting to kernel f31622da-23e2-461e-a2f4-9ec49d175c26.
+[I 2025-02-07 17:26:49.566 ServerApp] Restoring connection for f31622da-23e2-461e-a2f4-9ec49d175c26:d790b219-2811-462a-883f-dabb28436ae7
+[I 2025-02-07 17:27:04.002 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:28:55.815 ServerApp] Kernel started: 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9
+[I 2025-02-07 17:28:55.817 ServerApp] Kernel shutdown: f31622da-23e2-461e-a2f4-9ec49d175c26
+[I 2025-02-07 17:28:56.414 ServerApp] Connecting to kernel 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9.
+[I 2025-02-07 17:29:04.125 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:31:04.985 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
