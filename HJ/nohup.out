@@ -1,0 +1,336 @@
+[I 2025-02-08 11:34:19.012 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-08 11:34:19.017 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-08 11:34:19.022 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-08 11:34:19.024 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 11:34:19.026 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-08 11:34:19.027 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-08 11:34:19.225 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-08 11:34:19.263 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-08 11:34:19.265 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-08 11:34:19.266 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-08 11:34:19.267 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-08 11:34:19.267 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-08 11:34:19.268 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-08 11:34:19.295 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-08 11:34:19.299 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-08 11:34:19.299 ServerApp] Serving notebooks from local directory: /home/lab10/project/HJ
+[I 2025-02-08 11:34:19.299 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-08 11:34:19.300 ServerApp] http://ip-172-31-13-81:8910/tree
+[I 2025-02-08 11:34:19.300 ServerApp]     http://127.0.0.1:8910/tree
+[I 2025-02-08 11:34:19.300 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-08 11:34:19.317 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-08 11:34:40.208 ServerApp] 302 GET / (@14.7.255.68) 0.45ms
+[W 2025-02-08 11:34:40.307 ServerApp] Clearing invalid/expired login cookie username-15-168-221-131-8910
+[I 2025-02-08 11:34:40.308 JupyterNotebookApp] 302 GET /tree? (@14.7.255.68) 1.17ms
+[I 2025-02-08 11:34:45.425 ServerApp] User e731c07737a84c70a2370acaae828105 logged in.
+[I 2025-02-08 11:34:45.426 ServerApp] 302 POST /login?next=%2Ftree%3F (e731c07737a84c70a2370acaae828105@14.7.255.68) 38.25ms
+[I 2025-02-08 11:34:53.484 ServerApp] Kernel started: 42a04b2f-e986-411c-919a-fab1ea8af939
+[I 2025-02-08 11:34:53.946 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:34:54.037 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:34:54.131 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:34:58.301 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:42:53.153 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 11:44:40.413 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 11:44:41.572 ServerApp] Starting buffering for 42a04b2f-e986-411c-919a-fab1ea8af939:d4daea7d-a4f4-4cb3-8e36-b7812a641df3
+[I 2025-02-08 11:44:42.519 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:44:42.967 ServerApp] Starting buffering for 42a04b2f-e986-411c-919a-fab1ea8af939:c4d67e6d-4be4-4689-b596-7d073217be7c
+[I 2025-02-08 11:44:43.203 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 11:46:42.846 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 11:48:42.987 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 11:52:43.164 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 11:54:43.320 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:09:02.843 ServerApp] 302 GET /login?next=%2Ftree%3F (e731c07737a84c70a2370acaae828105@14.7.255.68) 0.80ms
+[I 2025-02-08 13:09:03.855 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 13:12:43.762 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:13:31.887 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 13:14:43.919 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:15:02.625 ServerApp] Connecting to kernel 42a04b2f-e986-411c-919a-fab1ea8af939.
+[I 2025-02-08 13:22:44.095 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:24:44.257 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:26:13.068 ServerApp] Saving file at /20250207_test_analysis_danawa.ipynb
+[I 2025-02-08 13:28:21.862 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:29:00.149 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:31:00.304 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:33:00.595 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:35:17.973 ServerApp] Kernel interrupted: 42a04b2f-e986-411c-919a-fab1ea8af939
+[I 2025-02-08 13:37:00.770 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:37:56.336 ServerApp] Kernel started: bd5f4754-e945-45b4-af14-d4bc48a8ef34
+[I 2025-02-08 13:37:56.337 ServerApp] Kernel shutdown: 42a04b2f-e986-411c-919a-fab1ea8af939
+[I 2025-02-08 13:37:56.825 ServerApp] Connecting to kernel bd5f4754-e945-45b4-af14-d4bc48a8ef34.
+[I 2025-02-08 13:38:14.936 ServerApp] Kernel started: 064cdb23-dead-4974-bba2-c21448c63198
+[I 2025-02-08 13:38:14.937 ServerApp] Kernel shutdown: bd5f4754-e945-45b4-af14-d4bc48a8ef34
+[I 2025-02-08 13:38:15.412 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 13:39:00.936 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:41:01.088 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[W 2025-02-08 13:46:52.712 ServerApp] 400 GET /api/contents/font/Pretendard-Medium.otf?type=file&content=1&hash=1&format=text&1738990013750 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded
+[W 2025-02-08 13:46:52.712 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded)
+[W 2025-02-08 13:46:52.719 ServerApp] 400 GET /api/contents/font/Pretendard-Medium.otf?type=file&content=1&hash=1&format=text&1738990013750 (e731c07737a84c70a2370acaae828105@14.7.255.68) 9.65ms referer=http://15.168.221.131:8910/tree/font
+[I 2025-02-08 13:46:53.948 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[W 2025-02-08 13:46:54.089 ServerApp] 400 GET /api/contents/font/Pretendard-Medium.otf?type=file&content=1&hash=1&format=text&1738990015156 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded
+[W 2025-02-08 13:46:54.089 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Medium.otf is not UTF-8 encoded)
+[W 2025-02-08 13:46:54.090 ServerApp] 400 GET /api/contents/font/Pretendard-Medium.otf?type=file&content=1&hash=1&format=text&1738990015156 (e731c07737a84c70a2370acaae828105@14.7.255.68) 3.50ms referer=http://15.168.221.131:8910/edit/font/Pretendard-Medium.otf
+[W 2025-02-08 13:46:57.096 ServerApp] 400 GET /api/contents/font/Pretendard-Light.otf?type=file&content=1&hash=1&format=text&1738990018132 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Light.otf is not UTF-8 encoded
+[W 2025-02-08 13:46:57.096 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Light.otf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Light.otf is not UTF-8 encoded)
+[W 2025-02-08 13:46:57.097 ServerApp] 400 GET /api/contents/font/Pretendard-Light.otf?type=file&content=1&hash=1&format=text&1738990018132 (e731c07737a84c70a2370acaae828105@14.7.255.68) 2.97ms referer=http://15.168.221.131:8910/tree/font
+[I 2025-02-08 13:47:02.237 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:49:02.427 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 13:57:02.610 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:03:02.779 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:05:03.010 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:07:03.181 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:09:03.370 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:11:01.604 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:13:01.780 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:31:02.003 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 14:43:19.755 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 16:05:05.862 ServerApp] Kernel interrupted: 064cdb23-dead-4974-bba2-c21448c63198
+[I 2025-02-08 16:05:20.262 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 16:07:20.509 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 16:31:20.794 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 17:39:21.336 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 17:41:41.394 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:524ed0ce-65cb-47b2-b068-663c38240492
+[I 2025-02-08 17:41:42.584 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:41:42.943 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:dab56a22-4702-4f66-bd38-ba8f5bf08d55
+[I 2025-02-08 17:41:44.180 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:41:50.384 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:41:50.796 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:a7591943-d9bf-48d4-b534-95dc8dd028f9
+[I 17:43:04.565 NotebookApp] [nb_conda_kernels] enabled, 13 kernels found
+[I 17:43:04.928 NotebookApp] Loading IPython parallel extension
+[W 2025-02-08 17:43:05.158 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2025-02-08 17:43:05.160 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:43:05.160 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:43:05.160 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:43:05.160 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:43:05.160 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:43:05.161 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2025-02-08 17:43:05.167 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/tensorflow2_p38/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-08 17:43:05.167 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/tensorflow2_p38/share/jupyter/lab
+[I 17:43:05.354 NotebookApp] [nb_conda] enabled
+[I 17:43:05.354 NotebookApp] The port 8910 is already in use, trying another port.
+[I 17:43:05.354 NotebookApp] The port 8911 is already in use, trying another port.
+[I 17:43:05.354 NotebookApp] The port 8912 is already in use, trying another port.
+[I 17:43:05.354 NotebookApp] Serving notebooks from local directory: /home/lab10/project/HJ
+[I 17:43:05.354 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 17:43:05.354 NotebookApp] http://ip-172-31-13-81:8913/
+[I 17:43:05.354 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-08 17:43:15.217 ServerApp] 302 GET / (@14.7.255.68) 0.47ms
+[I 2025-02-08 17:43:16.256 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:43:16.539 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:adc91593-37a4-4b29-b439-ff91ccdd8458
+[I 2025-02-08 17:43:19.136 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:43:19.533 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:01c90fed-472e-4586-a8be-d82227100076
+[I 2025-02-08 17:43:20.488 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:45:07.219 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:7a02125b-e1ac-42cf-8ff8-e85a939b4317
+[I 2025-02-08 17:45:10.024 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:45:10.264 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:79524c2b-7136-47b5-861c-69a55911f023
+[I 2025-02-08 17:45:16.058 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:45:16.630 ServerApp] Starting buffering for 064cdb23-dead-4974-bba2-c21448c63198:c2d21d00-bca4-42ab-9235-69b563937839
+[I 2025-02-08 17:45:17.928 ServerApp] Connecting to kernel 064cdb23-dead-4974-bba2-c21448c63198.
+[I 2025-02-08 17:45:23.926 ServerApp] Kernel started: f065417b-d375-47ca-8526-baca7d7481f1
+[I 2025-02-08 17:45:23.927 ServerApp] Kernel shutdown: 064cdb23-dead-4974-bba2-c21448c63198
+[I 2025-02-08 17:45:24.620 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:45:24.711 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 54058297-80fe-4eb4-8bf0-9054c449cb78
+[I 2025-02-08 17:47:17.163 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 17:47:33.494 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:6d35892f-2496-44bd-9462-95f15085153e
+[I 2025-02-08 17:47:34.577 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:47:35.011 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:f4799865-9922-4deb-9cd3-bf0ffcda7ea3
+[I 2025-02-08 17:47:35.872 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: afbd35ea-830b-43a7-baef-6c09213f4931
+[I 2025-02-08 17:48:15.297 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[W 2025-02-08 17:48:16.397 ServerApp] 400 GET /api/contents/font/Pretendard-Light.ttf?type=file&content=1&hash=1&format=text&1739004497470 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded
+[W 2025-02-08 17:48:16.397 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xee in position 22: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded)
+[W 2025-02-08 17:48:16.399 ServerApp] 400 GET /api/contents/font/Pretendard-Light.ttf?type=file&content=1&hash=1&format=text&1739004497470 (e731c07737a84c70a2370acaae828105@14.7.255.68) 6.21ms referer=http://15.168.221.131:8910/tree/font
+[I 2025-02-08 17:48:17.308 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[W 2025-02-08 17:48:17.441 ServerApp] 400 GET /api/contents/font/Pretendard-Light.ttf?type=file&content=1&hash=1&format=text&1739004498540 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded
+[W 2025-02-08 17:48:17.441 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xee in position 22: invalid continuation byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Light.ttf is not UTF-8 encoded)
+[W 2025-02-08 17:48:17.442 ServerApp] 400 GET /api/contents/font/Pretendard-Light.ttf?type=file&content=1&hash=1&format=text&1739004498540 (e731c07737a84c70a2370acaae828105@14.7.255.68) 3.07ms referer=http://15.168.221.131:8910/edit/font/Pretendard-Light.ttf
+[I 2025-02-08 17:48:30.236 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:48:31.596 ServerApp] Kernel started: 1a1c637d-1d6e-46c7-a2fd-17063d761db6
+[I 2025-02-08 17:48:32.139 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 537d3aba-da6d-4bd1-8b1c-5aa6275871e2
+[I 2025-02-08 17:48:33.581 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:d02e3235-f757-46f0-8447-ec27ac8c63c5
+[I 2025-02-08 17:49:19.068 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:bf351293-f3f6-4e00-b49e-b627e46d61d4
+[I 17:49:43.211 NotebookApp] [nb_conda_kernels] enabled, 13 kernels found
+[I 17:49:43.464 NotebookApp] Loading IPython parallel extension
+[W 2025-02-08 17:49:43.573 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2025-02-08 17:49:43.575 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:49:43.575 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:49:43.575 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:49:43.575 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:49:43.575 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-08 17:49:43.576 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2025-02-08 17:49:43.582 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/tensorflow2_p38/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-08 17:49:43.582 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/tensorflow2_p38/share/jupyter/lab
+[I 17:49:43.757 NotebookApp] [nb_conda] enabled
+[I 17:49:43.757 NotebookApp] The port 8910 is already in use, trying another port.
+[I 17:49:43.757 NotebookApp] The port 8911 is already in use, trying another port.
+[I 17:49:43.758 NotebookApp] The port 8912 is already in use, trying another port.
+[I 17:49:43.758 NotebookApp] Serving notebooks from local directory: /home/lab10/project/HJ
+[I 17:49:43.758 NotebookApp] Jupyter Notebook 6.4.11 is running at:
+[I 17:49:43.758 NotebookApp] http://ip-172-31-13-81:8913/
+[I 17:49:43.758 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-08 17:49:55.157 ServerApp] 302 GET / (@14.7.255.68) 0.46ms
+[I 2025-02-08 17:49:56.813 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:49:56.993 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:49:57.247 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:776b4776-e3c7-4464-9741-2cdb379c1fdb
+[I 2025-02-08 17:49:57.370 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:8fb5d1ba-600d-45fb-a321-d62de2156a42
+[I 2025-02-08 17:50:12.063 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:50:12.157 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:50:12.603 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:7960d3e5-dc42-4640-9a2a-f7ec2dc19e09
+[I 2025-02-08 17:50:12.604 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:507fb471-d79d-43a3-b46e-e5a5e2c06ed9
+[I 2025-02-08 17:50:13.446 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: ef6d8eec-987a-476b-8f50-36ac5c086040
+[I 2025-02-08 17:50:14.480 ServerApp] Kernel interrupted: 1a1c637d-1d6e-46c7-a2fd-17063d761db6
+[I 2025-02-08 17:50:19.411 ServerApp] Kernel restarted: 1a1c637d-1d6e-46c7-a2fd-17063d761db6
+[I 2025-02-08 17:50:19.452 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:7cca3783-52a8-41bd-805f-b8e8bd432d6a
+[I 2025-02-08 17:50:19.493 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:50:19.494 ServerApp] Restoring connection for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:7cca3783-52a8-41bd-805f-b8e8bd432d6a
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: f268bfb3-5933-46d7-8e32-ebc9018b7043
+[I 2025-02-08 17:51:28.387 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:7cca3783-52a8-41bd-805f-b8e8bd432d6a
+[I 2025-02-08 17:51:41.343 ServerApp] Copying font/20250208_test_analysis_danawa.ipynb to /font
+[W 2025-02-08 17:51:49.887 ServerApp] delete /font/20250208_test_analysis_danawa-Copy1.ipynb
+[I 2025-02-08 17:51:52.232 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:51:52.322 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:51:52.717 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:ca1b4373-88b8-40fa-bf0c-392d68406c7c
+[I 2025-02-08 17:51:52.723 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:22016e66-c77b-4f13-b55b-0ce228024b2b
+[I 2025-02-08 17:51:56.077 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:51:56.185 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:51:56.450 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:7929992f-c92a-4252-b9ca-0290e205b98f
+[I 2025-02-08 17:51:56.456 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:15795d8d-44d9-4a91-8fe1-bb7a27b48e9a
+[I 2025-02-08 17:52:12.904 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:52:13.009 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:52:13.323 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:95fafe86-18d4-40dc-a890-eda085f83256
+[I 2025-02-08 17:52:13.328 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:6f2e9252-94af-409f-8514-b641372913a8
+[I 2025-02-08 17:52:14.147 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 261be12d-86ad-42aa-ab3c-898ba4b1035d
+[I 2025-02-08 17:54:13.587 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 17:54:59.597 ServerApp] 302 GET / (@14.7.255.68) 0.45ms
+[I 2025-02-08 17:55:00.711 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 17:55:00.816 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 17:55:01.166 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:7997401b-30a9-47f7-b5b0-302e5c5ec6a5
+[I 2025-02-08 17:56:13.753 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 17:58:13.958 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 18:00:14.149 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 18:00:55.967 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 18:00:58.367 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
