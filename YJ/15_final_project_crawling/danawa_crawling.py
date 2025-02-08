@@ -20,9 +20,6 @@ import time
 
 chrome_option = Options()
 chrome_option.add_experimental_option('detach', True)
-chrome_option.add_argument("--user-data-dir=/tmp/chrome-profile")
-chrome_option.add_argument("--disable-gpu")
-chrome_option.add_argument("--no-sandbox")
 driver = webdriver.Chrome(options=chrome_option)
 wait = WebDriverWait(driver,20)
 
@@ -32,6 +29,8 @@ urls = [['S24', 'https://search.danawa.com/dsearch.php?query=%EC%82%BC%EC%84%B1%
        , ['폴드6', 'https://search.danawa.com/dsearch.php?query=%EA%B0%A4%EB%9F%AD%EC%8B%9Cz+%ED%8F%B4%EB%93%9C6']]
 
 target_item = [urls[0][0], urls[1][0]]
+df = pd.DataFrame(columns=['scoring', 'market', 'purchasing_date', 'review_title', 'review_content'])
+
 
 def save_to_df(tmp_scoring, tmp_market, tmp_purchasing_date, tmp_review_title, tmp_review_content):
     global df

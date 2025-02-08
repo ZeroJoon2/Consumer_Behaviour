@@ -2254,3 +2254,24 @@ ValueError: Loading this model requires you to execute custom code contained in 
 [I 2025-02-07 17:28:56.414 ServerApp] Connecting to kernel 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9.
 [I 2025-02-07 17:29:04.125 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
 [I 2025-02-07 17:31:04.985 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:37:26.902 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:37:38.026 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[I 2025-02-07 17:39:49.818 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:39:49.989 ServerApp] Starting buffering for 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9:d790b219-2811-462a-883f-dabb28436ae7
+[I 2025-02-07 17:39:50.125 ServerApp] Connecting to kernel 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9.
+[I 2025-02-07 17:39:57.202 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:40:04.268 ServerApp] Saving file at /YJ/15_final_project_crawling/Untitled.ipynb
+[I 2025-02-07 17:40:04.931 ServerApp] Starting buffering for 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9:f7fbde92-f71b-4bf1-ac97-760127adcada
+[I 2025-02-07 17:40:06.200 ServerApp] Saving file at /YJ/15_final_project_crawling/danawa_crawling.py
+[C 2025-02-07 19:00:01.612 ServerApp] received signal 15, stopping
+[I 2025-02-07 19:00:01.634 ServerApp] Shutting down 5 extensions
+[I 2025-02-07 19:00:01.635 ServerApp] Shutting down 9 kernels
+[I 2025-02-07 19:00:01.645 ServerApp] Kernel shutdown: 4c11896e-fd61-4d30-8ff9-750bc7a5e75e
+[I 2025-02-07 19:00:01.646 ServerApp] Kernel shutdown: 6c68b07b-8670-4aac-96eb-b4f79164503a
+[I 2025-02-07 19:00:01.646 ServerApp] Kernel shutdown: 221c45b8-9f73-43f7-8b47-a93e74608977
+[I 2025-02-07 19:00:01.647 ServerApp] Kernel shutdown: 081410ba-55e9-4769-86c3-b2f3d2f46fdd
+[I 2025-02-07 19:00:01.665 ServerApp] Kernel shutdown: e81baf26-c1c0-477a-bca8-88d78217683f
+[I 2025-02-07 19:00:01.669 ServerApp] Kernel shutdown: 30a13a1a-7fd3-49c9-a654-3cc1e85e8eb3
+[I 2025-02-07 19:00:01.670 ServerApp] Kernel shutdown: f7098582-a20c-41ea-be2e-8e96294dcba5
+[I 2025-02-07 19:00:01.672 ServerApp] Kernel shutdown: 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9
+[I 2025-02-07 19:00:01.673 ServerApp] Kernel shutdown: 3778f05b-f0aa-4031-8177-e401d3378f17

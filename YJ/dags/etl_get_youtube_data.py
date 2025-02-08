@@ -5,11 +5,6 @@ from airflow.models import Variable
 from airflow.utils.dates import days_ago
 from youtube_api_function import search_videos, get_all_comments, save_comments_to_parquet, send_failure_email, send_success_email
 
-# Variable은 airflow UI에서 설정해야함
-# youtube_search_query: "아이폰 16 리뷰" (기본값)
-# youtube_published_after: "2024-09-10T00:00:00Z" (기본값)
-# parquet_filename: "youtube_i16_1.parquet" (기본값)
-
 default_args = {
     'owner': 'airflow',
     'start_date': datetime(2025, 2, 4),
@@ -22,25 +17,12 @@ default_args = {
 }
 
 # 비디오 검색
-# 갤럭시 S24 : '2024-01-17T00:00:00Z'
-# 아이폰 16 : '2024-09-10T00:00:00Z'
-# 갤럭시 Z 폴드 6/플립 6 : '2024-07-10T00:00:00Z'
-# search_query, published_after은 Variable로 설정!
 def video_search_task(**kwargs):
-    search_queries = Variable.get("youtube_search_query", default_var=["아이폰 16 리뷰", "아이폰 16 후기"])  # 두 개의 키워드!
+    search_query = Variable.get("youtube_search_query", default_var="아이폰 16 리뷰")  
     published_after = Variable.get("youtube_published_after", default_var="2024-09-10T00:00:00Z").strip('"')
     
-    all_video_data = []
-    
-    for search_query in search_queries:
-        video_data, _ = search_videos(search_query, published_after)
-        all_video_data.extend(video_data)
-    
-    # 중복 제거
-    unique_video_data = {video['video_id']: video for video in all_video_data}
-    unique_video_data = list(unique_video_data.values())
-    
-    kwargs['ti'].xcom_push(key='video_data', value=unique_video_data)
+    video_data, _ = search_videos(search_query, published_after)
+    kwargs['ti'].xcom_push(key='video_data', value=video_data)
 
 # 댓글 수집 
 def comment_collection_task(**kwargs):
@@ -62,7 +44,7 @@ def save_comments_task(**kwargs):
     all_comments = kwargs['ti'].xcom_pull(key='all_comments', task_ids='comment_collection_task')
     
     # parquet 파일 이름은 Variable로 설정!
-    parquet_filename = Variable.get("parquet_filename", default_var="youtube_i16.parquet")
+    parquet_filename = Variable.get("parquet_filename", default_var="/home/lab13/airflow/dags/youtube_i16_1.parquet")
     save_comments_to_parquet(all_comments, filename=parquet_filename)
 
 

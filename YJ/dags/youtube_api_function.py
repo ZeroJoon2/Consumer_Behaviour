@@ -34,9 +34,8 @@ def search_videos(search_query, published_after):
         }
         for item in response['items']
     ]
-    # 아이폰은 첫 번째 영상 제거
-    if search_query.lower().startswith('아이폰'):
-        video_data = video_data[1:]  # 첫 번째 영상 제거
+    # 보겸 TV 제외
+    video_data = [video for video in video_data if video['channel_title'] != '보겸TV']
 
     return video_data, response.get('nextPageToken')
 
@@ -87,6 +86,7 @@ def save_comments_to_parquet(all_comments, filename='youtube_comments.parquet'):
             })
     
     df = pd.DataFrame(data)
+    df.fillna('', inplace=True)
     df.to_parquet(filename, engine='pyarrow', index=False)
     print(f'저장 완료: {filename}')
 
