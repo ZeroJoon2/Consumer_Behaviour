@@ -2275,3 +2275,503 @@ ValueError: Loading this model requires you to execute custom code contained in 
 [I 2025-02-07 19:00:01.670 ServerApp] Kernel shutdown: f7098582-a20c-41ea-be2e-8e96294dcba5
 [I 2025-02-07 19:00:01.672 ServerApp] Kernel shutdown: 74f70917-e0f2-48b4-b9d4-eacc6b48ffb9
 [I 2025-02-07 19:00:01.673 ServerApp] Kernel shutdown: 3778f05b-f0aa-4031-8177-e401d3378f17
+[I 2025-02-11 14:14:14.068 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-11 14:14:14.073 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-11 14:14:14.078 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-11 14:14:14.080 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-11 14:14:14.083 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-11 14:14:14.083 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-11 14:14:14.596 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-11 14:14:14.699 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-11 14:14:14.701 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-11 14:14:14.702 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-11 14:14:14.716 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-11 14:14:14.716 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-11 14:14:14.717 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-11 14:14:14.769 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-11 14:14:14.772 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-11 14:14:14.773 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-11 14:14:14.773 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-11 14:14:14.773 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-11 14:14:14.773 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-11 14:14:14.773 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-11 14:14:14.792 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-11 14:14:35.034 ServerApp] 302 GET / (@125.129.250.60) 0.49ms
+[I 2025-02-11 14:14:35.062 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.53ms
+[W 2025-02-11 14:14:40.492 ServerApp] 401 POST /login?next=%2Ftree%3F (@125.129.250.60) 50.25ms referer=http://15.168.221.131:8917/login?next=%2Ftree%3F
+[I 2025-02-11 14:14:43.745 ServerApp] User 1d7b9f3a969049d5a3c840e5cb230b83 logged in.
+[I 2025-02-11 14:14:43.746 ServerApp] 302 POST /login?next=%2Ftree%3F (1d7b9f3a969049d5a3c840e5cb230b83@125.129.250.60) 33.25ms
+[W 2025-02-11 14:14:49.667 ServerApp] 409 PATCH /api/contents/YJ/Untitled.ipynb?1739250889300 (125.129.250.60): File already exists: YJ/dags/Untitled.ipynb
+[W 2025-02-11 14:14:49.667 ServerApp] wrote error: 'File already exists: YJ/dags/Untitled.ipynb'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 204, in patch
+        model = await ensure_async(cm.update(model, path))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 919, in update
+        await self.rename(path, new_path)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 906, in rename
+        await self.rename_file(old_path, new_path)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1064, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: YJ/dags/Untitled.ipynb)
+[W 2025-02-11 14:14:49.675 ServerApp] 409 PATCH /api/contents/YJ/Untitled.ipynb?1739250889300 (1d7b9f3a969049d5a3c840e5cb230b83@125.129.250.60) 9.54ms referer=http://15.168.221.131:8917/tree/YJ
+[I 2025-02-11 14:14:53.409 ServerApp] Kernel started: e80e56ae-9245-45e4-819a-0d4b54c6bee1
+[I 2025-02-11 14:14:54.734 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 14:14:54.812 ServerApp] Starting buffering for e80e56ae-9245-45e4-819a-0d4b54c6bee1:50cd9050-a47d-4e82-a3f6-360590ab5533
+[I 2025-02-11 14:14:54.817 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 14:14:54.892 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 14:14:56.069 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 14:56:32.366 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 14:56:32.808 ServerApp] Kernel started: 00f9860c-553d-406c-a62f-bf25c271a740
+[I 2025-02-11 14:56:33.247 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 14:56:33.324 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 14:56:33.397 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+2025-02-11 14:57:13,824 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                         (0 + 4) / 35][Stage 0:==============================>                          (19 + 4) / 35]                                                                                [I 2025-02-11 14:58:32.615 ServerApp] Saving file at /YJ/test/hdfs_test.ipynb
+[I 2025-02-11 15:00:32.734 ServerApp] Saving file at /YJ/test/hdfs_test.ipynb
+2025-02-11 16:24:28,305 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 16:24:28,305 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 16:24:28,306 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[I 2025-02-11 16:25:47.918 ServerApp] Saving file at /YJ/test/hdfs_test.ipynb
+[I 2025-02-11 16:27:48.021 ServerApp] Saving file at /YJ/test/hdfs_test.ipynb
+[I 2025-02-11 16:33:00.246 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 16:33:01.335 ServerApp] Starting buffering for e80e56ae-9245-45e4-819a-0d4b54c6bee1:f8600bf4-cd2a-4c5e-b01c-1927e7056398
+[I 2025-02-11 16:33:02.481 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 16:33:48.212 ServerApp] Creating new notebook in /YJ/test
+[I 2025-02-11 16:33:48.416 ServerApp] Saving file at /YJ/test/Untitled.ipynb
+[I 2025-02-11 16:33:48.482 ServerApp] Kernel started: b4965611-4ba3-4973-a07b-f8690deb28e5
+[I 2025-02-11 16:33:48.965 ServerApp] Connecting to kernel b4965611-4ba3-4973-a07b-f8690deb28e5.
+[I 2025-02-11 16:33:50.130 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 16:33:50.203 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 16:33:50.293 ServerApp] Connecting to kernel b4965611-4ba3-4973-a07b-f8690deb28e5.
+[I 2025-02-11 16:33:50.431 ServerApp] Starting buffering for e80e56ae-9245-45e4-819a-0d4b54c6bee1:ae98ac88-5947-4bae-b2cc-20c87e1da504
+[I 2025-02-11 16:33:50.535 ServerApp] Connecting to kernel b4965611-4ba3-4973-a07b-f8690deb28e5.
+[I 2025-02-11 16:35:56.500 ServerApp] Saving file at /YJ/test/openai_test.ipynb
+[I 2025-02-11 16:42:49.168 ServerApp] Saving file at /YJ/test/openai_test.ipynb
+[I 2025-02-11 16:42:53.441 ServerApp] Creating new notebook in /YJ/test
+[I 2025-02-11 16:42:53.623 ServerApp] Saving file at /YJ/test/Untitled.ipynb
+[I 2025-02-11 16:42:53.690 ServerApp] Kernel started: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 16:42:54.173 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 16:42:55.167 ServerApp] Connecting to kernel e80e56ae-9245-45e4-819a-0d4b54c6bee1.
+[I 2025-02-11 16:42:55.232 ServerApp] Connecting to kernel 00f9860c-553d-406c-a62f-bf25c271a740.
+[I 2025-02-11 16:42:55.321 ServerApp] Connecting to kernel b4965611-4ba3-4973-a07b-f8690deb28e5.
+[I 2025-02-11 16:42:55.398 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 16:42:55.454 ServerApp] Starting buffering for e80e56ae-9245-45e4-819a-0d4b54c6bee1:c470213b-5624-465e-b715-38f1ca6395e8
+[I 2025-02-11 16:42:55.544 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 16:45:00.882 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 16:47:01.867 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 16:49:02.865 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 16:55:04.868 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 16:56:46.517 ServerApp] Kernel restarted: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 16:56:46.579 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 16:57:04.989 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 16:58:41.294 ServerApp] Kernel restarted: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 16:58:41.361 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 16:59:05.156 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:16:45.394 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:17:35.284 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:17:35.286 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:17:35.286 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:17:35.318 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:54a8e8ff-a492-4264-94b0-162a7a6471a3
+[I 2025-02-11 17:17:35.347 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:17:35.419 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:18:27.046 ServerApp] Kernel interrupted: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 17:18:46.308 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:19:05.309 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:19:05.311 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:19:05.312 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:19:05.350 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:9681955d-f69a-499a-b6cf-4590d07265e3
+[I 2025-02-11 17:19:05.373 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:19:05.445 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:19:59.338 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:19:59.339 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:19:59.339 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:19:59.373 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:9681955d-f69a-499a-b6cf-4590d07265e3
+[I 2025-02-11 17:19:59.403 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:19:59.490 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:20:46.443 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:22:46.577 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:24:46.701 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+2025-02-11 17:26:16,718 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 17:26:18,078 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 17:26:18,079 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 17:26:18,079 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 17:26:18,079 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 17:27:14.159 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:27:14.362 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:27:14.362 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:27:14.363 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:27:14.405 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:54a8e8ff-a492-4264-94b0-162a7a6471a3
+[I 2025-02-11 17:27:14.429 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:27:14.503 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+2025-02-11 17:29:31,064 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 17:29:32,438 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 17:29:32,439 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 17:29:32,439 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 17:29:32,439 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 17:29:59.398 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:29:59.399 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:29:59.399 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:29:59.453 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:9681955d-f69a-499a-b6cf-4590d07265e3
+[I 2025-02-11 17:29:59.505 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:29:59.579 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:31:48.861 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+2025-02-11 17:32:41,477 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 17:32:42,715 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 17:32:42,716 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 17:32:42,716 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 17:32:42,716 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 17:33:32.423 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:33:32.424 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:33:32.432 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:33:32.486 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:9681955d-f69a-499a-b6cf-4590d07265e3
+[I 2025-02-11 17:33:32.529 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:33:32.598 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:33:49.009 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:35:49.128 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:37:23.348 ServerApp] Kernel restarted: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 17:37:23.416 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:37:49.250 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+2025-02-11 17:39:26,500 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 17:39:27,814 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 17:39:27,814 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 17:39:27,815 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 17:39:27,815 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 17:39:47.338 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:39:47.339 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:39:47.340 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:39:47.373 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:54a8e8ff-a492-4264-94b0-162a7a6471a3
+[I 2025-02-11 17:39:47.396 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:39:47.475 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:39:49.407 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:41:49.531 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:41:57.693 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:43:58.802 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+2025-02-11 17:45:44,592 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 17:45:45,910 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 17:45:45,910 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 17:45:45,911 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 17:45:45,911 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 17:45:58.936 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:47:20.365 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 17:47:20.366 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 17:47:20.367 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 17:47:20.395 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:54a8e8ff-a492-4264-94b0-162a7a6471a3
+[I 2025-02-11 17:47:20.421 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:47:20.502 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 17:47:59.056 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:49:59.188 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:51:59.796 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 17:56:00.789 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 18:00:01.799 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+2025-02-11 18:05:51,707 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+2025-02-11 18:05:52,992 WARN util.Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2025-02-11 18:05:52,992 WARN util.Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2025-02-11 18:05:52,992 WARN util.Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+2025-02-11 18:05:52,992 WARN util.Utils: Service 'SparkUI' could not bind on port 4043. Attempting port 4044.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 2025-02-11 18:06:03.778 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 18:06:17.389 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-11 18:06:17.390 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[W 2025-02-11 18:06:17.390 ServerApp] kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe restarted
+[I 2025-02-11 18:06:17.423 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:54a8e8ff-a492-4264-94b0-162a7a6471a3
+[I 2025-02-11 18:06:17.460 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 18:06:17.535 ServerApp] Connecting to kernel 1b530485-d08a-44b6-95c9-ffa63f319bbe.
+[I 2025-02-11 18:07:05.655 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-11 18:07:08.071 ServerApp] Starting buffering for 00f9860c-553d-406c-a62f-bf25c271a740:b97e3fcf-8d28-4f88-aa49-3114b90234b5
+[I 2025-02-11 18:07:08.420 ServerApp] Starting buffering for 1b530485-d08a-44b6-95c9-ffa63f319bbe:9681955d-f69a-499a-b6cf-4590d07265e3
+[I 2025-02-11 18:07:08.421 ServerApp] Starting buffering for b4965611-4ba3-4973-a07b-f8690deb28e5:5c06afaf-9309-488d-bbb8-2a2fadd62f07
+[C 2025-02-11 19:00:02.003 ServerApp] received signal 15, stopping
+[I 2025-02-11 19:00:02.004 ServerApp] Shutting down 5 extensions
+[I 2025-02-11 19:00:02.016 ServerApp] Shutting down 4 kernels
+[I 2025-02-11 19:00:02.078 ServerApp] Kernel shutdown: e80e56ae-9245-45e4-819a-0d4b54c6bee1
+[I 2025-02-11 19:00:02.084 ServerApp] Kernel shutdown: 1b530485-d08a-44b6-95c9-ffa63f319bbe
+[I 2025-02-11 19:00:02.088 ServerApp] Kernel shutdown: 00f9860c-553d-406c-a62f-bf25c271a740
+[I 2025-02-11 19:00:02.091 ServerApp] Kernel shutdown: b4965611-4ba3-4973-a07b-f8690deb28e5
+[I 2025-02-12 11:12:19.568 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-12 11:12:19.574 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-12 11:12:19.579 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-12 11:12:19.581 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-12 11:12:19.584 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-12 11:12:19.584 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-12 11:12:19.802 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-12 11:12:19.842 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-12 11:12:19.844 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-12 11:12:19.845 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-12 11:12:19.848 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-12 11:12:19.848 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-12 11:12:19.848 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-12 11:12:19.876 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-12 11:12:19.880 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-12 11:12:19.881 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-12 11:12:19.881 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-12 11:12:19.881 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-12 11:12:19.881 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-12 11:12:19.881 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-12 11:12:19.900 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-02-12 11:12:24.046 ServerApp] 409 PATCH /api/contents/YJ/Untitled.ipynb?1739326343954 (125.129.250.60): File already exists: YJ/dags/Untitled.ipynb
+[W 2025-02-12 11:12:24.047 ServerApp] wrote error: 'File already exists: YJ/dags/Untitled.ipynb'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 204, in patch
+        model = await ensure_async(cm.update(model, path))
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 919, in update
+        await self.rename(path, new_path)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/manager.py", line 906, in rename
+        await self.rename_file(old_path, new_path)
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 1064, in rename_file
+        raise web.HTTPError(409, "File already exists: %s" % new_path)
+    tornado.web.HTTPError: HTTP 409: Conflict (File already exists: YJ/dags/Untitled.ipynb)
+[W 2025-02-12 11:12:24.055 ServerApp] 409 PATCH /api/contents/YJ/Untitled.ipynb?1739326343954 (fd88012478e1480ba6af768e29928fbc@125.129.250.60) 10.50ms referer=http://15.168.221.131:8917/tree/YJ
+[I 2025-02-12 11:12:27.566 ServerApp] Kernel started: 8d1dea47-8ae8-4304-8e66-26f62ea46afb
+[I 2025-02-12 11:12:28.891 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:12:30.308 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:12:37.805 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:12:43.075 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:8df40301-825f-4d83-a0c4-146132d4a762
+[I 2025-02-12 11:12:53.498 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:12:53.801 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:f42de2a9-7dcb-47c6-ae1a-db9bc944d204
+[I 2025-02-12 11:12:53.954 ServerApp] Kernel started: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 11:12:54.498 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:14:53.735 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:16:53.990 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:17:57.147 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:19:57.267 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:21:58.155 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:22:16.608 ServerApp] Kernel restarted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 11:22:16.637 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:3c92366a-76df-4e46-a4c2-952635741802
+[I 2025-02-12 11:22:16.671 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:22:16.671 ServerApp] Restoring connection for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:3c92366a-76df-4e46-a4c2-952635741802
+[I 2025-02-12 11:23:58.289 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:25:58.521 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:27:58.661 ServerApp] Saving file at /YJ/test/llama_test.ipynb
+[I 2025-02-12 11:30:47.743 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 11:32:47.862 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 11:34:48.035 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 11:49:34.978 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:49:35.059 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:49:35.338 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:631fcbce-d544-42fd-9dc0-d0763d57a4fa
+[I 2025-02-12 11:49:35.575 ServerApp] Kernel started: f4bcb955-eebf-4c22-8303-cbc4758de986
+[I 2025-02-12 11:49:36.728 ServerApp] Connecting to kernel f4bcb955-eebf-4c22-8303-cbc4758de986.
+[I 2025-02-12 11:49:36.811 ServerApp] Connecting to kernel f4bcb955-eebf-4c22-8303-cbc4758de986.
+[I 2025-02-12 11:49:36.881 ServerApp] Connecting to kernel f4bcb955-eebf-4c22-8303-cbc4758de986.
+[I 2025-02-12 11:49:37.131 ServerApp] Connecting to kernel f4bcb955-eebf-4c22-8303-cbc4758de986.
+[I 2025-02-12 11:49:39.192 ServerApp] Connecting to kernel f4bcb955-eebf-4c22-8303-cbc4758de986.
+[I 2025-02-12 11:50:04.681 ServerApp] Kernel started: c2d5848c-8a78-42cb-9cb2-b7aab8c59871
+[I 2025-02-12 11:50:04.682 ServerApp] Kernel shutdown: f4bcb955-eebf-4c22-8303-cbc4758de986
+[I 2025-02-12 11:50:05.965 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:50:06.034 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:01.665 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+[W 2025-02-12 11:51:01.665 ServerApp] kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871 restarted
+[I 2025-02-12 11:51:01.694 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:7cefd668-64ed-46f8-bfd3-a2e846c66799
+[I 2025-02-12 11:51:01.725 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:01.725 ServerApp] Restoring connection for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:7cefd668-64ed-46f8-bfd3-a2e846c66799
+[I 2025-02-12 11:51:09.086 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:11.552 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:51:11.635 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:51:11.664 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:efe5a217-5dcb-422d-8d0c-3d4b19afd27f
+[I 2025-02-12 11:51:12.325 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:51:12.397 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:51:12.460 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:3e3a5621-cbf7-4a0a-b36e-1ae8daf3295a
+[I 2025-02-12 11:51:12.470 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:18.996 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 11:51:19.101 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 11:51:19.183 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:19.322 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:5ee13ff1-7310-4aaf-9aea-91ae273dce31
+[I 2025-02-12 11:51:19.536 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 11:51:36.123 ServerApp] Saving file at /YJ/youtube_preprocessing2.ipynb
+[I 2025-02-12 12:36:34.542 ServerApp] Saving file at /YJ/youtube_preprocessing2.ipynb
+[I 2025-02-12 14:25:15.776 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 14:27:41.939 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:29:42.055 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:31:42.171 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:35:42.575 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:37:42.910 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:39:43.043 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:41:43.152 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:43:43.270 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:45:43.387 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:47:43.536 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:51:43.661 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:53:43.769 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:55:43.888 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:57:44.013 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 14:59:44.113 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:01:44.228 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:03:44.349 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:07:44.476 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:09:44.593 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:11:44.713 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:13:44.835 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:15:44.948 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:17:45.061 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:19:45.164 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:21:45.269 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:23:45.378 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:25:45.479 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:27:45.586 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:29:45.705 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:31:45.828 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:33:45.945 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:35:46.066 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:36:06.544 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 15:36:23.345 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 15:37:46.193 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:39:46.302 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:41:46.420 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:47:46.541 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:49:46.657 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:51:46.774 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:53:46.891 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:55:46.996 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:56:26.349 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:58:26.457 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 15:59:02.223 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:00:26.568 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:04:26.683 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:06:26.816 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:06:38.487 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:07:17.934 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:07:26.676 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:07:29.126 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:07:33.989 ServerApp] Kernel restarted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:07:34.023 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:3c92366a-76df-4e46-a4c2-952635741802
+[I 2025-02-12 16:07:34.059 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 16:07:34.059 ServerApp] Restoring connection for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:3c92366a-76df-4e46-a4c2-952635741802
+[I 2025-02-12 16:09:29.256 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:09:40.704 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:11:29.430 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:12:55.058 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:13:29.549 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:13:41.090 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:15:29.673 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:15:36.260 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:17:29.801 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:17:35.504 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:17:57.252 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:18:29.055 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:19:29.916 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:19:32.670 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:20:38.269 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:21:05.237 ServerApp] Kernel interrupted: 11cb6703-9f13-4a1a-866a-dc70f5b37d78
+[I 2025-02-12 16:21:30.038 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:21:43.421 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:23:43.534 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:25:43.647 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:27:43.783 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:33:57.006 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:33:59.923 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:34:08.167 ServerApp] Saving file at /YJ/test/llm_test.ipynb
+[I 2025-02-12 16:34:17.626 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:3c92366a-76df-4e46-a4c2-952635741802
+[I 2025-02-12 16:34:18.203 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:c76799a2-e4da-4bdb-a95c-55b8eb3ca188
+[I 2025-02-12 16:34:25.772 ServerApp] Creating new notebook in /YJ/test
+[I 2025-02-12 16:34:25.938 ServerApp] Saving file at /YJ/test/Untitled.ipynb
+[I 2025-02-12 16:34:26.008 ServerApp] Kernel started: bb9e3ad7-05bc-4417-836a-454913f5a271
+[I 2025-02-12 16:34:27.000 ServerApp] Connecting to kernel bb9e3ad7-05bc-4417-836a-454913f5a271.
+[I 2025-02-12 16:34:27.250 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 16:34:27.332 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 16:34:27.406 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 16:34:27.478 ServerApp] Connecting to kernel bb9e3ad7-05bc-4417-836a-454913f5a271.
+[I 2025-02-12 16:34:27.509 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:c816ff27-f337-497e-8520-496033cfe25e
+[I 2025-02-12 16:34:27.514 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:d7e9d036-73dd-44c5-83f7-6d08c2fc2e4d
+[I 2025-02-12 16:34:27.543 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:44879dff-3aba-401f-82f2-3c44510224d1
+[I 2025-02-12 16:34:27.599 ServerApp] Connecting to kernel bb9e3ad7-05bc-4417-836a-454913f5a271.
+[I 2025-02-12 16:34:42.728 ServerApp] Kernel started: 131a15ef-f2d5-464a-9243-0893fe2a4e05
+[I 2025-02-12 16:34:42.729 ServerApp] Kernel shutdown: bb9e3ad7-05bc-4417-836a-454913f5a271
+[I 2025-02-12 16:34:43.193 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 16:36:48.948 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[W 2025-02-12 16:37:56.053 ServerApp] IOPub data rate exceeded.
+    The Jupyter server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--ServerApp.iopub_data_rate_limit`.
+    
+    Current values:
+    ServerApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    ServerApp.rate_limit_window=3.0 (secs)
+    
+[I 2025-02-12 16:38:49.055 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:40:21.117 ServerApp] Kernel interrupted: 131a15ef-f2d5-464a-9243-0893fe2a4e05
+[W 2025-02-12 16:40:21.299 ServerApp] iopub messages resumed
+[I 2025-02-12 16:40:49.212 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:42:49.365 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:44:49.502 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:46:06.429 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:48:02.057 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:50:02.169 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 16:51:11.695 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:11:11.880 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:13:11.997 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:17:12.125 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:19:12.253 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:19:21.716 ServerApp] Kernel interrupted: 131a15ef-f2d5-464a-9243-0893fe2a4e05
+[I 2025-02-12 17:21:12.368 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:22:49.073 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:29:12.491 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:30:38.608 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:46:38.745 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:48:38.848 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:50:38.965 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:58:12.361 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 17:58:13.041 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 17:59:15.874 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 17:59:15.978 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 17:59:16.053 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 17:59:16.118 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 17:59:16.147 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:190ad8d2-165c-4e5a-8523-415d401b55ac
+[I 2025-02-12 17:59:16.148 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:6ce9f4c0-0409-49c2-9ded-14033cb97692
+[I 2025-02-12 17:59:16.224 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:2589cb94-cd3b-452a-ba7e-a33b34383139
+[I 2025-02-12 17:59:16.270 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 17:59:19.269 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 18:00:00.570 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 18:00:25.507 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 18:00:30.511 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-12 18:00:35.811 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 18:00:35.914 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 18:00:35.999 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 18:00:36.082 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 18:00:36.111 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:482ae72a-8f22-49b7-ac6e-7eb723fe4be1
+[I 2025-02-12 18:00:36.112 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:924ba743-00f2-4422-9f1b-7d8d161aa19e
+[I 2025-02-12 18:00:36.162 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:19c898bb-6987-4a60-96c3-e9063a4b5cf0
+[I 2025-02-12 18:00:36.195 ServerApp] Kernel started: fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2
+[I 2025-02-12 18:00:37.575 ServerApp] Connecting to kernel fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2.
+[I 2025-02-12 18:00:37.654 ServerApp] Starting buffering for fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2:ba60e43b-2dc9-4c85-a363-c73ba551e78f
+[I 2025-02-12 18:00:37.659 ServerApp] Connecting to kernel fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2.
+[I 2025-02-12 18:00:37.737 ServerApp] Connecting to kernel fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2.
+[I 2025-02-12 18:00:37.813 ServerApp] Connecting to kernel fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2.
+[I 2025-02-12 18:00:39.371 ServerApp] Starting buffering for fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2:66e0d856-6b5b-4688-b5a6-55322972380d
+[I 2025-02-12 18:00:42.122 ServerApp] Connecting to kernel fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2.
+[I 2025-02-12 18:00:42.221 ServerApp] Starting buffering for fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2:88861aaa-3b75-4083-8372-7dc757f72bcf
+[I 2025-02-12 18:00:42.828 ServerApp] Kernel shutdown: fc218f9f-de4e-4ed1-bb73-a7a35a6f92a2
+[W 2025-02-12 18:00:43.112 ServerApp] delete /YJ/test/openai_test.ipynb
+[I 2025-02-12 18:00:45.803 ServerApp] Connecting to kernel 8d1dea47-8ae8-4304-8e66-26f62ea46afb.
+[I 2025-02-12 18:00:45.895 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 18:00:45.964 ServerApp] Connecting to kernel c2d5848c-8a78-42cb-9cb2-b7aab8c59871.
+[I 2025-02-12 18:00:46.033 ServerApp] Connecting to kernel 131a15ef-f2d5-464a-9243-0893fe2a4e05.
+[I 2025-02-12 18:00:46.080 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:8aa9ac69-39be-49f0-9c53-c76dda67f50f
+[I 2025-02-12 18:00:46.081 ServerApp] Starting buffering for 8d1dea47-8ae8-4304-8e66-26f62ea46afb:d6e5c573-46c0-4db4-800b-b82786a4fe8e
+[I 2025-02-12 18:00:46.221 ServerApp] Starting buffering for c2d5848c-8a78-42cb-9cb2-b7aab8c59871:edaa5633-587c-4ab5-963f-db7e2dca83c4
+[I 2025-02-12 18:00:46.267 ServerApp] Connecting to kernel 11cb6703-9f13-4a1a-866a-dc70f5b37d78.
+[I 2025-02-12 18:00:51.756 ServerApp] Starting buffering for 11cb6703-9f13-4a1a-866a-dc70f5b37d78:642cc789-1838-4721-864f-d43447fe1a3f
