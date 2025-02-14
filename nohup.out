@@ -4028,3 +4028,86 @@ To disable this warning, you can either:
 [I 2025-02-14 09:35:56.359 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
 [I 2025-02-14 09:36:58.383 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
 [I 2025-02-14 09:37:17.862 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:37:52.934 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:1156acd1-d7f5-4f7f-a8c9-7de0ddda7f67
+[I 2025-02-14 09:37:58.630 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:37:58.831 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:5dc5e8f3-7a61-4b38-8960-bb505e162b81
+[I 2025-02-14 09:38:14.784 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:38:14.974 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:ab738e1a-bdcd-4c53-9985-8a4b4cd9be88
+[I 2025-02-14 13:13:56.383 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 13:13:56.666 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:aa688ca4-6b10-4555-ad06-951b21f158ef
+[I 2025-02-14 13:13:57.045 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 13:14:32.786 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 13:17:58.067 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:f1d02bab-e8d6-4e32-8141-504749f1d5d6
+[I 2025-02-14 13:45:51.955 ServerApp] Creating new directory in /YJ/test
+[W 2025-02-14 13:46:02.532 ServerApp] delete /YJ/test/Xftp8DragDropSupportDir136418078
+[I 2025-02-14 13:46:19.168 ServerApp] Creating new notebook in /YJ/test
+[I 2025-02-14 13:46:19.350 ServerApp] Saving file at /YJ/test/Untitled.ipynb
+[I 2025-02-14 13:46:19.417 ServerApp] Kernel started: 300d4727-a5d1-4100-b434-7f28eefea7d5
+[I 2025-02-14 13:46:20.022 ServerApp] Connecting to kernel 300d4727-a5d1-4100-b434-7f28eefea7d5.
+[I 2025-02-14 13:46:20.129 ServerApp] Connecting to kernel 300d4727-a5d1-4100-b434-7f28eefea7d5.
+[I 2025-02-14 13:46:20.904 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 13:46:21.009 ServerApp] Connecting to kernel 300d4727-a5d1-4100-b434-7f28eefea7d5.
+[I 2025-02-14 13:46:21.171 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:27cafa82-14ec-49dc-9722-d528be35e4f4
+[I 2025-02-14 13:46:21.261 ServerApp] Connecting to kernel 300d4727-a5d1-4100-b434-7f28eefea7d5.
+[I 2025-02-14 13:46:26.170 ServerApp] Kernel started: d48298ea-5ee6-4c09-858c-25b4a8a3d347
+[I 2025-02-14 13:46:26.172 ServerApp] Kernel shutdown: 300d4727-a5d1-4100-b434-7f28eefea7d5
+[I 2025-02-14 13:46:26.709 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
+[I 2025-02-14 13:46:26.787 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
+[I 2025-02-14 13:46:51.717 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
+[I 2025-02-14 13:46:51.794 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
+[W 2025-02-14 13:46:55.868 ServerApp] 400 GET /api/contents/YJ/test/youtube_data/youtube_i16_1.parquet?type=file&content=1&hash=1&format=text&1739508415919 (125.129.250.60): /home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded
+[W 2025-02-14 13:46:55.868 ServerApp] wrote error: '/home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded)
+[W 2025-02-14 13:46:55.877 ServerApp] 400 GET /api/contents/YJ/test/youtube_data/youtube_i16_1.parquet?type=file&content=1&hash=1&format=text&1739508415919 (75c473640ef04ff58a115d2d2d6394e7@125.129.250.60) 13.63ms referer=http://15.168.221.131:8917/tree/YJ/test/youtube_data
+[I 2025-02-14 13:46:57.196 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[W 2025-02-14 13:46:57.242 ServerApp] 400 GET /api/contents/YJ/test/youtube_data/youtube_i16_1.parquet?type=file&content=1&hash=1&format=text&1739508417305 (125.129.250.60): /home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded
+[W 2025-02-14 13:46:57.242 ServerApp] wrote error: '/home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbe in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab13/project/YJ/test/youtube_data/youtube_i16_1.parquet is not UTF-8 encoded)
+[W 2025-02-14 13:46:57.243 ServerApp] 400 GET /api/contents/YJ/test/youtube_data/youtube_i16_1.parquet?type=file&content=1&hash=1&format=text&1739508417305 (75c473640ef04ff58a115d2d2d6394e7@125.129.250.60) 3.30ms referer=http://15.168.221.131:8917/edit/YJ/test/youtube_data/youtube_i16_1.parquet
+[I 2025-02-14 13:46:57.267 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
+[I 2025-02-14 13:46:57.360 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:080f2e4b-e3a7-4b1a-93c8-84398f700269
+[I 2025-02-14 13:48:21.239 ServerApp] Saving file at /YJ/test/Untitled.ipynb

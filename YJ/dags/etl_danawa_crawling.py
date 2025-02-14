@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 from datetime import datetime, timedelta
-from danawa_crawling_Fold_Flip import main as fold_flip_main
+# from danawa_crawling_Fold_Flip import main as fold_flip_main
 from danawa_crawling_S24_Iphone import main as S24_Iphone_main
 
 # DAG 정의
@@ -26,11 +26,11 @@ with DAG(
     #        )
 
 
-    danawa_crawling_fold_flip = PythonOperator(
-            task_id = 'danawa_crawling_fold_flip',
-            python_callable = fold_flip_main,
+#     danawa_crawling_fold_flip = PythonOperator(
+#             task_id = 'danawa_crawling_fold_flip',
+#             python_callable = fold_flip_main,
 
-            )
+#             )
 
     danawa_crawling_S24_Iphone = PythonOperator(
             task_id = 'danawa_crawling_S24_Iphone',
@@ -49,5 +49,7 @@ with DAG(
             ,  trigger_rule = 'all_success'
             )
 
-    [danawa_crawling_fold_flip, danawa_crawling_S24_Iphone] >> danawa_to_hdfs
+    # [danawa_crawling_fold_flip, danawa_crawling_S24_Iphone] >> danawa_to_hdfs
+    danawa_crawling_S24_Iphone >> danawa_to_hdfs
+
 
