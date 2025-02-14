@@ -3984,3 +3984,47 @@ To disable this warning, you can either:
 [I 2025-02-13 18:08:11.127 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
 [I 2025-02-13 18:08:29.716 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
 [I 2025-02-13 18:08:33.165 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-13 18:09:14.260 ServerApp] Starting buffering for d6f59952-4840-4a18-8a5d-b4eb4829598d:1035376a-55cd-49c2-a32e-aa4ee990915f
+[C 2025-02-13 19:00:01.450 ServerApp] received signal 15, stopping
+[I 2025-02-13 19:00:01.456 ServerApp] Shutting down 5 extensions
+[I 2025-02-13 19:00:01.460 ServerApp] Shutting down 1 kernel
+[I 2025-02-13 19:00:01.462 ServerApp] Kernel shutdown: d6f59952-4840-4a18-8a5d-b4eb4829598d
+[I 2025-02-14 09:14:14.574 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-14 09:14:14.579 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-14 09:14:14.585 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-14 09:14:14.587 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-14 09:14:14.590 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-14 09:14:14.590 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-14 09:14:15.122 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-14 09:14:15.224 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-14 09:14:15.226 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-14 09:14:15.227 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-14 09:14:15.244 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-14 09:14:15.244 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-14 09:14:15.244 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-14 09:14:15.307 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-14 09:14:15.311 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-14 09:14:15.311 ServerApp] Serving notebooks from local directory: /home/lab13/project
+[I 2025-02-14 09:14:15.311 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-14 09:14:15.311 ServerApp] http://ip-172-31-13-81:8917/tree
+[I 2025-02-14 09:14:15.311 ServerApp]     http://127.0.0.1:8917/tree
+[I 2025-02-14 09:14:15.312 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-14 09:14:15.334 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-14 09:14:21.558 ServerApp] Malformed HTTP message from 125.129.250.60: Malformed HTTP request line
+[I 2025-02-14 09:14:26.407 ServerApp] 302 GET / (@125.129.250.60) 0.47ms
+[I 2025-02-14 09:14:26.433 JupyterNotebookApp] 302 GET /tree? (@125.129.250.60) 0.65ms
+[I 2025-02-14 09:14:30.659 ServerApp] User 75c473640ef04ff58a115d2d2d6394e7 logged in.
+[I 2025-02-14 09:14:30.660 ServerApp] 302 POST /login?next=%2Ftree%3F (75c473640ef04ff58a115d2d2d6394e7@125.129.250.60) 53.94ms
+[I 2025-02-14 09:14:45.967 ServerApp] Kernel started: cc3b447d-1d8c-4f26-9759-21191b27caf4
+[I 2025-02-14 09:14:47.287 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:14:47.367 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:14:47.441 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:14:53.279 ServerApp] Connecting to kernel cc3b447d-1d8c-4f26-9759-21191b27caf4.
+[I 2025-02-14 09:28:49.317 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:30:49.536 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:31:03.682 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:32:49.676 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:33:55.478 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:35:56.359 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:36:58.383 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[I 2025-02-14 09:37:17.862 ServerApp] Saving file at /YJ/test/openAI_test.ipynb

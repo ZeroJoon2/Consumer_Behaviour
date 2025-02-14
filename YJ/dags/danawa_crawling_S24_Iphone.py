@@ -224,7 +224,12 @@ def main():
                     df = repit_page(isTarget)
                     
                     if isTarget == 1:
-                        df['item'] = item
+                        if urls[0][0] in item:
+                            df['item'] = urls[0][0]
+                            
+                        elif urls[1][0] in item:
+                            df['item'] = urls[1][0]
+
                         df.to_parquet(f'../danawa_data/danawa_review_{tmp[0]}+{idx}.parquet', index = False)
                         #df.to_csv(f'danawa_review_{tmp[0]}+{idx}.csv', encoding='utf-8 sig', mode = 'w', index = False, header=True)
 
@@ -277,7 +282,12 @@ def main():
                     df = repit_page(isTarget)
                     
                     if isTarget == 1:
-                        df['item'] = item
+                        if urls[0][0] in item:
+                            df['item'] = urls[0][0]
+                            
+                        elif urls[1][0] in item:
+                            df['item'] = urls[1][0]
+
                         df.to_parquet(f'../danawa_data/danawa_review_{tmp[0]}+{idx}.parquet', index = False)
                         #df.to_csv(f'danawa_review_{tmp[0]}+{idx}.csv', encoding='utf-8 sig', mode = 'w', index = False, header=True)
 
