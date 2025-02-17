@@ -334,3 +334,15 @@
 [I 2025-02-08 18:00:14.149 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
 [I 2025-02-08 18:00:55.967 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
 [I 2025-02-08 18:00:58.367 ServerApp] Saving file at /20250208_test_analysis_danawa.ipynb
+[I 2025-02-08 18:05:31.125 ServerApp] Connecting to kernel f065417b-d375-47ca-8526-baca7d7481f1.
+[I 2025-02-08 18:05:31.211 ServerApp] Connecting to kernel 1a1c637d-1d6e-46c7-a2fd-17063d761db6.
+[I 2025-02-08 18:05:31.421 ServerApp] Starting buffering for 1a1c637d-1d6e-46c7-a2fd-17063d761db6:afa4cf6b-cad0-4dc6-ac2a-d5e67fc4eea7
+[I 2025-02-08 18:07:08.142 ServerApp] Starting buffering for f065417b-d375-47ca-8526-baca7d7481f1:3f9d5eef-808b-45ee-9540-8e52583b5ec7
+[C 19:00:01.698 NotebookApp] received signal 15, stopping
+[I 19:00:01.728 NotebookApp] Shutting down 0 kernels
+[I 19:00:01.729 NotebookApp] Shutting down 0 terminals
+[C 2025-02-08 19:00:01.720 ServerApp] received signal 15, stopping
+[I 2025-02-08 19:00:01.735 ServerApp] Shutting down 5 extensions
+[I 2025-02-08 19:00:01.742 ServerApp] Shutting down 2 kernels
+[I 2025-02-08 19:00:01.743 ServerApp] Kernel shutdown: f065417b-d375-47ca-8526-baca7d7481f1
+[I 2025-02-08 19:00:01.749 ServerApp] Kernel shutdown: 1a1c637d-1d6e-46c7-a2fd-17063d761db6

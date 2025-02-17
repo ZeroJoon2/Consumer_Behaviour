@@ -4111,3 +4111,164 @@ To disable this warning, you can either:
 [I 2025-02-14 13:46:57.267 ServerApp] Connecting to kernel d48298ea-5ee6-4c09-858c-25b4a8a3d347.
 [I 2025-02-14 13:46:57.360 ServerApp] Starting buffering for cc3b447d-1d8c-4f26-9759-21191b27caf4:080f2e4b-e3a7-4b1a-93c8-84398f700269
 [I 2025-02-14 13:48:21.239 ServerApp] Saving file at /YJ/test/Untitled.ipynb
+[I 2025-02-17 11:25:41.199 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-17 11:25:41.203 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-17 11:25:41.208 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-02-17 11:25:41.211 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-02-17 11:25:41.213 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-02-17 11:25:41.214 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-17 11:25:41.753 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-17 11:25:41.851 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-17 11:25:41.854 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-17 11:25:41.855 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-17 11:25:41.870 LabApp] JupyterLab extension loaded from /home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyterlab
+[I 2025-02-17 11:25:41.870 LabApp] JupyterLab application directory is /home/ubuntu/anaconda3/envs/Project/share/jupyter/lab
+[I 2025-02-17 11:25:41.870 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-17 11:25:41.932 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-17 11:25:41.936 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-17 11:25:41.936 ServerApp] Serving notebooks from local directory: /home/lab10/project
+[I 2025-02-17 11:25:41.936 ServerApp] Jupyter Server 2.14.2 is running at:
+[I 2025-02-17 11:25:41.936 ServerApp] http://ip-172-31-13-81:8910/tree
+[I 2025-02-17 11:25:41.936 ServerApp]     http://127.0.0.1:8910/tree
+[I 2025-02-17 11:25:41.936 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-02-17 11:25:41.957 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-17 11:26:16.094 ServerApp] 302 GET / (@14.7.255.68) 0.47ms
+[W 2025-02-17 11:27:14.211 ServerApp] Notebook YJ/youtube_preprocessing2.ipynb is not trusted
+[W 2025-02-17 11:27:15.351 ServerApp] Notebook YJ/youtube_preprocessing2.ipynb is not trusted
+[I 2025-02-17 11:27:18.352 ServerApp] Kernel started: 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e
+[I 2025-02-17 11:27:18.911 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:27:18.998 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:27:19.087 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:27:19.609 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:27:28.846 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:12abc851-d3b6-4c27-b97f-6ba06c3f77b0
+[I 2025-02-17 11:27:48.556 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:27:48.927 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:30bf913d-d3a8-4099-b0a6-8c5a390a46af
+[W 2025-02-17 11:27:57.739 ServerApp] Notebook YJ/test/openAI_test.ipynb is not trusted
+[I 2025-02-17 11:27:58.679 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[W 2025-02-17 11:27:58.887 ServerApp] Notebook YJ/test/openAI_test.ipynb is not trusted
+[I 2025-02-17 11:27:59.157 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:d525162d-156b-44cb-ab66-63f5a8be86b3
+[I 2025-02-17 11:28:01.236 ServerApp] Kernel started: 6344dc56-0942-42c9-833f-a5bbb160813a
+[I 2025-02-17 11:28:01.693 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[I 2025-02-17 11:29:59.423 ServerApp] Saving file at /YJ/test/openAI_test.ipynb
+[W 2025-02-17 11:29:59.424 ServerApp] Notebook YJ/test/openAI_test.ipynb is not trusted
+[W 2025-02-17 11:35:39.263 ServerApp] 404 GET /api/contents/HJ/openAI_prompt_test.ipynb?1739759739988 (e731c07737a84c70a2370acaae828105@14.7.255.68) 1.07ms referer=http://15.168.221.131:8910/notebooks/YJ/test/openAI_test.ipynb
+[W 2025-02-17 11:35:39.263 ServerApp] 404 GET /api/contents/HJ/openAI_prompt_test.ipynb?1739759739988 (14.7.255.68): No such file or directory: HJ/openAI_prompt_test.ipynb
+[I 2025-02-17 11:35:39.350 ServerApp] Uploading file to /HJ/openAI_prompt_test.ipynb
+[W 2025-02-17 11:35:39.351 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:35:39.418 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:ac0cd625-ee4a-47b6-bd97-886c7aee58c3
+[W 2025-02-17 11:35:39.542 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:35:40.663 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:35:40.763 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[W 2025-02-17 11:35:40.846 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:35:41.057 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:ddbf2eb2-62f7-4cd1-a62c-463c9853320e
+[I 2025-02-17 11:35:41.058 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:ae151390-72b1-42d5-9948-382da0246613
+[I 2025-02-17 11:35:41.747 ServerApp] Kernel started: a48856a5-7a01-4e3e-bf71-345aa52b579c
+[I 2025-02-17 11:35:42.193 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[W 2025-02-17 11:35:47.052 ServerApp] 400 GET /api/contents/HJ/font/Pretendard-Medium.ttf?type=file&content=1&hash=1&format=text&1739759747739 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded
+[W 2025-02-17 11:35:47.052 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded)
+[W 2025-02-17 11:35:47.060 ServerApp] 400 GET /api/contents/HJ/font/Pretendard-Medium.ttf?type=file&content=1&hash=1&format=text&1739759747739 (e731c07737a84c70a2370acaae828105@14.7.255.68) 23.24ms referer=http://15.168.221.131:8910/tree/HJ/font
+[I 2025-02-17 11:35:47.823 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:35:47.927 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[W 2025-02-17 11:35:47.964 ServerApp] 400 GET /api/contents/HJ/font/Pretendard-Medium.ttf?type=file&content=1&hash=1&format=text&1739759748687 (14.7.255.68): /home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded
+[W 2025-02-17 11:35:47.964 ServerApp] wrote error: '/home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded'
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 536, in _read_file
+        (bcontent.decode("utf8"), "text", bcontent)
+    UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 7: invalid start byte
+    
+    The above exception was the direct cause of the following exception:
+    
+    Traceback (most recent call last):
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/handlers.py", line 154, in get
+        model = await ensure_async(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_core/utils/__init__.py", line 198, in ensure_async
+        result = await obj
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 926, in get
+        model = await self._file_model(
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/filemanager.py", line 835, in _file_model
+        content, format, bytes_content = await self._read_file(os_path, format, raw=True)  # type: ignore[misc]
+      File "/home/ubuntu/anaconda3/envs/Project/lib/python3.8/site-packages/jupyter_server/services/contents/fileio.py", line 545, in _read_file
+        raise HTTPError(
+    tornado.web.HTTPError: HTTP 400: bad format (/home/lab10/project/HJ/font/Pretendard-Medium.ttf is not UTF-8 encoded)
+[W 2025-02-17 11:35:47.964 ServerApp] 400 GET /api/contents/HJ/font/Pretendard-Medium.ttf?type=file&content=1&hash=1&format=text&1739759748687 (e731c07737a84c70a2370acaae828105@14.7.255.68) 5.07ms referer=http://15.168.221.131:8910/edit/HJ/font/Pretendard-Medium.ttf
+[I 2025-02-17 11:35:48.018 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 11:35:48.168 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:99e90ae5-6b08-409c-a1c4-fdcad9e0f2b4
+[I 2025-02-17 11:35:48.169 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:606f933e-a2b6-404e-8994-a8a6a437c805
+[I 2025-02-17 11:35:55.447 ServerApp] Starting buffering for a48856a5-7a01-4e3e-bf71-345aa52b579c:6f19cc41-cda7-4593-8b27-ba7979a66ef9
+[I 2025-02-17 11:35:59.313 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:35:59.415 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[I 2025-02-17 11:35:59.522 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[W 2025-02-17 11:35:59.558 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:35:59.783 ServerApp] Starting buffering for a48856a5-7a01-4e3e-bf71-345aa52b579c:9749c04c-2b24-4c81-88b0-44b81061f4a3
+[I 2025-02-17 11:35:59.824 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:7486c182-6151-4601-9689-3bbd1ef24ec0
+[I 2025-02-17 11:35:59.832 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:62397a85-0d07-4986-8e9a-8277ab7041a7
+[I 2025-02-17 11:36:00.362 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 11:36:02.676 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:36:02.797 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[I 2025-02-17 11:36:02.888 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 11:36:03.031 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:58b39184-30ce-4eed-a2a0-ab2fad437bd1
+[I 2025-02-17 11:36:03.146 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:d48cf2fb-31eb-47be-b499-89e9caee3a03
+[I 2025-02-17 11:36:03.229 ServerApp] Starting buffering for a48856a5-7a01-4e3e-bf71-345aa52b579c:8a450ad7-9da7-4e3e-accf-c093255f9f23
+[W 2025-02-17 11:36:05.650 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:36:06.543 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 11:36:06.648 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[W 2025-02-17 11:36:06.738 ServerApp] Notebook HJ/openAI_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:36:06.756 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 11:36:07.009 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:001740ca-3983-4f13-aad5-c931bbcbe8ff
+[I 2025-02-17 11:36:07.042 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:0cd936f8-4751-49d9-9e05-6f1086427593
+[I 2025-02-17 11:36:07.048 ServerApp] Starting buffering for a48856a5-7a01-4e3e-bf71-345aa52b579c:8d88acf7-7993-4211-ac80-94a297858010
+[I 2025-02-17 11:36:07.651 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 11:38:16.317 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 11:38:16.317 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 11:40:16.557 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 11:40:16.558 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 15:18:45.671 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 15:18:45.672 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 15:20:45.867 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 15:20:45.868 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 15:26:47.634 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 15:26:47.634 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 16:31:52.397 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 16:31:52.497 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[I 2025-02-17 16:31:52.584 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 16:31:53.503 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:4ffd0264-c96e-4864-9a6a-ac6c29efdc47
+[I 2025-02-17 16:31:53.508 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:d106c307-4850-4786-addc-bf6a9efcc474
+[W 2025-02-17 17:42:48.801 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 17:42:49.975 ServerApp] Connecting to kernel 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e.
+[I 2025-02-17 17:42:50.074 ServerApp] Connecting to kernel 6344dc56-0942-42c9-833f-a5bbb160813a.
+[I 2025-02-17 17:42:50.181 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[W 2025-02-17 17:42:50.231 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 17:42:50.542 ServerApp] Starting buffering for 6d99ceaa-a1cc-4c64-b4c4-b38d7bd67f3e:06709269-6dea-4fd8-aeab-2f505ef9c008
+[I 2025-02-17 17:42:50.545 ServerApp] Starting buffering for 6344dc56-0942-42c9-833f-a5bbb160813a:e4a89d81-a7ab-48bd-9308-91382efe0a22
+[I 2025-02-17 17:42:51.446 ServerApp] Connecting to kernel a48856a5-7a01-4e3e-bf71-345aa52b579c.
+[I 2025-02-17 17:44:50.977 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 17:44:50.978 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
+[I 2025-02-17 17:55:34.508 ServerApp] Saving file at /HJ/250217_prompt_test.ipynb
+[W 2025-02-17 17:55:34.509 ServerApp] Notebook HJ/250217_prompt_test.ipynb is not trusted
