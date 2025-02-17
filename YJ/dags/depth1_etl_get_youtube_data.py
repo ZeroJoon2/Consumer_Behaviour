@@ -44,7 +44,7 @@ def save_comments_task(**kwargs):
     all_comments = kwargs['ti'].xcom_pull(key='all_comments', task_ids='comment_collection_task')
     
     # parquet 파일 이름은 Variable로 설정!
-    parquet_filename = Variable.get("parquet_filename", default_var="/home/lab13/airflow/dags/youtube_i16_1.parquet")
+    parquet_filename = Variable.get("parquet_filename", default_var="/home/lab13/airflow/youtube_data/youtube_i16_1.parquet")
     save_comments_to_parquet(all_comments, filename=parquet_filename)
 
 

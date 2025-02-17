@@ -1,4 +1,4 @@
-# 수정
+# tmp1.py
 import os
 import time
 import json
@@ -42,7 +42,7 @@ def search_videos(search_query, published_after, api_key):
     return video_data, response.get('nextPageToken')
 
 # 댓글
-def get_all_comments(video_id):
+def get_all_comments(video_id, api_key):
     youtube_service = build('youtube', 'v3', developerKey=api_key)
     comments = []
     next_page_token = None
